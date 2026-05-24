@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T19:22:24.227Z",
+  "generatedAt": "2026-05-24T19:22:38.394Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "title": "Wydarzenia – Kościół Charisma",
@@ -77,8 +77,8 @@
       "location": "plac Litewski",
       "description": "",
       "allDay": true,
-      "start": "2026-05-29T22:00:00.000Z",
-      "end": "2026-05-30T22:00:00.000Z",
+      "start": "2026-05-30T00:00:00.000Z",
+      "end": "2026-05-31T00:00:00.000Z",
       "dateLabel": "sobota, 30 maja",
       "timeLabel": "cały dzień"
     },
@@ -99,8 +99,8 @@
       "location": "Kraków",
       "description": "Wyjazd o godz. 08:00\nPowrót o godz. 21:00",
       "allDay": true,
-      "start": "2026-05-30T22:00:00.000Z",
-      "end": "2026-05-31T22:00:00.000Z",
+      "start": "2026-05-31T00:00:00.000Z",
+      "end": "2026-06-01T00:00:00.000Z",
       "dateLabel": "niedziela, 31 maja",
       "timeLabel": "cały dzień"
     },
