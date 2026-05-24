@@ -63,3 +63,4 @@ Edytuj `docs/style.css` — zmienne `--title-size`, `--event-title-size`, kolory
 | `daysAhead`  | `7` — liczba dni od jutra |
 | `title` | Nagłówek strony |
 | `excludeTitles` | Wydarzenia do ukrycia, np. `["Nie ma spotkań"]` |
+| `dayLayout` | `rows` — dni obok siebie (wt\|śr); `columns` — najpierw lewa kolumna, potem prawa |

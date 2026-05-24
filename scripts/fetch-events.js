@@ -121,6 +121,7 @@ async function main() {
     timezone: timeZone,
     daysAhead,
     title: config.title || "Wydarzenia",
+    dayLayout: config.dayLayout === "columns" ? "columns" : "rows",
     events,
   };
 

@@ -3,5 +3,6 @@
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "title": "Wydarzenia – najbliższy tydzień",
-  "excludeTitles": []
+  "excludeTitles": [],
+  "dayLayout": "rows"
 }

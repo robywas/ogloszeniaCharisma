@@ -70,7 +70,12 @@ function render(payload) {
   }
   empty.hidden = true;
 
-  for (const day of groupByDay(payload.events)) {
+  const days = groupByDay(payload.events);
+  const columnFirst = payload.dayLayout === "columns";
+  list.className = columnFirst ? "events events--columns" : "events events--rows";
+  list.style.setProperty("--day-rows", String(Math.ceil(days.length / 2)));
+
+  for (const day of days) {
     const dayEl = document.createElement("li");
     dayEl.className = "day";
     dayEl.innerHTML = `
