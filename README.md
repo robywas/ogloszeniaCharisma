@@ -2,7 +2,7 @@
 
 Strona z wydarzeniami z kalendarza Google (**7 dni od jutra**), pod duży ekran (WorshipTools Presenter).
 
-**Adres po publikacji:** `https://TWOJ_USER.github.io/cal-2-web/`
+**Adres strony:** https://robywas.github.io/ogloszeniaCharisma/
 
 ## Publikacja na GitHub (jednorazowo)
 
@@ -12,7 +12,7 @@ git init
 git add .
 git commit -m "feat: strona wydarzeń z kalendarza Google"
 git branch -M main
-git remote add origin https://github.com/TWOJ_USER/cal-2-web.git
+git remote add origin git@github.com:robywas/ogloszeniaCharisma.git
 git push -u origin main
 ```
 
