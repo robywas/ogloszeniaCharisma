@@ -6,7 +6,7 @@
   --accent: #38bdf8;
   --card-bg: #1a2332;
   --card-border: #2d3a4f;
-  --title-size: clamp(1.5rem, 3.5vw, 2.5rem);
+  --title-size: clamp(2rem, 5vw, 3.5rem);
   --event-title-size: clamp(1rem, 2vw, 1.5rem);
   --meta-size: clamp(0.75rem, 1.4vw, 1rem);
   --time-size: clamp(0.85rem, 1.6vw, 1.15rem);
