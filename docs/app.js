@@ -16,8 +16,6 @@ function escapeHtml(text) {
 }
 
 function formatRange(ev) {
-  if (ev.allDay) return ev.timeLabel;
-  if (ev.endTimeLabel) return `${ev.timeLabel} – ${ev.endTimeLabel}`;
   return ev.timeLabel;
 }
 

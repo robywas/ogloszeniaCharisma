@@ -58,17 +58,15 @@ function toEventSummary(vevent, timeZone) {
       end &&
       (end.getTime() - start.getTime()) % 86400000 === 0);
 
-  const dateFmt = new Intl.DateTimeFormat("pl-PL", {
+  const dateLabel = new Intl.DateTimeFormat("pl-PL", {
     timeZone,
     weekday: "long",
     day: "numeric",
     month: "long",
-  });
-  const timeFmt = new Intl.DateTimeFormat("pl-PL", {
-    timeZone,
-    hour: "2-digit",
-    minute: "2-digit",
-  });
+  })
+    .formatToParts(start)
+    .map((p) => (p.type === "month" ? p.value.toLowerCase() : p.value))
+    .join("");
 
   return {
     uid: vevent.uid,
@@ -78,9 +76,12 @@ function toEventSummary(vevent, timeZone) {
     allDay,
     start: start.toISOString(),
     end: end ? end.toISOString() : null,
-    dateLabel: dateFmt.format(start),
-    timeLabel: allDay ? "cały dzień" : timeFmt.format(start),
-    endTimeLabel: allDay || !end ? "" : timeFmt.format(end),
+    dateLabel,
+    timeLabel: allDay ? "cały dzień" : new Intl.DateTimeFormat("pl-PL", {
+      timeZone,
+      hour: "2-digit",
+      minute: "2-digit",
+    }).format(start),
   };
 }
 

@@ -98,7 +98,6 @@ body {
   font-size: var(--day-date-size);
   color: #ffffff;
   font-weight: 700;
-  text-transform: capitalize;
   line-height: 1.15;
 }
 
