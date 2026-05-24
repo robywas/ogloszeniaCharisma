@@ -47,10 +47,6 @@ function render(payload) {
   document.title = payload.title;
   document.getElementById("title").textContent = payload.title;
 
-  const updated = new Date(payload.generatedAt);
-  const meta = document.getElementById("meta");
-  meta.textContent = `Odświeżono: ${updated.toLocaleString("pl-PL")} · strefa: ${payload.timezone}`;
-
   const list = document.getElementById("events");
   const empty = document.getElementById("empty");
   list.innerHTML = "";
@@ -83,7 +79,9 @@ async function load() {
 
 load().catch((err) => {
   document.getElementById("title").textContent = "Błąd ładowania";
-  document.getElementById("meta").textContent = err.message;
+  const empty = document.getElementById("empty");
+  empty.textContent = err.message;
+  empty.hidden = false;
 });
 
 setInterval(load, REFRESH_MS);

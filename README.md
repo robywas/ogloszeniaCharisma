@@ -19,9 +19,21 @@ git push -u origin main
 Następnie na GitHubie:
 
 1. **Settings → Pages** → Source: **Deploy from a branch** → branch `main`, folder **`/docs`**
-2. **Actions** → workflow „Odśwież wydarzenia” → **Run workflow** (lub poczekaj na push)
+2. Uruchom odświeżanie kalendarza — patrz sekcja **„Jak uruchomić workflow”** poniżej
 
 Kalendarz jest już skonfigurowany w `config.json`.
+
+## Jak uruchomić workflow „Odśwież wydarzenia”
+
+To **nie** jest w Settings → Actions (tam są tylko General / Runners / OIDC).
+
+1. Otwórz zakładkę **Actions** u góry repozytorium (obok Pull requests)
+2. Po lewej wybierz **Odśwież wydarzenia**  
+   — albo bezpośredni link:  
+   https://github.com/robywas/ogloszeniaCharisma/actions/workflows/update-calendar.yml
+3. Kliknij **Run workflow** → **Run workflow**
+
+Jeśli zakładki Actions w ogóle nie ma: **Settings → Actions → General** → włącz **Allow all actions and reusable workflows**.
 
 ## Lokalnie
 
@@ -34,7 +46,7 @@ Podgląd: otwórz `docs/index.html` w przeglądarce (najlepiej przez prosty serw
 
 ## WorshipTools Presenter
 
-Dodaj źródło **Web / URL** i wklej adres GitHub Pages.
+Dodaj źródło **Web / URL** i wklej adres: https://robywas.github.io/ogloszeniaCharisma/
 
 Strona odświeża dane co 5 minut; synchronizacja z Google — co 3 h (GitHub Actions).
 
