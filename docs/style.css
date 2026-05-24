@@ -65,32 +65,52 @@ body {
   flex: 1;
 }
 
-.event {
+.day {
   background: var(--card-bg);
   border: 2px solid var(--card-border);
   border-radius: 12px;
   padding: var(--gap);
-  display: grid;
-  grid-template-columns: minmax(8rem, 14rem) 1fr;
-  gap: var(--gap);
-  align-items: start;
+  list-style: none;
 }
 
-.event__when {
+.day__date {
+  margin: 0 0 var(--gap);
+  padding-bottom: calc(var(--gap) * 0.6);
+  border-bottom: 2px solid var(--card-border);
+  font-size: var(--time-size);
+  color: var(--accent);
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.2;
+}
+
+.day__events {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--gap) * 0.75);
+}
+
+.event {
+  display: grid;
+  grid-template-columns: minmax(7rem, 11rem) 1fr;
+  gap: var(--gap);
+  align-items: start;
+  padding: calc(var(--gap) * 0.5) 0;
+}
+
+.day__events .event:not(:last-child) {
+  border-bottom: 1px solid var(--card-border);
+  padding-bottom: calc(var(--gap) * 0.75);
+}
+
+.event__time {
   font-size: var(--time-size);
   color: var(--accent);
   font-weight: 600;
   line-height: 1.3;
-}
-
-.event__date {
-  display: block;
-  text-transform: capitalize;
-}
-
-.event__time {
-  display: block;
-  margin-top: 0.25rem;
 }
 
 .event__title {
@@ -133,5 +153,9 @@ body {
 @media (max-width: 640px) {
   .event {
     grid-template-columns: 1fr;
+  }
+
+  .event__time {
+    margin-bottom: 0.25rem;
   }
 }

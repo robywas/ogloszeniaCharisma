@@ -12,6 +12,37 @@ function formatRange(ev) {
   return ev.timeLabel;
 }
 
+function groupByDay(events) {
+  const groups = new Map();
+  for (const ev of events) {
+    if (!groups.has(ev.dateLabel)) {
+      groups.set(ev.dateLabel, { dateLabel: ev.dateLabel, events: [] });
+    }
+    groups.get(ev.dateLabel).events.push(ev);
+  }
+  return [...groups.values()];
+}
+
+function renderEventItem(ev) {
+  const location = ev.location
+    ? `<p class="event__location">${escapeHtml(ev.location)}</p>`
+    : "";
+  const description = ev.description
+    ? `<p class="event__description">${escapeHtml(ev.description)}</p>`
+    : "";
+
+  return `
+    <li class="event">
+      <span class="event__time">${escapeHtml(formatRange(ev))}</span>
+      <div class="event__body">
+        <h3 class="event__title">${escapeHtml(ev.title)}</h3>
+        ${location}
+        ${description}
+      </div>
+    </li>
+  `;
+}
+
 function render(payload) {
   document.title = payload.title;
   document.getElementById("title").textContent = payload.title;
@@ -30,21 +61,16 @@ function render(payload) {
   }
   empty.hidden = true;
 
-  for (const ev of payload.events) {
-    const li = document.createElement("li");
-    li.className = "event";
-    li.innerHTML = `
-      <div class="event__when">
-        <span class="event__date">${escapeHtml(ev.dateLabel)}</span>
-        <span class="event__time">${escapeHtml(formatRange(ev))}</span>
-      </div>
-      <div class="event__body">
-        <h2 class="event__title">${escapeHtml(ev.title)}</h2>
-        ${ev.location ? `<p class="event__location">${escapeHtml(ev.location)}</p>` : ""}
-        ${ev.description ? `<p class="event__description">${escapeHtml(ev.description)}</p>` : ""}
-      </div>
+  for (const day of groupByDay(payload.events)) {
+    const dayEl = document.createElement("li");
+    dayEl.className = "day";
+    dayEl.innerHTML = `
+      <h2 class="day__date">${escapeHtml(day.dateLabel)}</h2>
+      <ul class="day__events">
+        ${day.events.map(renderEventItem).join("")}
+      </ul>
     `;
-    list.appendChild(li);
+    list.appendChild(dayEl);
   }
 }
 
