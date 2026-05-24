@@ -1,5 +1,14 @@
 const REFRESH_MS = 5 * 60 * 1000;
 
+let loadedOnce = false;
+
+function eventsJsonUrl() {
+  const base = window.location.href.endsWith("/")
+    ? window.location.href
+    : `${window.location.href}/`;
+  return new URL("events.json", base).href;
+}
+
 function escapeHtml(text) {
   const el = document.createElement("span");
   el.textContent = text;
@@ -44,8 +53,12 @@ function renderEventItem(ev) {
 }
 
 function render(payload) {
+  if (!payload || !Array.isArray(payload.events)) {
+    throw new Error("Nieprawidłowy plik events.json");
+  }
+
   document.title = payload.title;
-  document.getElementById("title").textContent = payload.title;
+  document.getElementById("title").textContent = payload.title || "Wydarzenia";
 
   const list = document.getElementById("events");
   const empty = document.getElementById("empty");
@@ -71,17 +84,27 @@ function render(payload) {
 }
 
 async function load() {
-  const res = await fetch(`events.json?t=${Date.now()}`);
-  if (!res.ok) throw new Error("Nie można wczytać events.json");
+  const res = await fetch(`${eventsJsonUrl()}?t=${Date.now()}`);
+  if (!res.ok) {
+    throw new Error(`Nie można wczytać events.json (${res.status})`);
+  }
   const payload = await res.json();
   render(payload);
+  loadedOnce = true;
 }
 
-load().catch((err) => {
+function showError(err) {
   document.getElementById("title").textContent = "Błąd ładowania";
   const empty = document.getElementById("empty");
   empty.textContent = err.message;
   empty.hidden = false;
-});
+}
 
-setInterval(load, REFRESH_MS);
+load().catch(showError);
+
+setInterval(() => {
+  load().catch((err) => {
+    if (!loadedOnce) showError(err);
+    console.error("Odświeżanie wydarzeń:", err);
+  });
+}, REFRESH_MS);

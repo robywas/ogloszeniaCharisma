@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wydarzenia – Kościół Charisma</title>
+    <script>
+      (function () {
+        var p = location.pathname;
+        var dir = p.endsWith("/") ? p : p.replace(/\/[^/]*$/, "") + "/";
+        var b = document.createElement("base");
+        b.href = dir;
+        document.head.appendChild(b);
+      })();
+    </script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
