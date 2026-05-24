@@ -1,0 +1,137 @@
+/* === Dostosuj wygląd pod duży ekran (WorshipTools Presenter) === */
+:root {
+  --bg: #0f1419;
+  --text: #f4f4f5;
+  --muted: #a1a1aa;
+  --accent: #38bdf8;
+  --card-bg: #1a2332;
+  --card-border: #2d3a4f;
+  --title-size: clamp(2rem, 5vw, 4rem);
+  --event-title-size: clamp(1.5rem, 3.5vw, 2.75rem);
+  --meta-size: clamp(0.9rem, 2vw, 1.25rem);
+  --time-size: clamp(1.1rem, 2.5vw, 1.75rem);
+  --gap: clamp(0.75rem, 2vw, 1.5rem);
+  --pad: clamp(1rem, 3vw, 2.5rem);
+  --font: "Segoe UI", system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+}
+
+.board {
+  min-height: 100vh;
+  padding: var(--pad);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+
+.board__title {
+  margin: 0;
+  font-size: var(--title-size);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.board__meta {
+  margin: 0.25rem 0 0;
+  font-size: var(--meta-size);
+  color: var(--muted);
+}
+
+.events {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  flex: 1;
+}
+
+.event {
+  background: var(--card-bg);
+  border: 2px solid var(--card-border);
+  border-radius: 12px;
+  padding: var(--gap);
+  display: grid;
+  grid-template-columns: minmax(8rem, 14rem) 1fr;
+  gap: var(--gap);
+  align-items: start;
+}
+
+.event__when {
+  font-size: var(--time-size);
+  color: var(--accent);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.event__date {
+  display: block;
+  text-transform: capitalize;
+}
+
+.event__time {
+  display: block;
+  margin-top: 0.25rem;
+}
+
+.event__title {
+  margin: 0;
+  font-size: var(--event-title-size);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.event__location {
+  margin: 0.35rem 0 0;
+  font-size: var(--meta-size);
+  color: var(--muted);
+}
+
+.event__description {
+  margin: 0.35rem 0 0;
+  font-size: var(--meta-size);
+  color: var(--muted);
+  white-space: pre-line;
+}
+
+.board__empty {
+  font-size: var(--event-title-size);
+  color: var(--muted);
+  text-align: center;
+  margin: auto;
+}
+
+/* Wariant jasny — odkomentuj w index.html: <body class="theme-light"> */
+.theme-light {
+  --bg: #fafafa;
+  --text: #18181b;
+  --muted: #52525b;
+  --accent: #0369a1;
+  --card-bg: #ffffff;
+  --card-border: #e4e4e7;
+}
+
+@media (max-width: 640px) {
+  .event {
+    grid-template-columns: 1fr;
+  }
+}

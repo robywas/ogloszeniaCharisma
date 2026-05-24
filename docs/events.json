@@ -1,0 +1,128 @@
+{
+  "generatedAt": "2026-05-24T16:51:29.533Z",
+  "timezone": "Europe/Warsaw",
+  "daysAhead": 7,
+  "title": "Wydarzenia — Kościół Charisma",
+  "events": [
+    {
+      "uid": "5l95t10b4u7h6qbo56jpvnbqd8@google.com",
+      "title": "Studium biblijne #1",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-05-26T16:00:00.000Z",
+      "end": "2026-05-26T17:00:00.000Z",
+      "dateLabel": "wtorek, 26 maja",
+      "timeLabel": "18:00",
+      "endTimeLabel": "19:00"
+    },
+    {
+      "uid": "5io5a6rale2rpd7moh253k0un5@google.com",
+      "title": "Studium biblijne #2",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-05-26T16:30:00.000Z",
+      "end": "2026-05-26T18:00:00.000Z",
+      "dateLabel": "wtorek, 26 maja",
+      "timeLabel": "18:30",
+      "endTimeLabel": "20:00"
+    },
+    {
+      "uid": "6j3nm99rikc8a9t93gvs4k6uvu@google.com",
+      "title": "Wstawiennicze",
+      "location": "Sala na górze",
+      "description": "Opis\nOpis\nOpis\nOpis",
+      "allDay": false,
+      "start": "2026-05-27T16:00:00.000Z",
+      "end": "2026-05-27T17:00:00.000Z",
+      "dateLabel": "środa, 27 maja",
+      "timeLabel": "18:00",
+      "endTimeLabel": "19:00"
+    },
+    {
+      "uid": "4l5g1pgtvuur2bie2gtppqesg3@google.com",
+      "title": "Młodzi dorośli",
+      "location": "Sala na górze",
+      "description": "",
+      "allDay": false,
+      "start": "2026-05-28T15:00:00.000Z",
+      "end": "2026-05-28T18:00:00.000Z",
+      "dateLabel": "czwartek, 28 maja",
+      "timeLabel": "17:00",
+      "endTimeLabel": "20:00"
+    },
+    {
+      "uid": "4c9bi4eq6e4ofpj2c9mfacc5l5@google.com",
+      "title": "Spotkanie kobiet",
+      "location": "Sala na dole",
+      "description": "",
+      "allDay": false,
+      "start": "2026-05-28T16:00:00.000Z",
+      "end": "2026-05-28T18:00:00.000Z",
+      "dateLabel": "czwartek, 28 maja",
+      "timeLabel": "18:00",
+      "endTimeLabel": "20:00"
+    },
+    {
+      "uid": "17d89ocp127sf8l593g89ssogt@google.com",
+      "title": "Spotkanie modlitewne",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-05-29T16:00:00.000Z",
+      "end": "2026-05-29T17:00:00.000Z",
+      "dateLabel": "piątek, 29 maja",
+      "timeLabel": "18:00",
+      "endTimeLabel": "19:00"
+    },
+    {
+      "uid": "coq34pj570s32bb66gp38b9k70q34bb2corjgb9h64o38dpg6krmcdpmc4@google.com",
+      "title": "Africa Day",
+      "location": "plac Litewski",
+      "description": "",
+      "allDay": true,
+      "start": "2026-05-29T22:00:00.000Z",
+      "end": "2026-05-30T22:00:00.000Z",
+      "dateLabel": "sobota, 30 maja",
+      "timeLabel": "cały dzień",
+      "endTimeLabel": ""
+    },
+    {
+      "uid": "3vealp20pku68k9m96rrefj7ob@google.com",
+      "title": "Młodzieżowe",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-05-30T15:00:00.000Z",
+      "end": "2026-05-30T18:00:00.000Z",
+      "dateLabel": "sobota, 30 maja",
+      "timeLabel": "17:00",
+      "endTimeLabel": "20:00"
+    },
+    {
+      "uid": "6cq3ap1k68sjib9pc5i36b9k6krjcb9pc8q6cb9p6sr6cdpl74pj2oj46o@google.com",
+      "title": "Wycieczka dzieci",
+      "location": "Kraków",
+      "description": "Wyjazd o godz. 08:00\nPowrót o godz. 21:00",
+      "allDay": true,
+      "start": "2026-05-30T22:00:00.000Z",
+      "end": "2026-05-31T22:00:00.000Z",
+      "dateLabel": "niedziela, 31 maja",
+      "timeLabel": "cały dzień",
+      "endTimeLabel": ""
+    },
+    {
+      "uid": "2213phaibj18aeb13gqjovgnvk@google.com",
+      "title": "Nabożeństwo",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-05-31T08:00:00.000Z",
+      "end": "2026-05-31T10:00:00.000Z",
+      "dateLabel": "niedziela, 31 maja",
+      "timeLabel": "10:00",
+      "endTimeLabel": "12:00"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "cal-2-web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-events.js",
+    "build": "node scripts/fetch-events.js"
+  },
+  "dependencies": {
+    "node-ical": "^0.20.1"
+  }
+}
