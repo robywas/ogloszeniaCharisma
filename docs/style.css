@@ -125,7 +125,7 @@ body {
 
 .event__time {
   font-size: var(--time-size);
-  color: var(--accent);
+  color: #ffffff;
   font-weight: 600;
   line-height: 1.3;
 }
