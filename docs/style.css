@@ -85,7 +85,7 @@ body {
   padding-bottom: calc(var(--gap) * 0.4);
   border-bottom: 2px solid var(--card-border);
   font-size: var(--day-date-size);
-  color: var(--accent);
+  color: #ffffff;
   font-weight: 700;
   text-transform: capitalize;
   line-height: 1.15;
