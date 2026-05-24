@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T19:24:41.034Z",
+  "generatedAt": "2026-05-24T21:53:22.686Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "title": "Wydarzenia – Kościół Charisma",
@@ -31,7 +31,7 @@
       "uid": "6j3nm99rikc8a9t93gvs4k6uvu@google.com",
       "title": "Wstawiennicze",
       "location": "Sala na górze",
-      "description": "Opis\nOpis\nOpis\nOpis",
+      "description": "",
       "allDay": false,
       "start": "2026-05-27T16:00:00.000Z",
       "end": "2026-05-27T17:00:00.000Z",
@@ -95,9 +95,9 @@
     },
     {
       "uid": "6cq3ap1k68sjib9pc5i36b9k6krjcb9pc8q6cb9p6sr6cdpl74pj2oj46o@google.com",
-      "title": "Wycieczka dzieci",
-      "location": "Kraków",
-      "description": "Wyjazd o godz. 08:00\nPowrót o godz. 21:00",
+      "title": "Wycieczka dzieci do Zamościa",
+      "location": "",
+      "description": "Wyjazd o godz. 09:30",
       "allDay": true,
       "start": "2026-05-31T00:00:00.000Z",
       "end": "2026-06-01T00:00:00.000Z",
