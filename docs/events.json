@@ -1,32 +1,10 @@
 {
-  "generatedAt": "2026-05-25T19:29:10.027Z",
+  "generatedAt": "2026-05-25T22:05:52.592Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "5l95t10b4u7h6qbo56jpvnbqd8@google.com",
-      "title": "Studium biblijne #1",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-05-26T16:00:00.000Z",
-      "end": "2026-05-26T17:00:00.000Z",
-      "dateLabel": "wtorek, 26 maja",
-      "timeLabel": "18:00"
-    },
-    {
-      "uid": "5io5a6rale2rpd7moh253k0un5@google.com",
-      "title": "Studium biblijne #2",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-05-26T16:30:00.000Z",
-      "end": "2026-05-26T18:00:00.000Z",
-      "dateLabel": "wtorek, 26 maja",
-      "timeLabel": "18:30"
-    },
     {
       "uid": "6j3nm99rikc8a9t93gvs4k6uvu@google.com",
       "title": "Wstawiennicze",
