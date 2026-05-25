@@ -6,10 +6,11 @@
   --accent: #38bdf8;
   --card-bg: #1a2332;
   --card-border: #2d3a4f;
+  --day-header-bg: #232f42;
   --title-size: clamp(2rem, 5vw, 3.5rem);
-  --event-title-size: clamp(1rem, 2vw, 1.5rem);
+  --event-title-size: var(--day-date-size);
   --meta-size: clamp(0.75rem, 1.4vw, 1rem);
-  --time-size: clamp(0.85rem, 1.6vw, 1.15rem);
+  --time-size: clamp(1.25rem, 3.2vw, 2.1rem);
   --day-date-size: clamp(1.5rem, 3.8vw, 2.5rem);
   --gap: clamp(0.5rem, 1.2vw, 0.85rem);
   --pad: clamp(0.75rem, 2vw, 1.25rem);
@@ -92,8 +93,10 @@ body {
 }
 
 .day__date {
-  margin: 0 0 calc(var(--gap) * 0.6);
-  padding-bottom: calc(var(--gap) * 0.4);
+  margin: calc(var(--gap) * -0.85) calc(var(--gap) * -0.85) calc(var(--gap) * 0.6);
+  padding: calc(var(--gap) * 0.55) calc(var(--gap) * 0.85);
+  background: var(--day-header-bg);
+  border-radius: 8px 8px 0 0;
   border-bottom: 2px solid var(--card-border);
   font-size: var(--day-date-size);
   color: #ffffff;
@@ -112,7 +115,7 @@ body {
 
 .event {
   display: grid;
-  grid-template-columns: minmax(4.5rem, 6.5rem) 1fr;
+  grid-template-columns: minmax(5.5rem, 8.5rem) 1fr;
   gap: calc(var(--gap) * 0.6);
   align-items: start;
   padding: calc(var(--gap) * 0.25) 0;
@@ -167,6 +170,7 @@ body {
   --accent: #0369a1;
   --card-bg: #ffffff;
   --card-border: #e4e4e7;
+  --day-header-bg: #f0f0f2;
 }
 
 @media (max-width: 640px) {
