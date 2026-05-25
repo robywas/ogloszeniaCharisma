@@ -141,16 +141,14 @@ body {
   line-height: 1.2;
 }
 
-.event__location {
+.event__location,
+.event__description {
   margin: 0.15rem 0 0;
   font-size: var(--location-size);
   color: var(--muted);
 }
 
 .event__description {
-  margin: 0.15rem 0 0;
-  font-size: var(--meta-size);
-  color: var(--muted);
   white-space: pre-line;
   line-height: 1.25;
 }
