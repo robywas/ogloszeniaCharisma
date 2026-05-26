@@ -1,21 +1,10 @@
 {
-  "generatedAt": "2026-05-26T20:05:19.785Z",
+  "generatedAt": "2026-05-26T22:17:36.991Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "6j3nm99rikc8a9t93gvs4k6uvu@google.com",
-      "title": "Wstawiennicze",
-      "location": "Sala na górze",
-      "description": "",
-      "allDay": false,
-      "start": "2026-05-27T16:00:00.000Z",
-      "end": "2026-05-27T17:00:00.000Z",
-      "dateLabel": "środa, 27 maja",
-      "timeLabel": "18:00"
-    },
     {
       "uid": "4l5g1pgtvuur2bie2gtppqesg3@google.com",
       "title": "Młodzi dorośli",
