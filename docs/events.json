@@ -1,32 +1,10 @@
 {
-  "generatedAt": "2026-05-27T20:11:24.644Z",
+  "generatedAt": "2026-05-27T22:28:40.612Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "4l5g1pgtvuur2bie2gtppqesg3@google.com",
-      "title": "Młodzi dorośli",
-      "location": "Sala na górze",
-      "description": "",
-      "allDay": false,
-      "start": "2026-05-28T15:00:00.000Z",
-      "end": "2026-05-28T18:00:00.000Z",
-      "dateLabel": "czwartek, 28 maja",
-      "timeLabel": "17:00"
-    },
-    {
-      "uid": "4c9bi4eq6e4ofpj2c9mfacc5l5@google.com",
-      "title": "Spotkanie kobiet",
-      "location": "Sala na dole",
-      "description": "",
-      "allDay": false,
-      "start": "2026-05-28T16:00:00.000Z",
-      "end": "2026-05-28T18:00:00.000Z",
-      "dateLabel": "czwartek, 28 maja",
-      "timeLabel": "18:00"
-    },
     {
       "uid": "17d89ocp127sf8l593g89ssogt@google.com",
       "title": "Spotkanie modlitewne",
