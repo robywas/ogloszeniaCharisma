@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T18:11:20.906Z",
+  "generatedAt": "2026-05-29T22:27:34.054Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "title": "Wydarzenia – Kościół Charisma",
@@ -15,17 +15,6 @@
       "end": "2026-05-31T00:00:00.000Z",
       "dateLabel": "sobota, 30 maja",
       "timeLabel": "cały dzień"
-    },
-    {
-      "uid": "3vealp20pku68k9m96rrefj7ob@google.com",
-      "title": "Młodzieżowe",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-05-30T15:00:00.000Z",
-      "end": "2026-05-30T18:00:00.000Z",
-      "dateLabel": "sobota, 30 maja",
-      "timeLabel": "17:00"
     },
     {
       "uid": "6cq3ap1k68sjib9pc5i36b9k6krjcb9pc8q6cb9p6sr6cdpl74pj2oj46o@google.com",
