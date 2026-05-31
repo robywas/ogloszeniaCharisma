@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T10:29:58.285Z",
+  "generatedAt": "2026-05-31T10:40:27.840Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-05-31T22:00:00.000Z",
@@ -7,6 +7,17 @@
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
+    {
+      "uid": "71inesqu636ub0mtqvd4kae9f3@google.com-2026-06-02T16:30:00.000Z",
+      "title": "Fundamenty",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-06-02T16:30:00.000Z",
+      "end": "2026-06-02T18:00:00.000Z",
+      "dateLabel": "wtorek, 2 czerwca",
+      "timeLabel": "18:30"
+    },
     {
       "uid": "4lldqnrou00524obr6gt8qj5iu@google.com-2026-06-03T17:00:00.000Z",
       "title": "Wstawiennicze",
@@ -19,8 +30,19 @@
       "timeLabel": "19:00"
     },
     {
-      "uid": "17d89ocp127sf8l593g89ssogt@google.com-2026-06-05T16:00:00.000Z",
-      "title": "Spotkanie modlitewne",
+      "uid": "1shco8mj29j1ipohi0h4qigaa8@google.com-2026-06-04T16:30:00.000Z",
+      "title": "Młodzi dorośli",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-06-04T16:30:00.000Z",
+      "end": "2026-06-04T18:30:00.000Z",
+      "dateLabel": "czwartek, 4 czerwca",
+      "timeLabel": "18:30"
+    },
+    {
+      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-06-05T16:00:00.000Z",
+      "title": "Modlitwa kościoła",
       "location": "",
       "description": "",
       "allDay": false,
@@ -30,7 +52,18 @@
       "timeLabel": "18:00"
     },
     {
-      "uid": "2g6pt7kkhk8lournm7hb5dpfcn@google.com-2026-06-07T08:00:00.000Z",
+      "uid": "0unn27qt3lh74dj87q88ct7hf7@google.com-2026-06-06T15:00:00.000Z",
+      "title": "Spotkanie młodzieżowe",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-06-06T15:00:00.000Z",
+      "end": "2026-06-06T18:00:00.000Z",
+      "dateLabel": "sobota, 6 czerwca",
+      "timeLabel": "17:00"
+    },
+    {
+      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-06-07T08:00:00.000Z",
       "title": "Nabożeństwo",
       "location": "",
       "description": "",
