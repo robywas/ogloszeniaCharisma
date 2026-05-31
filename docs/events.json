@@ -1,23 +1,14 @@
 {
-  "generatedAt": "2026-05-31T08:40:58.279Z",
+  "generatedAt": "2026-05-31T10:29:44.888Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
+  "windowStart": "2026-05-31T22:00:00.000Z",
+  "windowEnd": "2026-06-07T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
     {
-      "uid": "6cq3ap1k68sjib9pc5i36b9k6krjcb9pc8q6cb9p6sr6cdpl74pj2oj46o@google.com",
-      "title": "Wycieczka dzieci do Zamościa",
-      "location": "",
-      "description": "Wyjazd o godz. 09:30",
-      "allDay": true,
-      "start": "2026-05-31T00:00:00.000Z",
-      "end": "2026-06-01T00:00:00.000Z",
-      "dateLabel": "niedziela, 31 maja",
-      "timeLabel": "cały dzień"
-    },
-    {
-      "uid": "4lldqnrou00524obr6gt8qj5iu@google.com",
+      "uid": "4lldqnrou00524obr6gt8qj5iu@google.com-2026-06-03T17:00:00.000Z",
       "title": "Wstawiennicze",
       "location": "",
       "description": "",
@@ -26,6 +17,39 @@
       "end": "2026-06-03T18:00:00.000Z",
       "dateLabel": "środa, 3 czerwca",
       "timeLabel": "19:00"
+    },
+    {
+      "uid": "17d89ocp127sf8l593g89ssogt@google.com-2026-06-05T18:00:00.000Z",
+      "title": "Spotkanie modlitewne",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-06-05T18:00:00.000Z",
+      "end": "2026-06-05T19:00:00.000Z",
+      "dateLabel": "piątek, 5 czerwca",
+      "timeLabel": "20:00"
+    },
+    {
+      "uid": "2g6pt7kkhk8lournm7hb5dpfcn@google.com-2026-06-07T08:00:00.000Z",
+      "title": "Nabożeństwo",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-06-07T08:00:00.000Z",
+      "end": "2026-06-07T10:00:00.000Z",
+      "dateLabel": "niedziela, 7 czerwca",
+      "timeLabel": "10:00"
+    },
+    {
+      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-06-07T10:00:00.000Z",
+      "title": "Nabożeństwo",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-06-07T10:00:00.000Z",
+      "end": "2026-06-07T12:00:00.000Z",
+      "dateLabel": "niedziela, 7 czerwca",
+      "timeLabel": "12:00"
     }
   ]
 }

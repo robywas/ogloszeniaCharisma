@@ -25,38 +25,107 @@ function loadConfig() {
   return config;
 }
 
-function startOfDay(date, timeZone) {
-  const parts = new Intl.DateTimeFormat("en-CA", {
-    timeZone,
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  }).formatToParts(date);
-  const y = parts.find((p) => p.type === "year").value;
-  const m = parts.find((p) => p.type === "month").value;
-  const d = parts.find((p) => p.type === "day").value;
-  return new Date(`${y}-${m}-${d}T00:00:00`);
+/** Północ danego dnia kalendarzowego w podanej strefie → Date (UTC instant). */
+function midnightInTimeZone(timeZone, year, month, day) {
+  for (let hour = -2; hour <= 26; hour++) {
+    const test = new Date(Date.UTC(year, month - 1, day, hour, 0, 0, 0));
+    const parts = new Intl.DateTimeFormat("en-US", {
+      timeZone,
+      year: "numeric",
+      month: "numeric",
+      day: "numeric",
+      hour: "numeric",
+      hour12: false,
+    }).formatToParts(test);
+
+    const y = Number(parts.find((p) => p.type === "year").value);
+    const m = Number(parts.find((p) => p.type === "month").value);
+    const d = Number(parts.find((p) => p.type === "day").value);
+    const h = Number(parts.find((p) => p.type === "hour").value);
+
+    if (y === year && m === month && d === day && h === 0) {
+      return test;
+    }
+  }
+  throw new Error(`Nie udało się ustalić północy: ${year}-${month}-${day} (${timeZone})`);
 }
 
-function addDays(date, days) {
-  const next = new Date(date);
-  next.setDate(next.getDate() + days);
-  return next;
+function addCalendarDays(year, month, day, days) {
+  const d = new Date(Date.UTC(year, month - 1, day));
+  d.setUTCDate(d.getUTCDate() + days);
+  return {
+    year: d.getUTCFullYear(),
+    month: d.getUTCMonth() + 1,
+    day: d.getUTCDate(),
+  };
+}
+
+function getTodayParts(timeZone, ref = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    year: "numeric",
+    month: "numeric",
+    day: "numeric",
+  }).formatToParts(ref);
+
+  return {
+    year: Number(parts.find((p) => p.type === "year").value),
+    month: Number(parts.find((p) => p.type === "month").value),
+    day: Number(parts.find((p) => p.type === "day").value),
+  };
+}
+
+/** Okno: [jutro 00:00, jutro + daysAhead dni 00:00) w strefie config. */
+function getWindowBounds(timeZone, daysAhead) {
+  const today = getTodayParts(timeZone);
+  const tomorrow = addCalendarDays(today.year, today.month, today.day, 1);
+  const windowEndDay = addCalendarDays(
+    tomorrow.year,
+    tomorrow.month,
+    tomorrow.day,
+    daysAhead
+  );
+
+  return {
+    windowStart: midnightInTimeZone(
+      timeZone,
+      tomorrow.year,
+      tomorrow.month,
+      tomorrow.day
+    ),
+    windowEnd: midnightInTimeZone(
+      timeZone,
+      windowEndDay.year,
+      windowEndDay.month,
+      windowEndDay.day
+    ),
+  };
+}
+
+function toDate(value) {
+  if (value instanceof Date) return value;
+  return new Date(value);
 }
 
 function stripHtml(text) {
   return text.replace(/<br\s*\/?>/gi, "\n").replace(/<[^>]+>/g, "").trim();
 }
 
-function toEventSummary(vevent, timeZone) {
-  const start = vevent.start instanceof Date ? vevent.start : new Date(vevent.start);
-  const end = vevent.end instanceof Date ? vevent.end : vevent.end ? new Date(vevent.end) : null;
+function eventDurationMs(vevent) {
+  const start = toDate(vevent.start);
+  const end = vevent.end ? toDate(vevent.end) : null;
+  if (!end || end <= start) return 60 * 60 * 1000;
+  return end.getTime() - start.getTime();
+}
+
+function toEventSummary(vevent, occurrenceStart, timeZone) {
+  const start = toDate(occurrenceStart);
+  const durationMs = eventDurationMs(vevent);
+  const end = new Date(start.getTime() + durationMs);
+
   const allDay =
     vevent.datetype === "date" ||
-    (start.getHours() === 0 &&
-      start.getMinutes() === 0 &&
-      end &&
-      (end.getTime() - start.getTime()) % 86400000 === 0);
+    (durationMs >= 86400000 - 1000 && durationMs <= 86400000 + 1000);
 
   const dateLabel = new Intl.DateTimeFormat("pl-PL", {
     timeZone,
@@ -69,20 +138,46 @@ function toEventSummary(vevent, timeZone) {
     .join("");
 
   return {
-    uid: vevent.uid,
+    uid: `${vevent.uid}-${start.toISOString()}`,
     title: vevent.summary || "(bez tytułu)",
     location: vevent.location || "",
     description: stripHtml((vevent.description || "").replace(/\r\n/g, "\n")),
     allDay,
     start: start.toISOString(),
-    end: end ? end.toISOString() : null,
+    end: end.toISOString(),
     dateLabel,
-    timeLabel: allDay ? "cały dzień" : new Intl.DateTimeFormat("pl-PL", {
-      timeZone,
-      hour: "2-digit",
-      minute: "2-digit",
-    }).format(start),
+    timeLabel: allDay
+      ? "cały dzień"
+      : new Intl.DateTimeFormat("pl-PL", {
+          timeZone,
+          hour: "2-digit",
+          minute: "2-digit",
+        }).format(start),
   };
+}
+
+function isInWindow(start, windowStart, windowEnd) {
+  return start >= windowStart && start < windowEnd;
+}
+
+function dedupeKey(ev) {
+  return `${ev.start.slice(0, 16)}|${ev.title.toLowerCase().trim()}`;
+}
+
+function collectEvents(vevent, windowStart, windowEnd, timeZone, out) {
+  if (vevent.rrule) {
+    const occurrences = vevent.rrule.between(windowStart, windowEnd, true);
+    for (const occ of occurrences) {
+      const start = toDate(occ);
+      if (!isInWindow(start, windowStart, windowEnd)) continue;
+      out.push(toEventSummary(vevent, start, timeZone));
+    }
+    return;
+  }
+
+  const start = toDate(vevent.start);
+  if (!isInWindow(start, windowStart, windowEnd)) return;
+  out.push(toEventSummary(vevent, start, timeZone));
 }
 
 async function main() {
@@ -93,6 +188,8 @@ async function main() {
     (config.excludeTitles || []).map((t) => t.toLowerCase())
   );
 
+  const { windowStart, windowEnd } = getWindowBounds(timeZone, daysAhead);
+
   const res = await fetch(config.icalUrl);
   if (!res.ok) {
     throw new Error(`Nie udało się pobrać iCal: ${res.status} ${res.statusText}`);
@@ -100,17 +197,20 @@ async function main() {
   const icsText = await res.text();
   const parsed = ical.sync.parseICS(icsText);
 
-  const tomorrow = addDays(startOfDay(new Date(), timeZone), 1);
-  const windowEnd = addDays(tomorrow, daysAhead);
+  const raw = [];
+  for (const item of Object.values(parsed)) {
+    if (item.type !== "VEVENT") continue;
+    collectEvents(item, windowStart, windowEnd, timeZone, raw);
+  }
 
-  const events = Object.values(parsed)
-    .filter((item) => item.type === "VEVENT")
-    .map((vevent) => toEventSummary(vevent, timeZone))
+  const seen = new Set();
+  const events = raw
     .filter((ev) => {
-      const start = new Date(ev.start);
-      const end = ev.end ? new Date(ev.end) : start;
       if (excludeTitles.has(ev.title.toLowerCase())) return false;
-      return end >= tomorrow && start < windowEnd;
+      const key = dedupeKey(ev);
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
     })
     .sort((a, b) => new Date(a.start) - new Date(b.start));
 
@@ -121,13 +221,17 @@ async function main() {
     generatedAt: new Date().toISOString(),
     timezone: timeZone,
     daysAhead,
+    windowStart: windowStart.toISOString(),
+    windowEnd: windowEnd.toISOString(),
     title: config.title || "Wydarzenia",
     dayLayout: config.dayLayout === "columns" ? "columns" : "rows",
     events,
   };
 
   writeFileSync(join(outDir, "events.json"), JSON.stringify(payload, null, 2), "utf8");
-  console.log(`Zapisano ${events.length} wydarzeń → docs/events.json`);
+  console.log(
+    `Zapisano ${events.length} wydarzeń (${windowStart.toISOString()} → ${windowEnd.toISOString()}) → docs/events.json`
+  );
 }
 
 main().catch((err) => {

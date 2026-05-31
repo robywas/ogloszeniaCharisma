@@ -64,3 +64,7 @@ Edytuj `docs/style.css` — zmienne `--title-size`, `--event-title-size`, kolory
 | `title` | Nagłówek strony |
 | `excludeTitles` | Wydarzenia do ukrycia, np. `["Nie ma spotkań"]` |
 | `dayLayout` | `rows` — dni obok siebie (wt\|śr); `columns` — najpierw lewa kolumna, potem prawa |
+
+**Okno dat:** od **jutra 00:00** przez **7 kolejnych dni** (strefa `timezone`). Wydarzenia cykliczne (RRULE) są rozwijane automatycznie.
+
+**Uwaga:** Publiczny iCal Google zwykle zawiera tylko najbliższe wystąpienia; jeśli brakuje serii, sprawdź w kalendarzu czy wydarzenie jest cykliczne i publiczne.
