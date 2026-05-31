@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T03:28:59.680Z",
+  "generatedAt": "2026-05-31T08:40:58.279Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "title": "Wydarzenia – Kościół Charisma",
@@ -15,6 +15,17 @@
       "end": "2026-06-01T00:00:00.000Z",
       "dateLabel": "niedziela, 31 maja",
       "timeLabel": "cały dzień"
+    },
+    {
+      "uid": "4lldqnrou00524obr6gt8qj5iu@google.com",
+      "title": "Wstawiennicze",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-06-03T17:00:00.000Z",
+      "end": "2026-06-03T18:00:00.000Z",
+      "dateLabel": "środa, 3 czerwca",
+      "timeLabel": "19:00"
     }
   ]
 }
