@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T03:41:17.347Z",
+  "generatedAt": "2026-06-01T11:27:28.188Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-06-01T22:00:00.000Z",
@@ -28,6 +28,17 @@
       "end": "2026-06-03T18:00:00.000Z",
       "dateLabel": "środa, 3 czerwca",
       "timeLabel": "19:00"
+    },
+    {
+      "uid": "6oo30c1nclhmcb9j74r3eb9k6oq3ib9p6cr64b9g6ko36ohj6dj3ccpn64@google.com-2026-06-04T16:00:00.000Z",
+      "title": "Spotkanie kobiet",
+      "location": "Sala na dole",
+      "description": "",
+      "allDay": false,
+      "start": "2026-06-04T16:00:00.000Z",
+      "end": "2026-06-04T18:00:00.000Z",
+      "dateLabel": "czwartek, 4 czerwca",
+      "timeLabel": "18:00"
     },
     {
       "uid": "1shco8mj29j1ipohi0h4qigaa8@google.com-2026-06-04T16:30:00.000Z",
