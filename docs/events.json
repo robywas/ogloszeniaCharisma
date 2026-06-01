@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-31T21:57:21.408Z",
+  "generatedAt": "2026-06-01T03:41:17.347Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-05-31T22:00:00.000Z",
-  "windowEnd": "2026-06-07T22:00:00.000Z",
+  "windowStart": "2026-06-01T22:00:00.000Z",
+  "windowEnd": "2026-06-08T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
@@ -63,7 +63,7 @@
       "timeLabel": "17:00"
     },
     {
-      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-06-07T08:00:00.000Z",
+      "uid": "2g6pt7kkhk8lournm7hb5dpfcn@google.com-2026-06-07T08:00:00.000Z",
       "title": "Nabożeństwo",
       "location": "",
       "description": "",
