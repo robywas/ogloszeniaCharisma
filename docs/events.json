@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-06-01T21:29:22.506Z",
+  "generatedAt": "2026-06-02T03:37:52.675Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-06-01T22:00:00.000Z",
-  "windowEnd": "2026-06-08T22:00:00.000Z",
+  "windowStart": "2026-06-02T22:00:00.000Z",
+  "windowEnd": "2026-06-09T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "71inesqu636ub0mtqvd4kae9f3@google.com-2026-06-02T16:30:00.000Z",
-      "title": "Fundamenty",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-06-02T16:30:00.000Z",
-      "end": "2026-06-02T18:00:00.000Z",
-      "dateLabel": "wtorek, 2 czerwca",
-      "timeLabel": "18:30"
-    },
     {
       "uid": "4lldqnrou00524obr6gt8qj5iu@google.com-2026-06-03T17:00:00.000Z",
       "title": "Wstawiennicze",
@@ -74,7 +63,7 @@
       "timeLabel": "17:00"
     },
     {
-      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-06-07T08:00:00.000Z",
+      "uid": "2g6pt7kkhk8lournm7hb5dpfcn@google.com-2026-06-07T08:00:00.000Z",
       "title": "Nabożeństwo",
       "location": "",
       "description": "",
