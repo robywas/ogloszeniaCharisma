@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-06-04T20:01:33.397Z",
+  "generatedAt": "2026-06-04T22:18:28.985Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-06-04T22:00:00.000Z",
-  "windowEnd": "2026-06-11T22:00:00.000Z",
+  "windowStart": "2026-06-05T22:00:00.000Z",
+  "windowEnd": "2026-06-12T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-06-05T16:00:00.000Z",
-      "title": "Modlitwa kościoła",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-06-05T16:00:00.000Z",
-      "end": "2026-06-05T17:00:00.000Z",
-      "dateLabel": "piątek, 5 czerwca",
-      "timeLabel": "18:00"
-    },
     {
       "uid": "0unn27qt3lh74dj87q88ct7hf7@google.com-2026-06-06T15:00:00.000Z",
       "title": "Spotkanie młodzieżowe",
@@ -39,6 +28,17 @@
       "end": "2026-06-07T10:00:00.000Z",
       "dateLabel": "niedziela, 7 czerwca",
       "timeLabel": "10:00"
+    },
+    {
+      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-06-12T16:00:00.000Z",
+      "title": "Modlitwa kościoła",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-06-12T16:00:00.000Z",
+      "end": "2026-06-12T17:00:00.000Z",
+      "dateLabel": "piątek, 12 czerwca",
+      "timeLabel": "18:00"
     }
   ]
 }
