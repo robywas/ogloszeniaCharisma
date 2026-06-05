@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-06-05T19:50:07.313Z",
+  "generatedAt": "2026-06-05T22:13:09.018Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-06-05T22:00:00.000Z",
-  "windowEnd": "2026-06-12T22:00:00.000Z",
+  "windowStart": "2026-06-06T22:00:00.000Z",
+  "windowEnd": "2026-06-13T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "0unn27qt3lh74dj87q88ct7hf7@google.com-2026-06-06T15:00:00.000Z",
-      "title": "Spotkanie młodzieżowe",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-06-06T15:00:00.000Z",
-      "end": "2026-06-06T18:00:00.000Z",
-      "dateLabel": "sobota, 6 czerwca",
-      "timeLabel": "17:00"
-    },
     {
       "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-06-07T08:00:00.000Z",
       "title": "Nabożeństwo",
