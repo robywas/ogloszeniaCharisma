@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T10:54:41.401Z",
+  "generatedAt": "2026-06-07T10:59:02.881Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-06-07T22:00:00.000Z",
@@ -20,7 +20,7 @@
     },
     {
       "uid": "cgqm2p3170pjcb9i6krj4b9k71i32bb16or38b9o61hm6d9mcdim8c9p6k@google.com-2026-06-11T16:30:00.000Z",
-      "title": "Mlodzi dorosli",
+      "title": "Młodzi dorośli",
       "location": "",
       "description": "",
       "allDay": false,
