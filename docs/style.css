@@ -21,7 +21,7 @@
   --day-gap: clamp(1.1rem, 2.8vw, 1.85rem);
   --pad: clamp(0.85rem, 2.2vw, 1.4rem);
   --qr-size: clamp(2.75rem, 6vh, 4rem);
-  --logo-size: clamp(4.25rem, 10vh, 7rem);
+  --logo-size: clamp(5rem, 12vh, 9rem);
   --font: "Segoe UI", system-ui, sans-serif;
 }
 
