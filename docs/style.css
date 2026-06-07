@@ -12,11 +12,11 @@
   --date-color: #1e1e1e;
   --time-color: #649999;
   --title-size: clamp(2rem, 5vw, 3.5rem);
-  --event-title-size: var(--day-date-size);
+  --event-title-size: clamp(1.5rem, 3.8vw, 2.5rem);
   --meta-size: clamp(0.75rem, 1.4vw, 1rem);
   --location-size: clamp(1.1rem, 2.6vw, 1.85rem);
   --time-size: clamp(1.25rem, 3.2vw, 2.1rem);
-  --day-date-size: clamp(1.5rem, 3.8vw, 2.5rem);
+  --day-date-size: clamp(1.1rem, 2.6vw, 1.75rem);
   --gap: clamp(0.65rem, 1.4vw, 1rem);
   --day-gap: clamp(1.1rem, 2.8vw, 1.85rem);
   --pad: clamp(0.85rem, 2.2vw, 1.4rem);
