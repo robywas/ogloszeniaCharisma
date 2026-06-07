@@ -20,6 +20,8 @@
   --gap: clamp(0.65rem, 1.4vw, 1rem);
   --day-gap: clamp(1.1rem, 2.8vw, 1.85rem);
   --pad: clamp(0.85rem, 2.2vw, 1.4rem);
+  --qr-size: clamp(2.75rem, 6vh, 4rem);
+  --logo-size: clamp(4.25rem, 10vh, 7rem);
   --font: "Segoe UI", system-ui, sans-serif;
 }
 
@@ -54,14 +56,28 @@ body {
 
 .board__header {
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap);
 }
 
 .board__title {
   margin: 0;
+  flex: 1;
+  min-width: 0;
   font-size: var(--title-size);
   font-weight: 700;
   letter-spacing: -0.02em;
   line-height: 1.1;
+}
+
+.board__qr {
+  flex-shrink: 0;
+  height: var(--qr-size);
+  width: auto;
+  border-radius: 6px;
+  background: var(--bg);
 }
 
 .events {
@@ -171,25 +187,15 @@ body {
 .board__footer {
   flex-shrink: 0;
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: clamp(1.25rem, 3.5vw, 2.75rem);
-  padding-top: calc(var(--gap) * 0.75);
-  border-top: 2px solid var(--cyan-pastel);
+  align-items: center;
 }
 
 .board__logo {
-  height: clamp(2.5rem, 6.5vh, 4.25rem);
+  height: var(--logo-size);
   width: auto;
-  max-width: min(40vw, 14rem);
+  max-width: min(70vw, 22rem);
   object-fit: contain;
-}
-
-.board__qr {
-  height: clamp(2.5rem, 6.5vh, 4.25rem);
-  width: auto;
-  border-radius: 6px;
-  background: var(--bg);
 }
 
 /* Opcjonalny alias — ta sama paleta co domyślna */
