@@ -49,7 +49,7 @@ npm run qr       # generuje docs/assets/qr.png (z logo w środku, jeśli jest lo
 2. Uruchom **`npm run qr`** — tworzy `docs/assets/qr.png` z logo w środku kodu
 3. Wypchnij na GitHub (`docs/assets/`)
 
-QR kieruje na adres z `siteUrl` w `config.json`. Logo i QR wyświetlają się na dole strony.
+QR kieruje na **`calendarUrl`** w `config.json` (kalendarz Google). Logo i QR wyświetlają się na stronie.
 
 Podgląd: otwórz `docs/index.html` w przeglądarce (najlepiej przez prosty serwer, np. `npx serve docs`).
 
@@ -71,7 +71,7 @@ Edytuj `docs/style.css` — zmienne `--title-size`, `--event-title-size`, kolory
 | `timezone` | `Europe/Warsaw` |
 | `daysAhead`  | `7` — liczba dni od jutra |
 | `title` | Nagłówek strony |
-| `siteUrl` | Adres strony (QR kod) |
+| `calendarUrl` | Adres kalendarza Google (kod QR) |
 | `logoPath` | Ścieżka do logo w `docs/` (domyślnie `assets/logo.png`) |
 | `excludeTitles` | Wydarzenia do ukrycia, np. `["Nie ma spotkań"]` |
 | `dayLayout` | `rows` — dni obok siebie (wt\|śr); `columns` — najpierw lewa kolumna, potem prawa |
