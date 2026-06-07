@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T08:52:02.520Z",
+  "generatedAt": "2026-06-07T10:54:41.401Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-06-07T22:00:00.000Z",
@@ -7,6 +7,28 @@
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
+    {
+      "uid": "ckr68dpo6hijab9n6dh38b9kccr3ab9p6hh36b9j6ssmaohp74sm6c1occ@google.com-2026-06-10T16:30:00.000Z",
+      "title": "Studenci",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-06-10T16:30:00.000Z",
+      "end": "2026-06-10T20:30:00.000Z",
+      "dateLabel": "środa, 10 czerwca",
+      "timeLabel": "18:30"
+    },
+    {
+      "uid": "cgqm2p3170pjcb9i6krj4b9k71i32bb16or38b9o61hm6d9mcdim8c9p6k@google.com-2026-06-11T16:30:00.000Z",
+      "title": "Mlodzi dorosli",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-06-11T16:30:00.000Z",
+      "end": "2026-06-11T17:30:00.000Z",
+      "dateLabel": "czwartek, 11 czerwca",
+      "timeLabel": "18:30"
+    },
     {
       "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-06-12T16:00:00.000Z",
       "title": "Modlitwa kościoła",
@@ -17,6 +39,17 @@
       "end": "2026-06-12T17:00:00.000Z",
       "dateLabel": "piątek, 12 czerwca",
       "timeLabel": "18:00"
+    },
+    {
+      "uid": "c4pjicj4cor36b9jcksjib9k6ti3cb9o6gpj8b9o6kq3cd3469i38o9hco@google.com-2026-06-13T11:00:00.000Z",
+      "title": "Spotkanie kobiece",
+      "location": "Stary Gaj 31, Lublin",
+      "description": "",
+      "allDay": false,
+      "start": "2026-06-13T11:00:00.000Z",
+      "end": "2026-06-13T12:00:00.000Z",
+      "dateLabel": "sobota, 13 czerwca",
+      "timeLabel": "13:00"
     },
     {
       "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-06-14T08:00:00.000Z",
