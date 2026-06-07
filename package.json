@@ -4,9 +4,12 @@
   "type": "module",
   "scripts": {
     "fetch": "node scripts/fetch-events.js",
-    "build": "node scripts/fetch-events.js"
+    "qr": "node scripts/generate-qr.js",
+    "build": "node scripts/fetch-events.js && node scripts/generate-qr.js"
   },
   "dependencies": {
-    "node-ical": "^0.20.1"
+    "node-ical": "^0.20.1",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.34.2"
   }
 }

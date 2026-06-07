@@ -3,6 +3,8 @@
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "title": "Wydarzenia – Kościół Charisma",
+  "siteUrl": "https://robywas.github.io/ogloszeniaCharisma/",
+  "logoPath": "assets/logo.png",
   "excludeTitles": ["Nie ma spotkań"],
   "dayLayout": "columns"
 }

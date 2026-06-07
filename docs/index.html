@@ -13,7 +13,7 @@
         document.head.appendChild(b);
       })();
     </script>
-    <link rel="stylesheet" href="style.css?v=12" />
+    <link rel="stylesheet" href="style.css?v=13" />
   </head>
   <body>
     <main class="board" id="board">
@@ -22,7 +22,16 @@
       </header>
       <ul class="events" id="events"></ul>
       <p class="board__empty" id="empty" hidden>Brak wydarzeń w ciągu najbliższych 7 dni (od jutra).</p>
+      <footer class="board__footer">
+        <img
+          class="board__logo"
+          src="assets/logo.png"
+          alt="Kościół Charisma"
+          onerror="this.hidden = true"
+        />
+        <img class="board__qr" src="assets/qr.png" alt="Kod QR – kalendarz wydarzeń online" />
+      </footer>
     </main>
-    <script src="app.js?v=6"></script>
+    <script src="app.js?v=7"></script>
   </body>
 </html>

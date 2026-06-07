@@ -3,6 +3,8 @@
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "title": "Wydarzenia – najbliższy tydzień",
+  "siteUrl": "https://TWOJ_USER.github.io/NAZWA_REPO/",
+  "logoPath": "assets/logo.png",
   "excludeTitles": [],
   "dayLayout": "rows"
 }
