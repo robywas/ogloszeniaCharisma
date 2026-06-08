@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T10:46:46.733Z",
+  "generatedAt": "2026-06-08T15:43:19.994Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-06-08T22:00:00.000Z",
@@ -61,6 +61,17 @@
       "end": "2026-06-13T12:00:00.000Z",
       "dateLabel": "sobota, 13 czerwca",
       "timeLabel": "13:00"
+    },
+    {
+      "uid": "c433dglhh4tk14178ujsovprag@google.com-2026-06-13T15:00:00.000Z",
+      "title": "Spotkanie młodzieżowe",
+      "location": "",
+      "description": "Prowadzi Kuba Żołdak, info odnośnie miejsca i dokładnej godziny na grupie messengerowej lub u Kuby :))",
+      "allDay": false,
+      "start": "2026-06-13T15:00:00.000Z",
+      "end": "2026-06-13T19:00:00.000Z",
+      "dateLabel": "sobota, 13 czerwca",
+      "timeLabel": "17:00"
     },
     {
       "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-06-14T08:00:00.000Z",
