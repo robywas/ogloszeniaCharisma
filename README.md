@@ -68,6 +68,9 @@ Edytuj `docs/style.css` — zmienne `--title-size`, `--event-title-size`, kolory
 | Pole | Opis |
 |------|------|
 | `icalUrl` | Link iCal z Google Calendar (źródło danych + kod QR) |
+| `timezone` | `Europe/Warsaw` |
+| `daysAhead` | `7` — liczba dni od jutra |
+| `title` | Nagłówek strony |
 | `logoPath` | Ścieżka do logo w `docs/` (domyślnie `assets/logo.png`) |
 | `excludeTitles` | Wydarzenia do ukrycia, np. `["Nie ma spotkań"]` |
 | `dayLayout` | `rows` — dni obok siebie (wt\|śr); `columns` — najpierw lewa kolumna, potem prawa |
