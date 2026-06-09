@@ -17,9 +17,9 @@ function loadConfig() {
 async function main() {
   const config = loadConfig();
   const url =
-    config.calendarUrl ||
-    config.siteUrl ||
-    "https://calendar.google.com/calendar/embed?src=kosciolcharisma%40gmail.com&ctz=Europe%2FWarsaw";
+    config.qrUrl ||
+    config.icalUrl ||
+    "https://calendar.google.com/calendar/ical/kosciolcharisma%40gmail.com/public/basic.ics";
   const assetsDir = join(root, "docs", "assets");
   const logoPath = join(root, "docs", config.logoPath || "assets/logo.png");
   const outPath = join(assetsDir, "qr.png");

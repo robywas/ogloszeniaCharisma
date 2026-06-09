@@ -3,7 +3,6 @@
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "title": "Wydarzenia – Kościół Charisma",
-  "calendarUrl": "https://calendar.google.com/calendar/embed?src=kosciolcharisma%40gmail.com&ctz=Europe%2FWarsaw",
   "logoPath": "assets/logo.png",
   "excludeTitles": ["Nie ma spotkań"],
   "dayLayout": "columns"

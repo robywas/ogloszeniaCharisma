@@ -3,7 +3,6 @@
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "title": "Wydarzenia – najbliższy tydzień",
-  "calendarUrl": "https://calendar.google.com/calendar/embed?src=TWOJ_KALENDARZ&ctz=Europe%2FWarsaw",
   "logoPath": "assets/logo.png",
   "excludeTitles": [],
   "dayLayout": "rows"

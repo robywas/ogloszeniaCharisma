@@ -20,7 +20,9 @@
   --gap: clamp(0.65rem, 1.4vw, 1rem);
   --day-gap: clamp(1.1rem, 2.8vw, 1.85rem);
   --pad: clamp(0.85rem, 2.2vw, 1.4rem);
-  --qr-size: clamp(3.5rem, 7vh, 6rem);
+  --pad-top: clamp(0.3rem, 0.7vw, 0.55rem);
+  --header-gap: clamp(0.2rem, 0.45vw, 0.4rem);
+  --qr-size: clamp(5rem, 11vh, 8.5rem);
   --logo-size: clamp(5rem, 12vh, 9rem);
   --font: "Segoe UI", system-ui, sans-serif;
 }
@@ -47,10 +49,10 @@ body {
 .board {
   height: 100vh;
   max-height: 100vh;
-  padding: var(--pad);
+  padding: var(--pad-top) var(--pad) var(--pad);
   display: flex;
   flex-direction: column;
-  gap: var(--day-gap);
+  gap: 0;
   overflow: hidden;
 }
 
@@ -60,6 +62,7 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: var(--gap);
+  margin-bottom: var(--header-gap);
 }
 
 .board__title {
@@ -189,6 +192,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: var(--day-gap);
 }
 
 .board__logo {
