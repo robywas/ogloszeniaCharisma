@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-06-09T20:04:01.419Z",
+  "generatedAt": "2026-06-09T22:21:44.817Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-06-09T22:00:00.000Z",
-  "windowEnd": "2026-06-16T22:00:00.000Z",
+  "windowStart": "2026-06-10T22:00:00.000Z",
+  "windowEnd": "2026-06-17T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "ckr68dpo6hijab9n6dh38b9kccr3ab9p6hh36b9j6ssmaohp74sm6c1occ@google.com-2026-06-10T16:30:00.000Z",
-      "title": "Studenci",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-06-10T16:30:00.000Z",
-      "end": "2026-06-10T20:30:00.000Z",
-      "dateLabel": "środa, 10 czerwca",
-      "timeLabel": "18:30"
-    },
     {
       "uid": "71imcp9j61hj0b9m70oj0b9k69gj6b9oc8rj0b9o68qjicb1cgr38pb6c4@google.com-2026-06-11T16:00:00.000Z",
       "title": "Fundamenty wiary",
