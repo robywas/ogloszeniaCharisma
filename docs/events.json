@@ -1,34 +1,12 @@
 {
-  "generatedAt": "2026-06-10T20:26:10.015Z",
+  "generatedAt": "2026-06-10T22:50:05.140Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-06-10T22:00:00.000Z",
-  "windowEnd": "2026-06-17T22:00:00.000Z",
+  "windowStart": "2026-06-11T22:00:00.000Z",
+  "windowEnd": "2026-06-18T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "71imcp9j61hj0b9m70oj0b9k69gj6b9oc8rj0b9o68qjicb1cgr38pb6c4@google.com-2026-06-11T16:00:00.000Z",
-      "title": "Fundamenty wiary",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-06-11T16:00:00.000Z",
-      "end": "2026-06-11T18:00:00.000Z",
-      "dateLabel": "czwartek, 11 czerwca",
-      "timeLabel": "18:00"
-    },
-    {
-      "uid": "cgqm2p3170pjcb9i6krj4b9k71i32bb16or38b9o61hm6d9mcdim8c9p6k@google.com-2026-06-11T16:30:00.000Z",
-      "title": "Młodzi dorośli",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-06-11T16:30:00.000Z",
-      "end": "2026-06-11T17:30:00.000Z",
-      "dateLabel": "czwartek, 11 czerwca",
-      "timeLabel": "18:30"
-    },
     {
       "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-06-12T16:00:00.000Z",
       "title": "Modlitwa kościoła",
@@ -72,6 +50,17 @@
       "end": "2026-06-14T10:00:00.000Z",
       "dateLabel": "niedziela, 14 czerwca",
       "timeLabel": "10:00"
+    },
+    {
+      "uid": "6gqjid1h6th32bb2c9i6cb9k70pj2b9o75i62bb660p34o9g6tj38dr274@google.com-2026-06-18T16:30:00.000Z",
+      "title": "Młodzi dorośli + studenci",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-06-18T16:30:00.000Z",
+      "end": "2026-06-18T19:30:00.000Z",
+      "dateLabel": "czwartek, 18 czerwca",
+      "timeLabel": "18:30"
     }
   ]
 }
