@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-06-11T20:16:37.370Z",
+  "generatedAt": "2026-06-11T22:48:56.688Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-06-11T22:00:00.000Z",
-  "windowEnd": "2026-06-18T22:00:00.000Z",
+  "windowStart": "2026-06-12T22:00:00.000Z",
+  "windowEnd": "2026-06-19T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-06-12T16:00:00.000Z",
-      "title": "Modlitwa kościoła",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-06-12T16:00:00.000Z",
-      "end": "2026-06-12T17:00:00.000Z",
-      "dateLabel": "piątek, 12 czerwca",
-      "timeLabel": "18:00"
-    },
     {
       "uid": "c4pjicj4cor36b9jcksjib9k6ti3cb9o6gpj8b9o6kq3cd3469i38o9hco@google.com-2026-06-13T11:00:00.000Z",
       "title": "Spotkanie kobiece",
@@ -61,6 +50,28 @@
       "end": "2026-06-18T19:30:00.000Z",
       "dateLabel": "czwartek, 18 czerwca",
       "timeLabel": "18:30"
+    },
+    {
+      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-06-19T16:00:00.000Z",
+      "title": "Modlitwa kościoła",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-06-19T16:00:00.000Z",
+      "end": "2026-06-19T17:00:00.000Z",
+      "dateLabel": "piątek, 19 czerwca",
+      "timeLabel": "18:00"
+    },
+    {
+      "uid": "ckp6cdj670pmcbb3clj32b9k60pj0bb275gm4b9i6somcchg6hgj0pj570@google.com-2026-06-19T18:00:00.000Z",
+      "title": "Ewangelizacja",
+      "location": "",
+      "description": "Plac Litewski",
+      "allDay": false,
+      "start": "2026-06-19T18:00:00.000Z",
+      "end": "2026-06-19T20:00:00.000Z",
+      "dateLabel": "piątek, 19 czerwca",
+      "timeLabel": "20:00"
     }
   ]
 }
