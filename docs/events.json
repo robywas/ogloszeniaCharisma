@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T10:18:15.728Z",
+  "generatedAt": "2026-06-11T15:54:09.975Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-06-11T22:00:00.000Z",
@@ -25,7 +25,7 @@
       "description": "",
       "allDay": false,
       "start": "2026-06-13T11:00:00.000Z",
-      "end": "2026-06-13T12:00:00.000Z",
+      "end": "2026-06-13T18:00:00.000Z",
       "dateLabel": "sobota, 13 czerwca",
       "timeLabel": "13:00"
     },
