@@ -1,34 +1,12 @@
 {
-  "generatedAt": "2026-06-12T20:05:33.049Z",
+  "generatedAt": "2026-06-12T22:21:56.762Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-06-12T22:00:00.000Z",
-  "windowEnd": "2026-06-19T22:00:00.000Z",
+  "windowStart": "2026-06-13T22:00:00.000Z",
+  "windowEnd": "2026-06-20T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "c4pjicj4cor36b9jcksjib9k6ti3cb9o6gpj8b9o6kq3cd3469i38o9hco@google.com-2026-06-13T11:00:00.000Z",
-      "title": "Spotkanie kobiece",
-      "location": "Stary Gaj 31, Lublin",
-      "description": "",
-      "allDay": false,
-      "start": "2026-06-13T11:00:00.000Z",
-      "end": "2026-06-13T18:00:00.000Z",
-      "dateLabel": "sobota, 13 czerwca",
-      "timeLabel": "13:00"
-    },
-    {
-      "uid": "c433dglhh4tk14178ujsovprag@google.com-2026-06-13T15:00:00.000Z",
-      "title": "Spotkanie młodzieżowe",
-      "location": "",
-      "description": "Prowadzi Kuba Żołdak, info odnośnie miejsca i dokładnej godziny na grupie messengerowej lub u Kuby :))",
-      "allDay": false,
-      "start": "2026-06-13T15:00:00.000Z",
-      "end": "2026-06-13T19:00:00.000Z",
-      "dateLabel": "sobota, 13 czerwca",
-      "timeLabel": "17:00"
-    },
     {
       "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-06-14T08:00:00.000Z",
       "title": "Nabożeństwo",
