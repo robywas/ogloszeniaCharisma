@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T06:15:13.780Z",
+  "generatedAt": "2026-06-14T06:15:27.268Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-06-14T22:00:00.000Z",
@@ -30,6 +30,17 @@
       "timeLabel": "18:30"
     },
     {
+      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-06-19T16:00:00.000Z",
+      "title": "Modlitwa kościoła",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-06-19T16:00:00.000Z",
+      "end": "2026-06-19T17:00:00.000Z",
+      "dateLabel": "piątek, 19 czerwca",
+      "timeLabel": "18:00"
+    },
+    {
       "uid": "ckp6cdj670pmcbb3clj32b9k60pj0bb275gm4b9i6somcchg6hgj0pj570@google.com-2026-06-19T18:00:00.000Z",
       "title": "Ewangelizacja",
       "location": "",
@@ -37,17 +48,6 @@
       "allDay": false,
       "start": "2026-06-19T18:00:00.000Z",
       "end": "2026-06-19T20:00:00.000Z",
-      "dateLabel": "piątek, 19 czerwca",
-      "timeLabel": "20:00"
-    },
-    {
-      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-06-19T18:00:00.000Z",
-      "title": "Modlitwa kościoła",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-06-19T18:00:00.000Z",
-      "end": "2026-06-19T19:00:00.000Z",
       "dateLabel": "piątek, 19 czerwca",
       "timeLabel": "20:00"
     },
