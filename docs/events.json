@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T13:55:30.222Z",
+  "generatedAt": "2026-06-14T16:19:17.604Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-06-14T22:00:00.000Z",
@@ -7,6 +7,17 @@
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
+    {
+      "uid": "6op3ap1g71gm6bb2c4o68b9k74s68bb275gmcb9j6som4db56hi32p1pcg@google.com-2026-06-15T16:30:00.000Z",
+      "title": "studium Bibli Izajasza, Kraśnicka",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-06-15T16:30:00.000Z",
+      "end": "2026-06-15T17:30:00.000Z",
+      "dateLabel": "poniedziałek, 15 czerwca",
+      "timeLabel": "18:30"
+    },
     {
       "uid": "11o55qhseuigogg79lau1f8hv8@google.com-2026-06-17T17:00:00.000Z",
       "title": "Spotkanie wstawiennicze",
