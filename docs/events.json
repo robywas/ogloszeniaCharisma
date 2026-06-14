@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T06:06:35.411Z",
+  "generatedAt": "2026-06-14T06:09:16.840Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-06-14T22:00:00.000Z",
@@ -52,17 +52,6 @@
       "timeLabel": "20:00"
     },
     {
-      "uid": "70o30e1ocdi3ab9l74o38b9k6thm2b9ocdhmcbb2c5ij0d1m6lgmcchm6g@google.com-2026-06-21T00:00:00.000Z",
-      "title": "Nabożeństwo w Kunowie",
-      "location": "",
-      "description": "",
-      "allDay": true,
-      "start": "2026-06-21T00:00:00.000Z",
-      "end": "2026-06-22T00:00:00.000Z",
-      "dateLabel": "niedziela, 21 czerwca",
-      "timeLabel": "cały dzień"
-    },
-    {
       "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-06-21T08:00:00.000Z",
       "title": "Nabożeństwo",
       "location": "",
@@ -70,6 +59,17 @@
       "allDay": false,
       "start": "2026-06-21T08:00:00.000Z",
       "end": "2026-06-21T10:00:00.000Z",
+      "dateLabel": "niedziela, 21 czerwca",
+      "timeLabel": "10:00"
+    },
+    {
+      "uid": "70o30e1ocdi3ab9l74o38b9k6thm2b9ocdhmcbb2c5ij0d1m6lgmcchm6g@google.com-2026-06-21T08:00:00.000Z",
+      "title": "Nabożeństwo w Kunowie",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-06-21T08:00:00.000Z",
+      "end": "2026-06-21T08:30:00.000Z",
       "dateLabel": "niedziela, 21 czerwca",
       "timeLabel": "10:00"
     }
