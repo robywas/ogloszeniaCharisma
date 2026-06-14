@@ -164,16 +164,51 @@ function dedupeKey(ev) {
   return `${ev.start.slice(0, 16)}|${ev.title.toLowerCase().trim()}`;
 }
 
+function dateKeyInZone(date, timeZone) {
+  return new Intl.DateTimeFormat("en-CA", { timeZone }).format(toDate(date));
+}
+
+function isExcludedOccurrence(vevent, occurrenceStart, timeZone) {
+  if (vevent.exdate && typeof vevent.exdate === "object") {
+    const occKey = dateKeyInZone(occurrenceStart, timeZone);
+    for (const key of Object.keys(vevent.exdate)) {
+      if (key === occKey) return true;
+      const ex = vevent.exdate[key];
+      if (ex instanceof Date && dateKeyInZone(ex, timeZone) === occKey) return true;
+    }
+  }
+
+  const recKey = dateKeyInZone(occurrenceStart, timeZone);
+  const override = vevent.recurrences?.[recKey];
+  if (override?.status === "CANCELLED") return true;
+
+  return false;
+}
+
 function collectEvents(vevent, windowStart, windowEnd, timeZone, out) {
   if (vevent.rrule) {
     const occurrences = vevent.rrule.between(windowStart, windowEnd, true);
     for (const occ of occurrences) {
       const start = toDate(occ);
       if (!isInWindow(start, windowStart, windowEnd)) continue;
+      if (isExcludedOccurrence(vevent, start, timeZone)) continue;
+
+      const recKey = dateKeyInZone(start, timeZone);
+      const override = vevent.recurrences?.[recKey];
+      if (override && override.status !== "CANCELLED") {
+        const overrideStart = toDate(override.start);
+        if (isInWindow(overrideStart, windowStart, windowEnd)) {
+          out.push(toEventSummary({ ...vevent, ...override }, overrideStart, timeZone));
+        }
+        continue;
+      }
+
       out.push(toEventSummary(vevent, start, timeZone));
     }
     return;
   }
+
+  if (vevent.status === "CANCELLED") return;
 
   const start = toDate(vevent.start);
   if (!isInWindow(start, windowStart, windowEnd)) return;
