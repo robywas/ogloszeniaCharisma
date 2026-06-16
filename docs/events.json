@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T03:43:19.150Z",
+  "generatedAt": "2026-06-16T11:05:21.795Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-06-16T22:00:00.000Z",
@@ -61,6 +61,17 @@
       "end": "2026-06-21T14:00:00.000Z",
       "dateLabel": "niedziela, 21 czerwca",
       "timeLabel": "11:00"
+    },
+    {
+      "uid": "c5i6ac9l60qmcb9j6ksj8b9kccrj8b9p64s32bb56srj4d1ocor62opico@google.com-2026-06-22T16:30:00.000Z",
+      "title": "Studium Listu do Hebrajczyków",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-06-22T16:30:00.000Z",
+      "end": "2026-06-22T17:30:00.000Z",
+      "dateLabel": "poniedziałek, 22 czerwca",
+      "timeLabel": "18:30"
     }
   ]
 }
