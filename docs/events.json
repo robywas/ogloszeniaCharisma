@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-06-16T20:46:26.584Z",
+  "generatedAt": "2026-06-16T22:51:33.955Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-06-16T22:00:00.000Z",
-  "windowEnd": "2026-06-23T22:00:00.000Z",
+  "windowStart": "2026-06-17T22:00:00.000Z",
+  "windowEnd": "2026-06-24T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "11o55qhseuigogg79lau1f8hv8@google.com-2026-06-17T17:00:00.000Z",
-      "title": "Spotkanie wstawiennicze",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-06-17T17:00:00.000Z",
-      "end": "2026-06-17T18:00:00.000Z",
-      "dateLabel": "środa, 17 czerwca",
-      "timeLabel": "19:00"
-    },
     {
       "uid": "6gqjid1h6th32bb2c9i6cb9k70pj2b9o75i62bb660p34o9g6tj38dr274@google.com-2026-06-18T16:30:00.000Z",
       "title": "Młodzi dorośli + studenci",
@@ -72,6 +61,17 @@
       "end": "2026-06-22T17:30:00.000Z",
       "dateLabel": "poniedziałek, 22 czerwca",
       "timeLabel": "18:30"
+    },
+    {
+      "uid": "1fprd8nr2tjcb9qkls9ojg9b21@google.com-2026-06-24T17:00:00.000Z",
+      "title": "Wstawiennicze",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-06-24T17:00:00.000Z",
+      "end": "2026-06-24T18:00:00.000Z",
+      "dateLabel": "środa, 24 czerwca",
+      "timeLabel": "19:00"
     }
   ]
 }
