@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-06-20T19:20:43.189Z",
+  "generatedAt": "2026-06-20T22:03:39.259Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-06-20T22:00:00.000Z",
-  "windowEnd": "2026-06-27T22:00:00.000Z",
+  "windowStart": "2026-06-21T22:00:00.000Z",
+  "windowEnd": "2026-06-28T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "70o30e1ocdi3ab9l74o38b9k6thm2b9ocdhmcbb2c5ij0d1m6lgmcchm6g@google.com-2026-06-21T09:00:00.000Z",
-      "title": "Nabożeństwo w Kunowie",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-06-21T09:00:00.000Z",
-      "end": "2026-06-21T14:00:00.000Z",
-      "dateLabel": "niedziela, 21 czerwca",
-      "timeLabel": "11:00"
-    },
     {
       "uid": "c5i6ac9l60qmcb9j6ksj8b9kccrj8b9p64s32bb56srj4d1ocor62opico@google.com-2026-06-22T16:30:00.000Z",
       "title": "Studium Listu do Hebrajczyków",
@@ -61,6 +50,17 @@
       "end": "2026-06-26T17:00:00.000Z",
       "dateLabel": "piątek, 26 czerwca",
       "timeLabel": "18:00"
+    },
+    {
+      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-06-28T08:00:00.000Z",
+      "title": "Nabożeństwo",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-06-28T08:00:00.000Z",
+      "end": "2026-06-28T10:00:00.000Z",
+      "dateLabel": "niedziela, 28 czerwca",
+      "timeLabel": "10:00"
     }
   ]
 }
