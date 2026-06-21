@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-06-21T19:25:41.232Z",
+  "generatedAt": "2026-06-21T22:11:28.534Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-06-21T22:00:00.000Z",
-  "windowEnd": "2026-06-28T22:00:00.000Z",
+  "windowStart": "2026-06-22T22:00:00.000Z",
+  "windowEnd": "2026-06-29T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "c5i6ac9l60qmcb9j6ksj8b9kccrj8b9p64s32bb56srj4d1ocor62opico@google.com-2026-06-22T16:30:00.000Z",
-      "title": "Studium Listu do Hebrajczyków",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-06-22T16:30:00.000Z",
-      "end": "2026-06-22T17:30:00.000Z",
-      "dateLabel": "poniedziałek, 22 czerwca",
-      "timeLabel": "18:30"
-    },
     {
       "uid": "1fprd8nr2tjcb9qkls9ojg9b21@google.com-2026-06-24T17:00:00.000Z",
       "title": "Wstawiennicze",
