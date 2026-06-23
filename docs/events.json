@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-06-23T19:57:59.880Z",
+  "generatedAt": "2026-06-23T22:10:04.504Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-06-23T22:00:00.000Z",
-  "windowEnd": "2026-06-30T22:00:00.000Z",
+  "windowStart": "2026-06-24T22:00:00.000Z",
+  "windowEnd": "2026-07-01T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "1fprd8nr2tjcb9qkls9ojg9b21@google.com-2026-06-24T17:00:00.000Z",
-      "title": "Wstawiennicze",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-06-24T17:00:00.000Z",
-      "end": "2026-06-24T18:00:00.000Z",
-      "dateLabel": "środa, 24 czerwca",
-      "timeLabel": "19:00"
-    },
     {
       "uid": "6kr64o9ic9j3cb9ocosm2b9k6or3gbb2chgjib9l69j3edho60pj6p9p6k@google.com-2026-06-25T16:00:00.000Z",
       "title": "Fundamenty wiary",
