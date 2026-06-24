@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-06-24T19:41:53.390Z",
+  "generatedAt": "2026-06-24T22:14:26.987Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-06-24T22:00:00.000Z",
-  "windowEnd": "2026-07-01T22:00:00.000Z",
+  "windowStart": "2026-06-25T22:00:00.000Z",
+  "windowEnd": "2026-07-02T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "6kr64o9ic9j3cb9ocosm2b9k6or3gbb2chgjib9l69j3edho60pj6p9p6k@google.com-2026-06-25T16:00:00.000Z",
-      "title": "Fundamenty wiary",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-06-25T16:00:00.000Z",
-      "end": "2026-06-25T18:00:00.000Z",
-      "dateLabel": "czwartek, 25 czerwca",
-      "timeLabel": "18:00"
-    },
     {
       "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-06-26T16:00:00.000Z",
       "title": "Modlitwa kościoła",
