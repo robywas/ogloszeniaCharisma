@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-06-25T19:54:43.527Z",
+  "generatedAt": "2026-06-25T22:18:57.094Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-06-25T22:00:00.000Z",
-  "windowEnd": "2026-07-02T22:00:00.000Z",
+  "windowStart": "2026-06-26T22:00:00.000Z",
+  "windowEnd": "2026-07-03T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-06-26T16:00:00.000Z",
-      "title": "Modlitwa kościoła",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-06-26T16:00:00.000Z",
-      "end": "2026-06-26T17:00:00.000Z",
-      "dateLabel": "piątek, 26 czerwca",
-      "timeLabel": "18:00"
-    },
     {
       "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-06-28T08:00:00.000Z",
       "title": "Nabożeństwo",
@@ -39,6 +28,17 @@
       "end": "2026-07-03T00:00:00.000Z",
       "dateLabel": "czwartek, 2 lipca",
       "timeLabel": "cały dzień"
+    },
+    {
+      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-07-03T16:00:00.000Z",
+      "title": "Modlitwa kościoła",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-07-03T16:00:00.000Z",
+      "end": "2026-07-03T17:00:00.000Z",
+      "dateLabel": "piątek, 3 lipca",
+      "timeLabel": "18:00"
     }
   ]
 }
