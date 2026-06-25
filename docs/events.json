@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T14:24:56.704Z",
+  "generatedAt": "2026-06-25T17:09:52.867Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-06-25T22:00:00.000Z",
@@ -28,6 +28,17 @@
       "end": "2026-06-28T10:00:00.000Z",
       "dateLabel": "niedziela, 28 czerwca",
       "timeLabel": "10:00"
+    },
+    {
+      "uid": "cks62dr16csm2bb36pgjcb9kc4qjib9p6tij0b9ocdj62or16pj34ohl6s@google.com-2026-07-02T00:00:00.000Z",
+      "title": "18:30 studium Mlodych ",
+      "location": "W terenie, info na grupie",
+      "description": "",
+      "allDay": true,
+      "start": "2026-07-02T00:00:00.000Z",
+      "end": "2026-07-03T00:00:00.000Z",
+      "dateLabel": "czwartek, 2 lipca",
+      "timeLabel": "cały dzień"
     }
   ]
 }
