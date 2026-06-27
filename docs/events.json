@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-06-27T19:15:50.171Z",
+  "generatedAt": "2026-06-27T22:00:10.544Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-06-27T22:00:00.000Z",
-  "windowEnd": "2026-07-04T22:00:00.000Z",
+  "windowStart": "2026-06-28T22:00:00.000Z",
+  "windowEnd": "2026-07-05T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-06-28T08:00:00.000Z",
-      "title": "Nabożeństwo",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-06-28T08:00:00.000Z",
-      "end": "2026-06-28T10:00:00.000Z",
-      "dateLabel": "niedziela, 28 czerwca",
-      "timeLabel": "10:00"
-    },
     {
       "uid": "cks62dr16csm2bb36pgjcb9kc4qjib9p6tij0b9ocdj62or16pj34ohl6s@google.com-2026-07-02T00:00:00.000Z",
       "title": "18:30 studium Mlodych ",
@@ -39,6 +28,17 @@
       "end": "2026-07-03T17:00:00.000Z",
       "dateLabel": "piątek, 3 lipca",
       "timeLabel": "18:00"
+    },
+    {
+      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-07-05T08:00:00.000Z",
+      "title": "Nabożeństwo",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-07-05T08:00:00.000Z",
+      "end": "2026-07-05T10:00:00.000Z",
+      "dateLabel": "niedziela, 5 lipca",
+      "timeLabel": "10:00"
     }
   ]
 }
