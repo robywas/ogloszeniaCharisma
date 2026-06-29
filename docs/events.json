@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T10:50:53.975Z",
+  "generatedAt": "2026-06-29T15:40:12.639Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-06-29T22:00:00.000Z",
@@ -17,6 +17,17 @@
       "end": "2026-07-03T00:00:00.000Z",
       "dateLabel": "czwartek, 2 lipca",
       "timeLabel": "cały dzień"
+    },
+    {
+      "uid": "skdtrectosapk6obk1gb3tvot0@google.com-2026-07-03T15:00:00.000Z",
+      "title": "Kajaki Młodzież",
+      "location": "Zalew Zemborzycki, Lublin, Polska",
+      "description": "",
+      "allDay": false,
+      "start": "2026-07-03T15:00:00.000Z",
+      "end": "2026-07-03T19:00:00.000Z",
+      "dateLabel": "piątek, 3 lipca",
+      "timeLabel": "17:00"
     },
     {
       "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-07-03T16:00:00.000Z",
