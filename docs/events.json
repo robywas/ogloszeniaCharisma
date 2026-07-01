@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-07-01T19:49:04.851Z",
+  "generatedAt": "2026-07-01T22:15:30.552Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-07-01T22:00:00.000Z",
-  "windowEnd": "2026-07-08T22:00:00.000Z",
+  "windowStart": "2026-07-02T22:00:00.000Z",
+  "windowEnd": "2026-07-09T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "cks62dr16csm2bb36pgjcb9kc4qjib9p6tij0b9ocdj62or16pj34ohl6s@google.com-2026-07-02T00:00:00.000Z",
-      "title": "18:30 studium Mlodych ",
-      "location": "Krasnicka",
-      "description": "",
-      "allDay": true,
-      "start": "2026-07-02T00:00:00.000Z",
-      "end": "2026-07-03T00:00:00.000Z",
-      "dateLabel": "czwartek, 2 lipca",
-      "timeLabel": "cały dzień"
-    },
     {
       "uid": "skdtrectosapk6obk1gb3tvot0@google.com-2026-07-03T15:00:00.000Z",
       "title": "Kajaki Młodzież",
