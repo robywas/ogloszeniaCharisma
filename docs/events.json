@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-07-14T21:54:30.507Z",
+  "generatedAt": "2026-07-15T02:04:31.012Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-07-14T22:00:00.000Z",
-  "windowEnd": "2026-07-21T22:00:00.000Z",
+  "windowStart": "2026-07-15T22:00:00.000Z",
+  "windowEnd": "2026-07-22T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "0rtghl87p6pfmq8otg04q6hv8o@google.com-2026-07-15T17:00:00.000Z",
-      "title": "Wstawiennicze",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-07-15T17:00:00.000Z",
-      "end": "2026-07-15T18:00:00.000Z",
-      "dateLabel": "środa, 15 lipca",
-      "timeLabel": "19:00"
-    },
     {
       "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-07-17T16:00:00.000Z",
       "title": "Modlitwa kościoła",
