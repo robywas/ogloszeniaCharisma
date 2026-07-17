@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T10:43:28.568Z",
+  "generatedAt": "2026-07-17T13:20:05.362Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-07-17T22:00:00.000Z",
@@ -17,6 +17,17 @@
       "end": "2026-07-19T10:00:00.000Z",
       "dateLabel": "niedziela, 19 lipca",
       "timeLabel": "10:00"
+    },
+    {
+      "uid": "7uh2j1r9irrmkh9r21jidg9ko3@google.com-2026-07-22T17:00:00.000Z",
+      "title": "Wstaweinnicze",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-07-22T17:00:00.000Z",
+      "end": "2026-07-22T17:30:00.000Z",
+      "dateLabel": "środa, 22 lipca",
+      "timeLabel": "19:00"
     },
     {
       "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-07-24T16:00:00.000Z",
