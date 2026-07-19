@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-07-18T21:46:12.746Z",
+  "generatedAt": "2026-07-19T02:23:15.933Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-07-18T22:00:00.000Z",
-  "windowEnd": "2026-07-25T22:00:00.000Z",
+  "windowStart": "2026-07-19T22:00:00.000Z",
+  "windowEnd": "2026-07-26T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-07-19T08:00:00.000Z",
-      "title": "Nabożeństwo",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-07-19T08:00:00.000Z",
-      "end": "2026-07-19T10:00:00.000Z",
-      "dateLabel": "niedziela, 19 lipca",
-      "timeLabel": "10:00"
-    },
     {
       "uid": "7uh2j1r9irrmkh9r21jidg9ko3@google.com-2026-07-22T17:00:00.000Z",
       "title": "Wstaweinnicze",
@@ -50,6 +39,17 @@
       "end": "2026-07-24T17:00:00.000Z",
       "dateLabel": "piątek, 24 lipca",
       "timeLabel": "18:00"
+    },
+    {
+      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-07-26T08:00:00.000Z",
+      "title": "Nabożeństwo",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-07-26T08:00:00.000Z",
+      "end": "2026-07-26T10:00:00.000Z",
+      "dateLabel": "niedziela, 26 lipca",
+      "timeLabel": "10:00"
     }
   ]
 }
