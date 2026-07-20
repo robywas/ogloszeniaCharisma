@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T02:38:19.459Z",
+  "generatedAt": "2026-07-20T06:14:16.096Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-07-20T22:00:00.000Z",
@@ -9,7 +9,7 @@
   "events": [
     {
       "uid": "7uh2j1r9irrmkh9r21jidg9ko3@google.com-2026-07-22T17:00:00.000Z",
-      "title": "Wstaweinnicze",
+      "title": "Wstawiennicze",
       "location": "",
       "description": "",
       "allDay": false,
