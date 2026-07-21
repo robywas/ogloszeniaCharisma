@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-07-21T19:15:11.406Z",
+  "generatedAt": "2026-07-21T22:01:09.774Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-07-21T22:00:00.000Z",
-  "windowEnd": "2026-07-28T22:00:00.000Z",
+  "windowStart": "2026-07-22T22:00:00.000Z",
+  "windowEnd": "2026-07-29T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "7uh2j1r9irrmkh9r21jidg9ko3@google.com-2026-07-22T17:00:00.000Z",
-      "title": "Wstawiennicze",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-07-22T17:00:00.000Z",
-      "end": "2026-07-22T17:30:00.000Z",
-      "dateLabel": "środa, 22 lipca",
-      "timeLabel": "19:00"
-    },
     {
       "uid": "c9imachgcksm6bb3coqm4b9k6hhm2b9o60sjab9h68pj4d9ic4r30e9gck@google.com-2026-07-23T16:00:00.000Z",
       "title": "Spotkanie kobiece",
