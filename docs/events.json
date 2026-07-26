@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-07-25T21:51:42.147Z",
+  "generatedAt": "2026-07-26T02:27:27.125Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-07-25T22:00:00.000Z",
-  "windowEnd": "2026-08-01T22:00:00.000Z",
+  "windowStart": "2026-07-26T22:00:00.000Z",
+  "windowEnd": "2026-08-02T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
     {
-      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-07-26T08:00:00.000Z",
-      "title": "Nabożeństwo",
-      "location": "",
+      "uid": "6lijcp9p74rjeb9g6osm6b9k74ojcbb26srj8b9gc9gm2c1icks6cd9n64@google.com-2026-07-28T16:00:00.000Z",
+      "title": "Spotkanie kobiet",
+      "location": "Sala na dole",
       "description": "",
       "allDay": false,
-      "start": "2026-07-26T08:00:00.000Z",
-      "end": "2026-07-26T10:00:00.000Z",
-      "dateLabel": "niedziela, 26 lipca",
-      "timeLabel": "10:00"
+      "start": "2026-07-28T16:00:00.000Z",
+      "end": "2026-07-28T19:00:00.000Z",
+      "dateLabel": "wtorek, 28 lipca",
+      "timeLabel": "18:00"
     },
     {
       "uid": "1agohd1sg2iuhreck667lsh9j0@google.com-2026-07-29T17:00:00.000Z",
@@ -39,6 +39,17 @@
       "end": "2026-07-31T17:00:00.000Z",
       "dateLabel": "piątek, 31 lipca",
       "timeLabel": "18:00"
+    },
+    {
+      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-08-02T08:00:00.000Z",
+      "title": "Nabożeństwo",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-08-02T08:00:00.000Z",
+      "end": "2026-08-02T10:00:00.000Z",
+      "dateLabel": "niedziela, 2 sierpnia",
+      "timeLabel": "10:00"
     }
   ]
 }
