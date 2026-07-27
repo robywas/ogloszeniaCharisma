@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-07-27T19:21:29.421Z",
+  "generatedAt": "2026-07-27T22:03:11.746Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-07-27T22:00:00.000Z",
-  "windowEnd": "2026-08-03T22:00:00.000Z",
+  "windowStart": "2026-07-28T22:00:00.000Z",
+  "windowEnd": "2026-08-04T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "6lijcp9p74rjeb9g6osm6b9k74ojcbb26srj8b9gc9gm2c1icks6cd9n64@google.com-2026-07-28T16:00:00.000Z",
-      "title": "Spotkanie kobiet",
-      "location": "Sala na dole",
-      "description": "",
-      "allDay": false,
-      "start": "2026-07-28T16:00:00.000Z",
-      "end": "2026-07-28T19:00:00.000Z",
-      "dateLabel": "wtorek, 28 lipca",
-      "timeLabel": "18:00"
-    },
     {
       "uid": "1agohd1sg2iuhreck667lsh9j0@google.com-2026-07-29T17:00:00.000Z",
       "title": "Wstawiennicze",
