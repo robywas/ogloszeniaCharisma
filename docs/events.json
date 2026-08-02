@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T05:53:11.644Z",
+  "generatedAt": "2026-08-02T07:53:40.688Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-08-02T22:00:00.000Z",
@@ -7,6 +7,17 @@
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
+    {
+      "uid": "1b48hbtol4qqn5ulnpsesn2rr1@google.com-2026-08-05T17:00:00.000Z",
+      "title": "Wstawiennicze",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-08-05T17:00:00.000Z",
+      "end": "2026-08-05T18:00:00.000Z",
+      "dateLabel": "środa, 5 sierpnia",
+      "timeLabel": "19:00"
+    },
     {
       "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-08-07T16:00:00.000Z",
       "title": "Modlitwa kościoła",
