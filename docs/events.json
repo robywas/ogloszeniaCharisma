@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T06:44:20.881Z",
+  "generatedAt": "2026-08-08T09:33:19.074Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-08-08T22:00:00.000Z",
@@ -17,6 +17,17 @@
       "end": "2026-08-09T10:00:00.000Z",
       "dateLabel": "niedziela, 9 sierpnia",
       "timeLabel": "10:00"
+    },
+    {
+      "uid": "6tda05ie4qjqj5kapoqihh8gf3@google.com-2026-08-12T17:00:00.000Z",
+      "title": "Wstawiennicze",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-08-12T17:00:00.000Z",
+      "end": "2026-08-12T18:00:00.000Z",
+      "dateLabel": "środa, 12 sierpnia",
+      "timeLabel": "19:00"
     },
     {
       "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-08-14T16:00:00.000Z",
