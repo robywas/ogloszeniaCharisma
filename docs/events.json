@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-08-13T21:40:41.509Z",
+  "generatedAt": "2026-08-14T01:38:51.691Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-08-13T22:00:00.000Z",
-  "windowEnd": "2026-08-20T22:00:00.000Z",
+  "windowStart": "2026-08-14T22:00:00.000Z",
+  "windowEnd": "2026-08-21T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-08-14T16:00:00.000Z",
-      "title": "Modlitwa kościoła",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-08-14T16:00:00.000Z",
-      "end": "2026-08-14T17:00:00.000Z",
-      "dateLabel": "piątek, 14 sierpnia",
-      "timeLabel": "18:00"
-    },
     {
       "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-08-16T08:00:00.000Z",
       "title": "Nabożeństwo",
@@ -28,6 +17,17 @@
       "end": "2026-08-16T10:00:00.000Z",
       "dateLabel": "niedziela, 16 sierpnia",
       "timeLabel": "10:00"
+    },
+    {
+      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-08-21T16:00:00.000Z",
+      "title": "Modlitwa kościoła",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-08-21T16:00:00.000Z",
+      "end": "2026-08-21T17:00:00.000Z",
+      "dateLabel": "piątek, 21 sierpnia",
+      "timeLabel": "18:00"
     }
   ]
 }
