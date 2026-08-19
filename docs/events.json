@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T12:38:02.663Z",
+  "generatedAt": "2026-08-19T15:26:37.121Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-08-19T22:00:00.000Z",
@@ -7,6 +7,17 @@
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
+    {
+      "uid": "6so68opnckr3cb9m70o6cb9kckq3cbb16gsmab9p61gj4dj5ccq36c1h60@google.com-2026-08-20T06:00:00.000Z",
+      "title": "11:30 lekarz",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-08-20T06:00:00.000Z",
+      "end": "2026-08-20T07:00:00.000Z",
+      "dateLabel": "czwartek, 20 sierpnia",
+      "timeLabel": "08:00"
+    },
     {
       "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-08-21T16:00:00.000Z",
       "title": "Modlitwa kościoła",
