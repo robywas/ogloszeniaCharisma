@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T12:32:03.309Z",
+  "generatedAt": "2026-08-23T15:17:54.657Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-08-23T22:00:00.000Z",
@@ -19,6 +19,17 @@
       "timeLabel": "19:00"
     },
     {
+      "uid": "copmachi6pgmcb9n70sm4b9k64pm2bb2clgjgb9h6kojip1h74ojgc9mc4@google.com-2026-08-27T16:30:00.000Z",
+      "title": "Ewangelizacja Litewski ",
+      "location": "plac Litewski",
+      "description": "",
+      "allDay": false,
+      "start": "2026-08-27T16:30:00.000Z",
+      "end": "2026-08-27T17:30:00.000Z",
+      "dateLabel": "czwartek, 27 sierpnia",
+      "timeLabel": "18:30"
+    },
+    {
       "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-08-28T16:00:00.000Z",
       "title": "Modlitwa kościoła",
       "location": "",
@@ -28,6 +39,28 @@
       "end": "2026-08-28T17:00:00.000Z",
       "dateLabel": "piątek, 28 sierpnia",
       "timeLabel": "18:00"
+    },
+    {
+      "uid": "cpijgd9o60oj6b9kckq3gb9k6cs3gbb16tim4b9n6lij6cpi6oo3cdhi6g@google.com-2026-08-28T16:30:00.000Z",
+      "title": "Ewangelizacja Litewski ",
+      "location": "plac Litewski",
+      "description": "",
+      "allDay": false,
+      "start": "2026-08-28T16:30:00.000Z",
+      "end": "2026-08-28T17:30:00.000Z",
+      "dateLabel": "piątek, 28 sierpnia",
+      "timeLabel": "18:30"
+    },
+    {
+      "uid": "cgrjco9hc5hmabb16pj68b9k65h38bb2c9h68b9l65i66c1l6lijae34cg@google.com-2026-08-29T07:30:00.000Z",
+      "title": "Sobota na wypasie",
+      "location": "ABRAMOWICKa 143 B",
+      "description": "",
+      "allDay": false,
+      "start": "2026-08-29T07:30:00.000Z",
+      "end": "2026-08-29T08:30:00.000Z",
+      "dateLabel": "sobota, 29 sierpnia",
+      "timeLabel": "09:30"
     },
     {
       "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-08-30T08:00:00.000Z",
