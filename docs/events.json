@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-08-22T21:17:28.603Z",
+  "generatedAt": "2026-08-23T01:05:26.243Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-08-22T22:00:00.000Z",
-  "windowEnd": "2026-08-29T22:00:00.000Z",
+  "windowStart": "2026-08-23T22:00:00.000Z",
+  "windowEnd": "2026-08-30T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-08-23T08:00:00.000Z",
-      "title": "Nabożeństwo",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-08-23T08:00:00.000Z",
-      "end": "2026-08-23T10:00:00.000Z",
-      "dateLabel": "niedziela, 23 sierpnia",
-      "timeLabel": "10:00"
-    },
     {
       "uid": "76bi1gmuss3ns09brj3ahjp1fd@google.com-2026-08-26T17:00:00.000Z",
       "title": "Wstawiennicze",
@@ -39,6 +28,17 @@
       "end": "2026-08-28T17:00:00.000Z",
       "dateLabel": "piątek, 28 sierpnia",
       "timeLabel": "18:00"
+    },
+    {
+      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-08-30T08:00:00.000Z",
+      "title": "Nabożeństwo",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-08-30T08:00:00.000Z",
+      "end": "2026-08-30T10:00:00.000Z",
+      "dateLabel": "niedziela, 30 sierpnia",
+      "timeLabel": "10:00"
     }
   ]
 }
