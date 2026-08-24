@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-23T21:17:29.809Z",
+  "generatedAt": "2026-08-24T01:03:25.421Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-08-23T22:00:00.000Z",
-  "windowEnd": "2026-08-30T22:00:00.000Z",
+  "windowStart": "2026-08-24T22:00:00.000Z",
+  "windowEnd": "2026-08-31T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
