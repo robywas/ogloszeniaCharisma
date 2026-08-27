@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-08-26T19:43:20.696Z",
+  "generatedAt": "2026-08-27T00:24:35.189Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-08-26T22:00:00.000Z",
-  "windowEnd": "2026-09-02T22:00:00.000Z",
+  "windowStart": "2026-08-27T22:00:00.000Z",
+  "windowEnd": "2026-09-03T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "copmachi6pgmcb9n70sm4b9k64pm2bb2clgjgb9h6kojip1h74ojgc9mc4@google.com-2026-08-27T16:30:00.000Z",
-      "title": "Ewangelizacja Litewski ",
-      "location": "plac Litewski",
-      "description": "",
-      "allDay": false,
-      "start": "2026-08-27T16:30:00.000Z",
-      "end": "2026-08-27T17:30:00.000Z",
-      "dateLabel": "czwartek, 27 sierpnia",
-      "timeLabel": "18:30"
-    },
     {
       "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-08-28T16:00:00.000Z",
       "title": "Modlitwa kościoła",
