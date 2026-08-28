@@ -1,34 +1,12 @@
 {
-  "generatedAt": "2026-08-27T13:41:55.852Z",
+  "generatedAt": "2026-08-28T00:13:06.201Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-08-27T22:00:00.000Z",
-  "windowEnd": "2026-09-03T22:00:00.000Z",
+  "windowStart": "2026-08-28T22:00:00.000Z",
+  "windowEnd": "2026-09-04T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-08-28T16:00:00.000Z",
-      "title": "Modlitwa kościoła",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-08-28T16:00:00.000Z",
-      "end": "2026-08-28T17:00:00.000Z",
-      "dateLabel": "piątek, 28 sierpnia",
-      "timeLabel": "18:00"
-    },
-    {
-      "uid": "cpijgd9o60oj6b9kckq3gb9k6cs3gbb16tim4b9n6lij6cpi6oo3cdhi6g@google.com-2026-08-28T16:30:00.000Z",
-      "title": "Ewangelizacja Litewski ",
-      "location": "plac Litewski",
-      "description": "",
-      "allDay": false,
-      "start": "2026-08-28T16:30:00.000Z",
-      "end": "2026-08-28T17:30:00.000Z",
-      "dateLabel": "piątek, 28 sierpnia",
-      "timeLabel": "18:30"
-    },
     {
       "uid": "cgrjco9hc5hmabb16pj68b9k65h38bb2c9h68b9l65i66c1l6lijae34cg@google.com-2026-08-29T07:30:00.000Z",
       "title": "Sobota na wypasie",
@@ -50,6 +28,17 @@
       "end": "2026-08-30T10:00:00.000Z",
       "dateLabel": "niedziela, 30 sierpnia",
       "timeLabel": "10:00"
+    },
+    {
+      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-09-04T16:00:00.000Z",
+      "title": "Modlitwa kościoła",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-09-04T16:00:00.000Z",
+      "end": "2026-09-04T17:00:00.000Z",
+      "dateLabel": "piątek, 4 września",
+      "timeLabel": "18:00"
     }
   ]
 }
