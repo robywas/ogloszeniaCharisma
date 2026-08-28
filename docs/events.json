@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-08-28T14:51:03.862Z",
+  "generatedAt": "2026-08-28T23:50:16.406Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-08-28T22:00:00.000Z",
-  "windowEnd": "2026-09-04T22:00:00.000Z",
+  "windowStart": "2026-08-29T22:00:00.000Z",
+  "windowEnd": "2026-09-05T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "cgrjco9hc5hmabb16pj68b9k65h38bb2c9h68b9l65i66c1l6lijae34cg@google.com-2026-08-29T07:30:00.000Z",
-      "title": "Sobota na wypasie",
-      "location": "ABRAMOWICKa 143 B",
-      "description": "",
-      "allDay": false,
-      "start": "2026-08-29T07:30:00.000Z",
-      "end": "2026-08-29T08:30:00.000Z",
-      "dateLabel": "sobota, 29 sierpnia",
-      "timeLabel": "09:30"
-    },
     {
       "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-08-30T08:00:00.000Z",
       "title": "Nabożeństwo",
