@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T03:22:03.367Z",
+  "generatedAt": "2026-08-31T12:35:06.526Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-08-31T22:00:00.000Z",
@@ -7,17 +7,6 @@
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "c4s6adhl6osjebb369i36b9k65ijgbb26orm2b9lcoq36cj371j6ce9g6k@google.com-2026-09-01T16:00:00.000Z",
-      "title": "Jakieś organizacyjne gniazdo",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-09-01T16:00:00.000Z",
-      "end": "2026-09-01T19:15:00.000Z",
-      "dateLabel": "wtorek, 1 września",
-      "timeLabel": "18:00"
-    },
     {
       "uid": "3p3cetgtfr80ddp3uba99quepu@google.com-2026-09-02T17:00:00.000Z",
       "title": "Wstawiennicze",
