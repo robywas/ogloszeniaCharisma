@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-09-01T18:07:45.885Z",
+  "generatedAt": "2026-09-01T22:58:13.602Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-09-01T22:00:00.000Z",
-  "windowEnd": "2026-09-08T22:00:00.000Z",
+  "windowStart": "2026-09-02T22:00:00.000Z",
+  "windowEnd": "2026-09-09T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "3p3cetgtfr80ddp3uba99quepu@google.com-2026-09-02T17:00:00.000Z",
-      "title": "Wstawiennicze",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-09-02T17:00:00.000Z",
-      "end": "2026-09-02T18:00:00.000Z",
-      "dateLabel": "środa, 2 września",
-      "timeLabel": "19:00"
-    },
     {
       "uid": "c4p64eb369j64bb261gj4b9kccpj8b9pcpi64b9m75hm6dhlckpj0o9gco@google.com-2026-09-03T00:00:00.000Z",
       "title": "18:30 studium Mlodych ",
