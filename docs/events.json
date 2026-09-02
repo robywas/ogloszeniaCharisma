@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-09-02T18:23:47.187Z",
+  "generatedAt": "2026-09-02T22:57:22.060Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-09-02T22:00:00.000Z",
-  "windowEnd": "2026-09-09T22:00:00.000Z",
+  "windowStart": "2026-09-03T22:00:00.000Z",
+  "windowEnd": "2026-09-10T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "c4p64eb369j64bb261gj4b9kccpj8b9pcpi64b9m75hm6dhlckpj0o9gco@google.com-2026-09-03T00:00:00.000Z",
-      "title": "18:30 studium Mlodych ",
-      "location": "Krasnicka",
-      "description": "",
-      "allDay": true,
-      "start": "2026-09-03T00:00:00.000Z",
-      "end": "2026-09-04T00:00:00.000Z",
-      "dateLabel": "czwartek, 3 września",
-      "timeLabel": "cały dzień"
-    },
     {
       "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-09-04T16:00:00.000Z",
       "title": "Modlitwa kościoła",
