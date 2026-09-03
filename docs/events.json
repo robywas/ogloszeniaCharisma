@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T02:46:42.829Z",
+  "generatedAt": "2026-09-03T07:43:25.549Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-09-03T22:00:00.000Z",
@@ -28,6 +28,17 @@
       "end": "2026-09-06T10:00:00.000Z",
       "dateLabel": "niedziela, 6 września",
       "timeLabel": "10:00"
+    },
+    {
+      "uid": "7hbaqti8if4cvotqubc9uitani@google.com-2026-09-09T17:00:00.000Z",
+      "title": "Wstawiennicze",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-09-09T17:00:00.000Z",
+      "end": "2026-09-09T18:00:00.000Z",
+      "dateLabel": "środa, 9 września",
+      "timeLabel": "19:00"
     }
   ]
 }
