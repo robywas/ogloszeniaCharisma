@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-09-05T19:52:29.559Z",
+  "generatedAt": "2026-09-05T22:37:08.588Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-09-05T22:00:00.000Z",
-  "windowEnd": "2026-09-12T22:00:00.000Z",
+  "windowStart": "2026-09-06T22:00:00.000Z",
+  "windowEnd": "2026-09-13T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-09-06T08:00:00.000Z",
-      "title": "Nabożeństwo",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-09-06T08:00:00.000Z",
-      "end": "2026-09-06T10:00:00.000Z",
-      "dateLabel": "niedziela, 6 września",
-      "timeLabel": "10:00"
-    },
     {
       "uid": "7hbaqti8if4cvotqubc9uitani@google.com-2026-09-09T17:00:00.000Z",
       "title": "Wstawiennicze",
@@ -39,6 +28,17 @@
       "end": "2026-09-11T17:00:00.000Z",
       "dateLabel": "piątek, 11 września",
       "timeLabel": "18:00"
+    },
+    {
+      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-09-13T08:00:00.000Z",
+      "title": "Nabożeństwo",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-09-13T08:00:00.000Z",
+      "end": "2026-09-13T10:00:00.000Z",
+      "dateLabel": "niedziela, 13 września",
+      "timeLabel": "10:00"
     }
   ]
 }
