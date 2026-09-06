@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T17:28:52.370Z",
+  "generatedAt": "2026-09-06T19:56:17.984Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-09-06T22:00:00.000Z",
@@ -7,6 +7,17 @@
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
+    {
+      "uid": "6pgj6dhn6tgj4b9n6orjeb9k6hij6bb2chj30b9l6lij8c34cdhjgc1g74@google.com-2026-09-07T16:30:00.000Z",
+      "title": "Izajasz",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-09-07T16:30:00.000Z",
+      "end": "2026-09-07T17:30:00.000Z",
+      "dateLabel": "poniedziałek, 7 września",
+      "timeLabel": "18:30"
+    },
     {
       "uid": "6di3adr275h64b9o74r36b9k71gjgbb26gsj6b9o74s32chg6sp3ed326c@google.com-2026-09-08T16:00:00.000Z",
       "title": "Studium Objawienia Jana",
