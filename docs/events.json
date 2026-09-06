@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T07:46:54.130Z",
+  "generatedAt": "2026-09-06T12:34:48.078Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-09-06T22:00:00.000Z",
@@ -7,6 +7,17 @@
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
+    {
+      "uid": "6di3adr275h64b9o74r36b9k71gjgbb26gsj6b9o74s32chg6sp3ed326c@google.com-2026-09-08T16:00:00.000Z",
+      "title": "Studium Objawienia Jana",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-09-08T16:00:00.000Z",
+      "end": "2026-09-08T18:00:00.000Z",
+      "dateLabel": "wtorek, 8 września",
+      "timeLabel": "18:00"
+    },
     {
       "uid": "7hbaqti8if4cvotqubc9uitani@google.com-2026-09-09T17:00:00.000Z",
       "title": "Wstawiennicze",
