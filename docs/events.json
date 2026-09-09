@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-09T18:16:39.326Z",
+  "generatedAt": "2026-09-09T22:53:10.214Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-09-09T22:00:00.000Z",
-  "windowEnd": "2026-09-16T22:00:00.000Z",
+  "windowStart": "2026-09-10T22:00:00.000Z",
+  "windowEnd": "2026-09-17T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
@@ -39,6 +39,17 @@
       "end": "2026-09-16T18:00:00.000Z",
       "dateLabel": "środa, 16 września",
       "timeLabel": "19:00"
+    },
+    {
+      "uid": "c8q3gdr2cgrjgb9h74q38b9k6ti68bb1c4o38b9h6pi3ccr36gp3eopo6s@google.com-2026-09-17T16:00:00.000Z",
+      "title": "Fundamenty wiary",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-09-17T16:00:00.000Z",
+      "end": "2026-09-17T18:00:00.000Z",
+      "dateLabel": "czwartek, 17 września",
+      "timeLabel": "18:00"
     }
   ]
 }
