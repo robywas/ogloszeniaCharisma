@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T13:12:11.704Z",
+  "generatedAt": "2026-09-11T18:08:26.011Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-09-11T22:00:00.000Z",
@@ -30,8 +30,19 @@
       "timeLabel": "19:00"
     },
     {
+      "uid": "cgs3eohl6hh38b9mc4rj4b9k75i66b9occqj0b9l6kpj0cj4chh3gdpl70@google.com-2026-09-17T13:00:00.000Z",
+      "title": "Przegląd instalacji",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-09-17T13:00:00.000Z",
+      "end": "2026-09-17T14:00:00.000Z",
+      "dateLabel": "czwartek, 17 września",
+      "timeLabel": "15:00"
+    },
+    {
       "uid": "c8q3gdr2cgrjgb9h74q38b9k6ti68bb1c4o38b9h6pi3ccr36gp3eopo6s@google.com-2026-09-17T16:00:00.000Z",
-      "title": "Fundamenty wiary",
+      "title": "Fundamenty wzrostu",
       "location": "",
       "description": "",
       "allDay": false,
