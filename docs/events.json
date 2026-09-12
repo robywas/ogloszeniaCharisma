@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T07:45:06.382Z",
+  "generatedAt": "2026-09-12T12:36:01.377Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-09-12T22:00:00.000Z",
@@ -19,6 +19,17 @@
       "timeLabel": "10:00"
     },
     {
+      "uid": "cph66chk60o64bb3c4q6ab9kc9hm2bb270rjeb9mc9j36d9pchhjedpk6o@google.com-2026-09-15T16:00:00.000Z",
+      "title": "Studium Objawienia Jana",
+      "location": "",
+      "description": "Studium Objawienia Jana",
+      "allDay": false,
+      "start": "2026-09-15T16:00:00.000Z",
+      "end": "2026-09-15T18:00:00.000Z",
+      "dateLabel": "wtorek, 15 września",
+      "timeLabel": "18:00"
+    },
+    {
       "uid": "7hbaqti8if4cvotqubc9uitani@google.com-2026-09-16T17:00:00.000Z",
       "title": "Wstawiennicze",
       "location": "",
@@ -28,17 +39,6 @@
       "end": "2026-09-16T18:00:00.000Z",
       "dateLabel": "środa, 16 września",
       "timeLabel": "19:00"
-    },
-    {
-      "uid": "cgs3eohl6hh38b9mc4rj4b9k75i66b9occqj0b9l6kpj0cj4chh3gdpl70@google.com-2026-09-17T13:00:00.000Z",
-      "title": "Przegląd instalacji",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-09-17T13:00:00.000Z",
-      "end": "2026-09-17T14:00:00.000Z",
-      "dateLabel": "czwartek, 17 września",
-      "timeLabel": "15:00"
     },
     {
       "uid": "c8q3gdr2cgrjgb9h74q38b9k6ti68bb1c4o38b9h6pi3ccr36gp3eopo6s@google.com-2026-09-17T16:00:00.000Z",
