@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T17:53:58.622Z",
+  "generatedAt": "2026-09-13T20:14:54.319Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-09-13T22:00:00.000Z",
@@ -8,13 +8,13 @@
   "dayLayout": "columns",
   "events": [
     {
-      "uid": "6kr66c326lgmab9i6grjgb9k74pjibb26pijibb6c9i3gdpj6th3ge1o64@google.com-2026-09-14T16:30:00.000Z",
+      "uid": "65gjioj569j3gb9mc4s30b9k70r3ib9p74q36b9h68rj0cr2c5imcdj6cc@google.com-2026-09-14T16:30:00.000Z",
       "title": "Hebrajczyków",
       "location": "",
       "description": "",
       "allDay": false,
       "start": "2026-09-14T16:30:00.000Z",
-      "end": "2026-09-14T16:45:00.000Z",
+      "end": "2026-09-14T17:30:00.000Z",
       "dateLabel": "poniedziałek, 14 września",
       "timeLabel": "18:30"
     },
