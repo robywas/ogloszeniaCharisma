@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T08:04:40.315Z",
+  "generatedAt": "2026-09-13T13:36:40.240Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-09-13T22:00:00.000Z",
@@ -7,6 +7,17 @@
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
+    {
+      "uid": "65gjioj569j3gb9mc4s30b9k70r3ib9p74q36b9h68rj0cr2c5imcdj6cc@google.com-2026-09-14T16:30:00.000Z",
+      "title": "Hebrajczyków",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-09-14T16:30:00.000Z",
+      "end": "2026-09-14T17:30:00.000Z",
+      "dateLabel": "poniedziałek, 14 września",
+      "timeLabel": "18:30"
+    },
     {
       "uid": "cph66chk60o64bb3c4q6ab9kc9hm2bb270rjeb9mc9j36d9pchhjedpk6o@google.com-2026-09-15T16:00:00.000Z",
       "title": "Studium Objawienia Jana",
@@ -39,6 +50,17 @@
       "end": "2026-09-17T18:00:00.000Z",
       "dateLabel": "czwartek, 17 września",
       "timeLabel": "18:00"
+    },
+    {
+      "uid": "c8r30d1lc9hm8bb26srj0b9kcop3gbb26ks36bb56hhm6chp68sj0cj36s@google.com-2026-09-17T16:30:00.000Z",
+      "title": "Młodzi dorośli + studenci",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-09-17T16:30:00.000Z",
+      "end": "2026-09-17T19:30:00.000Z",
+      "dateLabel": "czwartek, 17 września",
+      "timeLabel": "18:30"
     },
     {
       "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-09-18T16:00:00.000Z",
