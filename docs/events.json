@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-09-15T20:49:12.225Z",
+  "generatedAt": "2026-09-15T23:22:40.679Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-09-15T22:00:00.000Z",
-  "windowEnd": "2026-09-22T22:00:00.000Z",
+  "windowStart": "2026-09-16T22:00:00.000Z",
+  "windowEnd": "2026-09-23T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "7hbaqti8if4cvotqubc9uitani@google.com-2026-09-16T17:00:00.000Z",
-      "title": "Wstawiennicze",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-09-16T17:00:00.000Z",
-      "end": "2026-09-16T18:00:00.000Z",
-      "dateLabel": "środa, 16 września",
-      "timeLabel": "19:00"
-    },
     {
       "uid": "c8q3gdr2cgrjgb9h74q38b9k6ti68bb1c4o38b9h6pi3ccr36gp3eopo6s@google.com-2026-09-17T16:00:00.000Z",
       "title": "Fundamenty wzrostu",
@@ -72,6 +61,17 @@
       "end": "2026-09-21T17:30:00.000Z",
       "dateLabel": "poniedziałek, 21 września",
       "timeLabel": "18:30"
+    },
+    {
+      "uid": "7hbaqti8if4cvotqubc9uitani@google.com-2026-09-23T17:00:00.000Z",
+      "title": "Wstawiennicze",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-09-23T17:00:00.000Z",
+      "end": "2026-09-23T18:00:00.000Z",
+      "dateLabel": "środa, 23 września",
+      "timeLabel": "19:00"
     }
   ]
 }
