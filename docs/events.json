@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-09-20T20:15:30.120Z",
+  "generatedAt": "2026-09-20T22:56:20.198Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-09-20T22:00:00.000Z",
-  "windowEnd": "2026-09-27T22:00:00.000Z",
+  "windowStart": "2026-09-21T22:00:00.000Z",
+  "windowEnd": "2026-09-28T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "ccs62p34ckoj8b9hcdij4b9kcko3cb9p6ti68bb268om2dj1ckr3ip9pc4@google.com-2026-09-21T16:30:00.000Z",
-      "title": "Izajasz",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-09-21T16:30:00.000Z",
-      "end": "2026-09-21T17:30:00.000Z",
-      "dateLabel": "poniedziałek, 21 września",
-      "timeLabel": "18:30"
-    },
     {
       "uid": "7hbaqti8if4cvotqubc9uitani@google.com-2026-09-23T17:00:00.000Z",
       "title": "Wstawiennicze",
@@ -50,6 +39,17 @@
       "end": "2026-09-27T10:00:00.000Z",
       "dateLabel": "niedziela, 27 września",
       "timeLabel": "10:00"
+    },
+    {
+      "uid": "6kqjic9nc8rj0b9l69i6cb9kcdim2bb1c4o3ebb670r3gpb6clh3ae9pc4@google.com-2026-09-28T16:30:00.000Z",
+      "title": "Hebrajczyków",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-09-28T16:30:00.000Z",
+      "end": "2026-09-28T17:30:00.000Z",
+      "dateLabel": "poniedziałek, 28 września",
+      "timeLabel": "18:30"
     }
   ]
 }
