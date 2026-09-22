@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-09-22T20:50:31.042Z",
+  "generatedAt": "2026-09-22T23:27:23.051Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-09-22T22:00:00.000Z",
-  "windowEnd": "2026-09-29T22:00:00.000Z",
+  "windowStart": "2026-09-23T22:00:00.000Z",
+  "windowEnd": "2026-09-30T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "7hbaqti8if4cvotqubc9uitani@google.com-2026-09-23T17:00:00.000Z",
-      "title": "Wstawiennicze",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-09-23T17:00:00.000Z",
-      "end": "2026-09-23T18:00:00.000Z",
-      "dateLabel": "środa, 23 września",
-      "timeLabel": "19:00"
-    },
     {
       "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-09-25T16:00:00.000Z",
       "title": "Modlitwa kościoła",
@@ -50,6 +39,17 @@
       "end": "2026-09-28T17:30:00.000Z",
       "dateLabel": "poniedziałek, 28 września",
       "timeLabel": "18:30"
+    },
+    {
+      "uid": "7hbaqti8if4cvotqubc9uitani@google.com-2026-09-30T17:00:00.000Z",
+      "title": "Wstawiennicze",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-09-30T17:00:00.000Z",
+      "end": "2026-09-30T18:00:00.000Z",
+      "dateLabel": "środa, 30 września",
+      "timeLabel": "19:00"
     }
   ]
 }
