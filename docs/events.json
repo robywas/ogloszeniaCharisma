@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-23T21:01:16.951Z",
+  "generatedAt": "2026-09-24T02:58:41.713Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-09-23T22:00:00.000Z",
-  "windowEnd": "2026-09-30T22:00:00.000Z",
+  "windowStart": "2026-09-24T22:00:00.000Z",
+  "windowEnd": "2026-10-01T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
@@ -50,6 +50,17 @@
       "end": "2026-09-30T18:00:00.000Z",
       "dateLabel": "środa, 30 września",
       "timeLabel": "19:00"
+    },
+    {
+      "uid": "c8q3gdr2cgrjgb9h74q38b9k6ti68bb1c4o38b9h6pi3ccr36gp3eopo6s@google.com-2026-10-01T16:00:00.000Z",
+      "title": "Fundamenty wzrostu",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-10-01T16:00:00.000Z",
+      "end": "2026-10-01T18:00:00.000Z",
+      "dateLabel": "czwartek, 1 października",
+      "timeLabel": "18:00"
     }
   ]
 }
