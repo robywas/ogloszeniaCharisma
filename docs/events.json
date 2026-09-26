@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T15:41:03.993Z",
+  "generatedAt": "2026-09-26T20:36:18.380Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-09-26T22:00:00.000Z",
@@ -28,6 +28,17 @@
       "end": "2026-09-28T17:30:00.000Z",
       "dateLabel": "poniedziałek, 28 września",
       "timeLabel": "18:30"
+    },
+    {
+      "uid": "6pgm8p366krj6b9n68o3ab9k6cqjgbb2cdgm2b9jccrjechg69i64opmc4@google.com-2026-09-29T16:00:00.000Z",
+      "title": "Studium Objawienia Jana",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-09-29T16:00:00.000Z",
+      "end": "2026-09-29T17:00:00.000Z",
+      "dateLabel": "wtorek, 29 września",
+      "timeLabel": "18:00"
     },
     {
       "uid": "7hbaqti8if4cvotqubc9uitani@google.com-2026-09-30T17:00:00.000Z",
