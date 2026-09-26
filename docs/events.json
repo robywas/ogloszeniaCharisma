@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-09-26T20:36:18.380Z",
+  "generatedAt": "2026-09-26T23:21:23.783Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-09-26T22:00:00.000Z",
-  "windowEnd": "2026-10-03T22:00:00.000Z",
+  "windowStart": "2026-09-27T22:00:00.000Z",
+  "windowEnd": "2026-10-04T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-09-27T08:00:00.000Z",
-      "title": "Nabożeństwo",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-09-27T08:00:00.000Z",
-      "end": "2026-09-27T10:00:00.000Z",
-      "dateLabel": "niedziela, 27 września",
-      "timeLabel": "10:00"
-    },
     {
       "uid": "6kqjic9nc8rj0b9l69i6cb9kcdim2bb1c4o3ebb670r3gpb6clh3ae9pc4@google.com-2026-09-28T16:30:00.000Z",
       "title": "Hebrajczyków",
@@ -52,6 +41,17 @@
       "timeLabel": "19:00"
     },
     {
+      "uid": "69i38dj3chij6b9g6tgjab9k64pm4bb16tj64bb675h34e1i6sqmcohlcg@google.com-2026-10-01T00:00:00.000Z",
+      "title": "18:30 studium Mlodych ",
+      "location": "Krasnicka",
+      "description": "",
+      "allDay": true,
+      "start": "2026-10-01T00:00:00.000Z",
+      "end": "2026-10-02T00:00:00.000Z",
+      "dateLabel": "czwartek, 1 października",
+      "timeLabel": "cały dzień"
+    },
+    {
       "uid": "c8q3gdr2cgrjgb9h74q38b9k6ti68bb1c4o38b9h6pi3ccr36gp3eopo6s@google.com-2026-10-01T16:00:00.000Z",
       "title": "Fundamenty wzrostu",
       "location": "",
@@ -72,6 +72,17 @@
       "end": "2026-10-02T17:00:00.000Z",
       "dateLabel": "piątek, 2 października",
       "timeLabel": "18:00"
+    },
+    {
+      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-10-04T08:00:00.000Z",
+      "title": "Nabożeństwo",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-10-04T08:00:00.000Z",
+      "end": "2026-10-04T10:00:00.000Z",
+      "dateLabel": "niedziela, 4 października",
+      "timeLabel": "10:00"
     }
   ]
 }
