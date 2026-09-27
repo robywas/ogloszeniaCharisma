@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T03:27:58.373Z",
+  "generatedAt": "2026-09-27T11:19:18.281Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-09-27T22:00:00.000Z",
@@ -9,7 +9,7 @@
   "events": [
     {
       "uid": "6kqjic9nc8rj0b9l69i6cb9kcdim2bb1c4o3ebb670r3gpb6clh3ae9pc4@google.com-2026-09-28T16:30:00.000Z",
-      "title": "Hebrajczyków",
+      "title": "Studium Listu do Hebrajczyków",
       "location": "",
       "description": "",
       "allDay": false,
@@ -41,17 +41,6 @@
       "timeLabel": "19:00"
     },
     {
-      "uid": "69i38dj3chij6b9g6tgjab9k64pm4bb16tj64bb675h34e1i6sqmcohlcg@google.com-2026-10-01T00:00:00.000Z",
-      "title": "18:30 studium Mlodych ",
-      "location": "Krasnicka",
-      "description": "",
-      "allDay": true,
-      "start": "2026-10-01T00:00:00.000Z",
-      "end": "2026-10-02T00:00:00.000Z",
-      "dateLabel": "czwartek, 1 października",
-      "timeLabel": "cały dzień"
-    },
-    {
       "uid": "c8q3gdr2cgrjgb9h74q38b9k6ti68bb1c4o38b9h6pi3ccr36gp3eopo6s@google.com-2026-10-01T16:00:00.000Z",
       "title": "Fundamenty wzrostu",
       "location": "",
@@ -61,6 +50,17 @@
       "end": "2026-10-01T18:00:00.000Z",
       "dateLabel": "czwartek, 1 października",
       "timeLabel": "18:00"
+    },
+    {
+      "uid": "69i38dj3chij6b9g6tgjab9k64pm4bb16tj64bb675h34e1i6sqmcohlcg@google.com-2026-10-01T16:30:00.000Z",
+      "title": "Studium Mlodych ",
+      "location": "Krasnicka",
+      "description": "",
+      "allDay": false,
+      "start": "2026-10-01T16:30:00.000Z",
+      "end": "2026-10-01T19:00:00.000Z",
+      "dateLabel": "czwartek, 1 października",
+      "timeLabel": "18:30"
     },
     {
       "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-10-02T16:00:00.000Z",
