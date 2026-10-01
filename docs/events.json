@@ -1,34 +1,12 @@
 {
-  "generatedAt": "2026-09-30T21:49:35.800Z",
+  "generatedAt": "2026-10-01T03:56:18.468Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-09-30T22:00:00.000Z",
-  "windowEnd": "2026-10-07T22:00:00.000Z",
+  "windowStart": "2026-10-01T22:00:00.000Z",
+  "windowEnd": "2026-10-08T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "c8q3gdr2cgrjgb9h74q38b9k6ti68bb1c4o38b9h6pi3ccr36gp3eopo6s@google.com-2026-10-01T16:00:00.000Z",
-      "title": "Fundamenty wzrostu",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-10-01T16:00:00.000Z",
-      "end": "2026-10-01T18:00:00.000Z",
-      "dateLabel": "czwartek, 1 października",
-      "timeLabel": "18:00"
-    },
-    {
-      "uid": "69i38dj3chij6b9g6tgjab9k64pm4bb16tj64bb675h34e1i6sqmcohlcg@google.com-2026-10-01T16:30:00.000Z",
-      "title": "Studium Mlodych ",
-      "location": "Krasnicka",
-      "description": "",
-      "allDay": false,
-      "start": "2026-10-01T16:30:00.000Z",
-      "end": "2026-10-01T19:00:00.000Z",
-      "dateLabel": "czwartek, 1 października",
-      "timeLabel": "18:30"
-    },
     {
       "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-10-02T16:00:00.000Z",
       "title": "Modlitwa kościoła",
