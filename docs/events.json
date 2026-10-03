@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T03:37:58.759Z",
+  "generatedAt": "2026-10-03T11:03:01.763Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-10-03T22:00:00.000Z",
@@ -58,7 +58,7 @@
       "description": "",
       "allDay": false,
       "start": "2026-10-09T16:30:00.000Z",
-      "end": "2026-10-09T17:30:00.000Z",
+      "end": "2026-10-10T07:30:00.000Z",
       "dateLabel": "piątek, 9 października",
       "timeLabel": "18:30"
     }
