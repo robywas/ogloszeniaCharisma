@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T15:39:15.448Z",
+  "generatedAt": "2026-10-03T20:33:03.951Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-10-03T22:00:00.000Z",
@@ -28,6 +28,17 @@
       "end": "2026-10-05T17:30:00.000Z",
       "dateLabel": "poniedziałek, 5 października",
       "timeLabel": "18:30"
+    },
+    {
+      "uid": "c4o3gcr56gqm4bb474pjgb9k74r6cbb270smab9g65gjadpg64qm4dpj74@google.com-2026-10-06T16:00:00.000Z",
+      "title": "Studium Objawienia Jana",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-10-06T16:00:00.000Z",
+      "end": "2026-10-06T18:00:00.000Z",
+      "dateLabel": "wtorek, 6 października",
+      "timeLabel": "18:00"
     },
     {
       "uid": "7hbaqti8if4cvotqubc9uitani@google.com-2026-10-07T17:00:00.000Z",
