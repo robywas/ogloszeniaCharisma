@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-10-04T20:49:36.463Z",
+  "generatedAt": "2026-10-04T23:48:06.478Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-10-04T22:00:00.000Z",
-  "windowEnd": "2026-10-11T22:00:00.000Z",
+  "windowStart": "2026-10-05T22:00:00.000Z",
+  "windowEnd": "2026-10-12T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "clgjic3369gj6b9i6oqmcb9k6ph6cbb16dhmab9p6pj36p1k6csj6c9p6g@google.com-2026-10-05T16:30:00.000Z",
-      "title": "Studium Księgi Izajasza",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-10-05T16:30:00.000Z",
-      "end": "2026-10-05T17:30:00.000Z",
-      "dateLabel": "poniedziałek, 5 października",
-      "timeLabel": "18:30"
-    },
     {
       "uid": "c4o3gcr56gqm4bb474pjgb9k74r6cbb270smab9g65gjadpg64qm4dpj74@google.com-2026-10-06T16:00:00.000Z",
       "title": "Studium Objawienia Jana",
@@ -72,6 +61,17 @@
       "end": "2026-10-11T10:00:00.000Z",
       "dateLabel": "niedziela, 11 października",
       "timeLabel": "10:00"
+    },
+    {
+      "uid": "c4r34pb264p64b9i6tim2b9k71ij6b9p6csmab9g6som8cr275h62c1n64@google.com-2026-10-12T16:30:00.000Z",
+      "title": "Hebrajczyków",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-10-12T16:30:00.000Z",
+      "end": "2026-10-12T17:30:00.000Z",
+      "dateLabel": "poniedziałek, 12 października",
+      "timeLabel": "18:30"
     }
   ]
 }
