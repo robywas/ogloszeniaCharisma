@@ -1,34 +1,12 @@
 {
-  "generatedAt": "2026-10-08T18:22:04.487Z",
+  "generatedAt": "2026-10-09T00:56:40.664Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-10-08T22:00:00.000Z",
-  "windowEnd": "2026-10-15T22:00:00.000Z",
+  "windowStart": "2026-10-09T22:00:00.000Z",
+  "windowEnd": "2026-10-16T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-10-09T16:00:00.000Z",
-      "title": "Modlitwa kościoła",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-10-09T16:00:00.000Z",
-      "end": "2026-10-09T17:00:00.000Z",
-      "dateLabel": "piątek, 9 października",
-      "timeLabel": "18:00"
-    },
-    {
-      "uid": "cdim6c9j6kq36bb26hj62b9kcdh66bb268sjab9k6go6ceb4ckpj4p9k64@google.com-2026-10-09T16:30:00.000Z",
-      "title": "Nocka Gniazdo ",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-10-09T16:30:00.000Z",
-      "end": "2026-10-10T07:30:00.000Z",
-      "dateLabel": "piątek, 9 października",
-      "timeLabel": "18:30"
-    },
     {
       "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-10-11T08:00:00.000Z",
       "title": "Nabożeństwo",
@@ -71,6 +49,17 @@
       "start": "2026-10-15T16:00:00.000Z",
       "end": "2026-10-15T18:00:00.000Z",
       "dateLabel": "czwartek, 15 października",
+      "timeLabel": "18:00"
+    },
+    {
+      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-10-16T16:00:00.000Z",
+      "title": "Modlitwa kościoła",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-10-16T16:00:00.000Z",
+      "end": "2026-10-16T17:00:00.000Z",
+      "dateLabel": "piątek, 16 października",
       "timeLabel": "18:00"
     }
   ]
