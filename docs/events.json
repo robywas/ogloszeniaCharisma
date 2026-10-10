@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T04:09:14.001Z",
+  "generatedAt": "2026-10-10T11:50:27.442Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-10-10T22:00:00.000Z",
@@ -39,17 +39,6 @@
       "end": "2026-10-14T18:00:00.000Z",
       "dateLabel": "środa, 14 października",
       "timeLabel": "19:00"
-    },
-    {
-      "uid": "c8q3gdr2cgrjgb9h74q38b9k6ti68bb1c4o38b9h6pi3ccr36gp3eopo6s@google.com-2026-10-15T16:00:00.000Z",
-      "title": "Fundamenty wzrostu",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-10-15T16:00:00.000Z",
-      "end": "2026-10-15T18:00:00.000Z",
-      "dateLabel": "czwartek, 15 października",
-      "timeLabel": "18:00"
     },
     {
       "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-10-16T16:00:00.000Z",
