@@ -1,34 +1,12 @@
 {
-  "generatedAt": "2026-10-10T21:05:55.510Z",
+  "generatedAt": "2026-10-11T03:46:14.313Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-10-10T22:00:00.000Z",
-  "windowEnd": "2026-10-17T22:00:00.000Z",
+  "windowStart": "2026-10-11T22:00:00.000Z",
+  "windowEnd": "2026-10-18T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-10-11T08:00:00.000Z",
-      "title": "Nabożeństwo",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-10-11T08:00:00.000Z",
-      "end": "2026-10-11T10:00:00.000Z",
-      "dateLabel": "niedziela, 11 października",
-      "timeLabel": "10:00"
-    },
-    {
-      "uid": "69j68c1i6oq66b9l6sp6cb9kcksm2b9p6hj3ab9h64o30ohg75gm2dhl64@google.com-2026-10-11T11:00:00.000Z",
-      "title": "English Bible Study ",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-10-11T11:00:00.000Z",
-      "end": "2026-10-11T13:00:00.000Z",
-      "dateLabel": "niedziela, 11 października",
-      "timeLabel": "13:00"
-    },
     {
       "uid": "c4r34pb264p64b9i6tim2b9k71ij6b9p6csmab9g6som8cr275h62c1n64@google.com-2026-10-12T16:30:00.000Z",
       "title": "Hebrajczyków",
@@ -83,6 +61,28 @@
       "end": "2026-10-16T17:00:00.000Z",
       "dateLabel": "piątek, 16 października",
       "timeLabel": "18:00"
+    },
+    {
+      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-10-18T08:00:00.000Z",
+      "title": "Nabożeństwo",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-10-18T08:00:00.000Z",
+      "end": "2026-10-18T10:00:00.000Z",
+      "dateLabel": "niedziela, 18 października",
+      "timeLabel": "10:00"
+    },
+    {
+      "uid": "69j68c1i6oq66b9l6sp6cb9kcksm2b9p6hj3ab9h64o30ohg75gm2dhl64@google.com-2026-10-18T11:00:00.000Z",
+      "title": "English Bible Study ",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-10-18T11:00:00.000Z",
+      "end": "2026-10-18T13:00:00.000Z",
+      "dateLabel": "niedziela, 18 października",
+      "timeLabel": "13:00"
     }
   ]
 }
