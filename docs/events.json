@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-10-14T19:08:55.929Z",
+  "generatedAt": "2026-10-14T23:38:09.937Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-10-14T22:00:00.000Z",
-  "windowEnd": "2026-10-21T22:00:00.000Z",
+  "windowStart": "2026-10-15T22:00:00.000Z",
+  "windowEnd": "2026-10-22T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "6crmccj3cdijabb4clgm2b9k6sq6abb16lim8b9n70q30p9jckp3adhi60@google.com-2026-10-15T16:00:00.000Z",
-      "title": "Spotkanie kobiet",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-10-15T16:00:00.000Z",
-      "end": "2026-10-15T19:00:00.000Z",
-      "dateLabel": "czwartek, 15 października",
-      "timeLabel": "18:00"
-    },
     {
       "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-10-16T16:00:00.000Z",
       "title": "Modlitwa kościoła",
@@ -94,6 +83,17 @@
       "end": "2026-10-21T18:00:00.000Z",
       "dateLabel": "środa, 21 października",
       "timeLabel": "19:00"
+    },
+    {
+      "uid": "c8r32d1gc9ijcbb6cdj3ib9k64s34b9p6kp38bb56tim2e1p74qm8dhm64@google.com-2026-10-22T16:00:00.000Z",
+      "title": "Fundamenty wzrostu",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-10-22T16:00:00.000Z",
+      "end": "2026-10-22T18:00:00.000Z",
+      "dateLabel": "czwartek, 22 października",
+      "timeLabel": "18:00"
     }
   ]
 }
