@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-10-15T20:53:37.193Z",
+  "generatedAt": "2026-10-15T23:31:11.503Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-10-15T22:00:00.000Z",
-  "windowEnd": "2026-10-22T22:00:00.000Z",
+  "windowStart": "2026-10-16T22:00:00.000Z",
+  "windowEnd": "2026-10-23T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-10-16T16:00:00.000Z",
-      "title": "Modlitwa kościoła",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-10-16T16:00:00.000Z",
-      "end": "2026-10-16T17:00:00.000Z",
-      "dateLabel": "piątek, 16 października",
-      "timeLabel": "18:00"
-    },
     {
       "uid": "71ijep336lh30b9l6ss3ab9kc8sj8bb268r30b9icor62chjc8q3aphgc8@google.com-2026-10-17T13:00:00.000Z",
       "title": "Spotkanie Młodzieżowe",
@@ -93,6 +82,17 @@
       "start": "2026-10-22T16:00:00.000Z",
       "end": "2026-10-22T18:00:00.000Z",
       "dateLabel": "czwartek, 22 października",
+      "timeLabel": "18:00"
+    },
+    {
+      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-10-23T16:00:00.000Z",
+      "title": "Modlitwa kościoła",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-10-23T16:00:00.000Z",
+      "end": "2026-10-23T17:00:00.000Z",
+      "dateLabel": "piątek, 23 października",
       "timeLabel": "18:00"
     }
   ]
