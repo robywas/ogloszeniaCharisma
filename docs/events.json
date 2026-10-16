@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-10-16T18:35:24.487Z",
+  "generatedAt": "2026-10-16T23:13:31.638Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-10-16T22:00:00.000Z",
-  "windowEnd": "2026-10-23T22:00:00.000Z",
+  "windowStart": "2026-10-17T22:00:00.000Z",
+  "windowEnd": "2026-10-24T22:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "71ijep336lh30b9l6ss3ab9kc8sj8bb268r30b9icor62chjc8q3aphgc8@google.com-2026-10-17T13:00:00.000Z",
-      "title": "Spotkanie Młodzieżowe",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-10-17T13:00:00.000Z",
-      "end": "2026-10-17T15:00:00.000Z",
-      "dateLabel": "sobota, 17 października",
-      "timeLabel": "15:00"
-    },
     {
       "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-10-18T08:00:00.000Z",
       "title": "Nabożeństwo",
@@ -94,6 +83,17 @@
       "end": "2026-10-23T17:00:00.000Z",
       "dateLabel": "piątek, 23 października",
       "timeLabel": "18:00"
+    },
+    {
+      "uid": "61imce9j6oq6cbb564rjcb9kcksjcbb16tim4b9o64oj4db368r6ccr370@google.com-2026-10-24T07:30:00.000Z",
+      "title": "Sobota na wypasie",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-10-24T07:30:00.000Z",
+      "end": "2026-10-24T12:30:00.000Z",
+      "dateLabel": "sobota, 24 października",
+      "timeLabel": "09:30"
     }
   ]
 }
