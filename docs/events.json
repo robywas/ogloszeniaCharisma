@@ -1,34 +1,12 @@
 {
-  "generatedAt": "2026-10-17T20:02:19.642Z",
+  "generatedAt": "2026-10-17T22:50:58.301Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-10-17T22:00:00.000Z",
-  "windowEnd": "2026-10-24T22:00:00.000Z",
+  "windowStart": "2026-10-18T22:00:00.000Z",
+  "windowEnd": "2026-10-25T23:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-10-18T08:00:00.000Z",
-      "title": "Nabożeństwo",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-10-18T08:00:00.000Z",
-      "end": "2026-10-18T10:00:00.000Z",
-      "dateLabel": "niedziela, 18 października",
-      "timeLabel": "10:00"
-    },
-    {
-      "uid": "69j68c1i6oq66b9l6sp6cb9kcksm2b9p6hj3ab9h64o30ohg75gm2dhl64@google.com-2026-10-18T11:00:00.000Z",
-      "title": "English Bible Study ",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-10-18T11:00:00.000Z",
-      "end": "2026-10-18T13:00:00.000Z",
-      "dateLabel": "niedziela, 18 października",
-      "timeLabel": "13:00"
-    },
     {
       "uid": "6sr66cpgcos3eb9k6hijgb9kcpgm8b9p75hjebb66kr34p1o6lh36o9k70@google.com-2026-10-19T16:30:00.000Z",
       "title": "Izajasz",
@@ -94,6 +72,28 @@
       "end": "2026-10-24T12:30:00.000Z",
       "dateLabel": "sobota, 24 października",
       "timeLabel": "09:30"
+    },
+    {
+      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-10-25T09:00:00.000Z",
+      "title": "Nabożeństwo",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-10-25T09:00:00.000Z",
+      "end": "2026-10-25T11:00:00.000Z",
+      "dateLabel": "niedziela, 25 października",
+      "timeLabel": "10:00"
+    },
+    {
+      "uid": "69j68c1i6oq66b9l6sp6cb9kcksm2b9p6hj3ab9h64o30ohg75gm2dhl64@google.com-2026-10-25T12:00:00.000Z",
+      "title": "English Bible Study ",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-10-25T12:00:00.000Z",
+      "end": "2026-10-25T14:00:00.000Z",
+      "dateLabel": "niedziela, 25 października",
+      "timeLabel": "13:00"
     }
   ]
 }
