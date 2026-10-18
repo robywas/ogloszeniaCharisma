@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-10-18T20:01:27.907Z",
+  "generatedAt": "2026-10-18T22:43:43.691Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-10-18T22:00:00.000Z",
-  "windowEnd": "2026-10-25T23:00:00.000Z",
+  "windowStart": "2026-10-19T22:00:00.000Z",
+  "windowEnd": "2026-10-26T23:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "6sr66cpgcos3eb9k6hijgb9kcpgm8b9p75hjebb66kr34p1o6lh36o9k70@google.com-2026-10-19T16:30:00.000Z",
-      "title": "Izajasz",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-10-19T16:30:00.000Z",
-      "end": "2026-10-19T17:30:00.000Z",
-      "dateLabel": "poniedziałek, 19 października",
-      "timeLabel": "18:30"
-    },
     {
       "uid": "68s3ad9n6pi64b9hc9imab9kchh3eb9oclgmcbb264s36pb56gp3geb5c8@google.com-2026-10-20T16:30:00.000Z",
       "title": "Gniazdo \nGosc Ps Bogdan ",
@@ -94,6 +83,17 @@
       "end": "2026-10-25T14:00:00.000Z",
       "dateLabel": "niedziela, 25 października",
       "timeLabel": "13:00"
+    },
+    {
+      "uid": "60r38c1m74r34b9k6orjeb9kcgo3gbb2cphjib9g6kp3ep1m6ormadr2c8@google.com-2026-10-26T17:30:00.000Z",
+      "title": "Hebrajczyków",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-10-26T17:30:00.000Z",
+      "end": "2026-10-26T18:30:00.000Z",
+      "dateLabel": "poniedziałek, 26 października",
+      "timeLabel": "18:30"
     }
   ]
 }
