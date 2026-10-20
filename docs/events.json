@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-10-19T18:40:09.933Z",
+  "generatedAt": "2026-10-20T00:05:01.316Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-10-19T22:00:00.000Z",
-  "windowEnd": "2026-10-26T23:00:00.000Z",
+  "windowStart": "2026-10-20T22:00:00.000Z",
+  "windowEnd": "2026-10-27T23:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "68s3ad9n6pi64b9hc9imab9kchh3eb9oclgmcbb264s36pb56gp3geb5c8@google.com-2026-10-20T16:30:00.000Z",
-      "title": "Gniazdo \nGosc Ps Bogdan ",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-10-20T16:30:00.000Z",
-      "end": "2026-10-20T18:30:00.000Z",
-      "dateLabel": "wtorek, 20 października",
-      "timeLabel": "18:30"
-    },
     {
       "uid": "7hbaqti8if4cvotqubc9uitani@google.com-2026-10-21T17:00:00.000Z",
       "title": "Wstawiennicze",
@@ -93,6 +82,17 @@
       "start": "2026-10-26T17:30:00.000Z",
       "end": "2026-10-26T18:30:00.000Z",
       "dateLabel": "poniedziałek, 26 października",
+      "timeLabel": "18:30"
+    },
+    {
+      "uid": "68s3ad9n6pi64b9hc9imab9kchh3eb9oclgmcbb264s36pb56gp3geb5c8@google.com-2026-10-27T17:30:00.000Z",
+      "title": "Gniazdo Uwielbia!",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-10-27T17:30:00.000Z",
+      "end": "2026-10-27T19:30:00.000Z",
+      "dateLabel": "wtorek, 27 października",
       "timeLabel": "18:30"
     }
   ]
