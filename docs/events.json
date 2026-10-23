@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-10-22T21:09:20.015Z",
+  "generatedAt": "2026-10-23T03:13:05.382Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-10-22T22:00:00.000Z",
-  "windowEnd": "2026-10-29T23:00:00.000Z",
+  "windowStart": "2026-10-23T22:00:00.000Z",
+  "windowEnd": "2026-10-30T23:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-10-23T16:00:00.000Z",
-      "title": "Modlitwa kościoła",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-10-23T16:00:00.000Z",
-      "end": "2026-10-23T17:00:00.000Z",
-      "dateLabel": "piątek, 23 października",
-      "timeLabel": "18:00"
-    },
     {
       "uid": "61imce9j6oq6cbb564rjcb9kcksjcbb16tim4b9o64oj4db368r6ccr370@google.com-2026-10-24T07:30:00.000Z",
       "title": "Sobota na wypasie",
@@ -83,6 +72,17 @@
       "end": "2026-10-28T19:00:00.000Z",
       "dateLabel": "środa, 28 października",
       "timeLabel": "19:00"
+    },
+    {
+      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-10-30T17:00:00.000Z",
+      "title": "Modlitwa kościoła",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-10-30T17:00:00.000Z",
+      "end": "2026-10-30T18:00:00.000Z",
+      "dateLabel": "piątek, 30 października",
+      "timeLabel": "18:00"
     }
   ]
 }
