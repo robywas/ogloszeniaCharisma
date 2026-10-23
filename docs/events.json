@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-10-23T20:55:55.210Z",
+  "generatedAt": "2026-10-23T23:44:35.996Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-10-23T22:00:00.000Z",
-  "windowEnd": "2026-10-30T23:00:00.000Z",
+  "windowStart": "2026-10-24T22:00:00.000Z",
+  "windowEnd": "2026-10-31T23:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "61imce9j6oq6cbb564rjcb9kcksjcbb16tim4b9o64oj4db368r6ccr370@google.com-2026-10-24T07:30:00.000Z",
-      "title": "Sobota na wypasie",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-10-24T07:30:00.000Z",
-      "end": "2026-10-24T12:30:00.000Z",
-      "dateLabel": "sobota, 24 października",
-      "timeLabel": "09:30"
-    },
     {
       "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-10-25T09:00:00.000Z",
       "title": "Nabożeństwo",
