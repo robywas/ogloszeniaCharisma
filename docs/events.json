@@ -1,34 +1,12 @@
 {
-  "generatedAt": "2026-10-24T20:08:59.951Z",
+  "generatedAt": "2026-10-24T22:51:07.363Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-10-24T22:00:00.000Z",
-  "windowEnd": "2026-10-31T23:00:00.000Z",
+  "windowStart": "2026-10-25T23:00:00.000Z",
+  "windowEnd": "2026-11-01T23:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-10-25T09:00:00.000Z",
-      "title": "Nabożeństwo",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-10-25T09:00:00.000Z",
-      "end": "2026-10-25T11:00:00.000Z",
-      "dateLabel": "niedziela, 25 października",
-      "timeLabel": "10:00"
-    },
-    {
-      "uid": "69j68c1i6oq66b9l6sp6cb9kcksm2b9p6hj3ab9h64o30ohg75gm2dhl64@google.com-2026-10-25T12:00:00.000Z",
-      "title": "English Bible Study ",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-10-25T12:00:00.000Z",
-      "end": "2026-10-25T14:00:00.000Z",
-      "dateLabel": "niedziela, 25 października",
-      "timeLabel": "13:00"
-    },
     {
       "uid": "60r38c1m74r34b9k6orjeb9kcgo3gbb2cphjib9g6kp3ep1m6ormadr2c8@google.com-2026-10-26T17:30:00.000Z",
       "title": "Hebrajczyków",
@@ -74,6 +52,17 @@
       "timeLabel": "19:00"
     },
     {
+      "uid": "6crj2p9pc9hm2bb2chgmcb9k6kr32b9p64oj2b9pccs3gc1o6hhjac1mcg@google.com-2026-10-29T17:00:00.000Z",
+      "title": "Spotkanie kobiet",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-10-29T17:00:00.000Z",
+      "end": "2026-10-29T18:00:00.000Z",
+      "dateLabel": "czwartek, 29 października",
+      "timeLabel": "18:00"
+    },
+    {
       "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-10-30T17:00:00.000Z",
       "title": "Modlitwa kościoła",
       "location": "",
@@ -83,6 +72,28 @@
       "end": "2026-10-30T18:00:00.000Z",
       "dateLabel": "piątek, 30 października",
       "timeLabel": "18:00"
+    },
+    {
+      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-11-01T09:00:00.000Z",
+      "title": "Nabożeństwo",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-11-01T09:00:00.000Z",
+      "end": "2026-11-01T11:00:00.000Z",
+      "dateLabel": "niedziela, 1 listopada",
+      "timeLabel": "10:00"
+    },
+    {
+      "uid": "69j68c1i6oq66b9l6sp6cb9kcksm2b9p6hj3ab9h64o30ohg75gm2dhl64@google.com-2026-11-01T12:00:00.000Z",
+      "title": "English Bible Study ",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-11-01T12:00:00.000Z",
+      "end": "2026-11-01T14:00:00.000Z",
+      "dateLabel": "niedziela, 1 listopada",
+      "timeLabel": "13:00"
     }
   ]
 }
