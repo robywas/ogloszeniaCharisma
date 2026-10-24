@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T15:19:27.493Z",
+  "generatedAt": "2026-10-24T20:08:59.951Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-10-24T22:00:00.000Z",
@@ -39,6 +39,17 @@
       "end": "2026-10-26T18:30:00.000Z",
       "dateLabel": "poniedziałek, 26 października",
       "timeLabel": "18:30"
+    },
+    {
+      "uid": "74p32d9n6lhjebb3cos66b9k6lh6cbb1c8p36bb2ccpjicphc8omadj5cg@google.com-2026-10-27T17:00:00.000Z",
+      "title": "Objawienie Jana",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-10-27T17:00:00.000Z",
+      "end": "2026-10-27T19:00:00.000Z",
+      "dateLabel": "wtorek, 27 października",
+      "timeLabel": "18:00"
     },
     {
       "uid": "68s3ad9n6pi64b9hc9imab9kchh3eb9oclgmcbb264s36pb56gp3geb5c8@google.com-2026-10-27T17:30:00.000Z",
