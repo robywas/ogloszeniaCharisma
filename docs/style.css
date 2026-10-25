@@ -2,15 +2,15 @@
 :root {
   --bg: #f6f3ef;
   --text: #1e1e1e;
-  --muted: #649999;
+  --muted: #245c5a;
   --accent: #649999;
   --cyan-pastel: #a9d8d6;
   --cyan-dark: #7ab5b2;
   --card-bg: #ffffff;
   --card-border: var(--cyan-dark);
-  --day-header-bg: var(--cyan-dark);
-  --date-color: #1e1e1e;
-  --time-color: #649999;
+  --day-header-bg: #1e4e4c;
+  --date-color: #f6f3ef;
+  --time-color: #1a4a48;
   --title-size: clamp(2rem, 5vw, 3.5rem);
   --event-title-size: clamp(1.5rem, 3.8vw, 2.5rem);
   --meta-size: clamp(0.75rem, 1.4vw, 1rem);
@@ -206,15 +206,15 @@ body {
 .theme-light {
   --bg: #f6f3ef;
   --text: #1e1e1e;
-  --muted: #649999;
+  --muted: #245c5a;
   --accent: #649999;
   --cyan-pastel: #a9d8d6;
   --cyan-dark: #7ab5b2;
   --card-bg: #ffffff;
   --card-border: var(--cyan-dark);
-  --day-header-bg: var(--cyan-dark);
-  --date-color: #1e1e1e;
-  --time-color: #649999;
+  --day-header-bg: #1e4e4c;
+  --date-color: #f6f3ef;
+  --time-color: #1a4a48;
 }
 
 @media (max-width: 640px) {
