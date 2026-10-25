@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T03:01:56.430Z",
+  "generatedAt": "2026-10-25T08:51:07.908Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-10-25T23:00:00.000Z",
@@ -94,6 +94,17 @@
       "end": "2026-11-01T14:00:00.000Z",
       "dateLabel": "niedziela, 1 listopada",
       "timeLabel": "13:00"
+    },
+    {
+      "uid": "c8sjae3571h38bb1ccojab9kc5gmcb9pcgr68bb56dgm4cb1cphm8cpj6o@google.com-2026-11-01T14:00:00.000Z",
+      "title": "MŁODZIEŻÓWKA",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-11-01T14:00:00.000Z",
+      "end": "2026-11-01T16:00:00.000Z",
+      "dateLabel": "niedziela, 1 listopada",
+      "timeLabel": "15:00"
     }
   ]
 }
