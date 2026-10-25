@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T08:51:07.908Z",
+  "generatedAt": "2026-10-25T09:51:17.367Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
   "windowStart": "2026-10-25T23:00:00.000Z",
@@ -72,6 +72,17 @@
       "end": "2026-10-30T18:00:00.000Z",
       "dateLabel": "piątek, 30 października",
       "timeLabel": "18:00"
+    },
+    {
+      "uid": "71i32ohh68p68bb16ti62b9k6lij0bb2c4p3ib9l6hhj6dpj64p34ohi70@google.com-2026-10-31T17:30:00.000Z",
+      "title": "Ewangelizacja Litewski ",
+      "location": "plac Litewski",
+      "description": "",
+      "allDay": false,
+      "start": "2026-10-31T17:30:00.000Z",
+      "end": "2026-10-31T19:30:00.000Z",
+      "dateLabel": "sobota, 31 października",
+      "timeLabel": "18:30"
     },
     {
       "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-11-01T09:00:00.000Z",
