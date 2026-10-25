@@ -7,8 +7,8 @@
   --cyan-pastel: #a9d8d6;
   --cyan-dark: #7ab5b2;
   --card-bg: #ffffff;
-  --card-border: var(--cyan-dark);
   --day-header-bg: #1e4e4c;
+  --card-border: var(--day-header-bg);
   --date-color: #f6f3ef;
   --time-color: #1a4a48;
   --title-size: clamp(2rem, 5vw, 3.5rem);
@@ -211,8 +211,8 @@ body {
   --cyan-pastel: #a9d8d6;
   --cyan-dark: #7ab5b2;
   --card-bg: #ffffff;
-  --card-border: var(--cyan-dark);
   --day-header-bg: #1e4e4c;
+  --card-border: var(--day-header-bg);
   --date-color: #f6f3ef;
   --time-color: #1a4a48;
 }
