@@ -1,34 +1,12 @@
 {
-  "generatedAt": "2026-10-26T20:16:48.885Z",
+  "generatedAt": "2026-10-27T00:13:07.311Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-10-26T23:00:00.000Z",
-  "windowEnd": "2026-11-02T23:00:00.000Z",
+  "windowStart": "2026-10-27T23:00:00.000Z",
+  "windowEnd": "2026-11-03T23:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "74p32d9n6lhjebb3cos66b9k6lh6cbb1c8p36bb2ccpjicphc8omadj5cg@google.com-2026-10-27T17:00:00.000Z",
-      "title": "Objawienie Jana",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-10-27T17:00:00.000Z",
-      "end": "2026-10-27T19:00:00.000Z",
-      "dateLabel": "wtorek, 27 października",
-      "timeLabel": "18:00"
-    },
-    {
-      "uid": "68s3ad9n6pi64b9hc9imab9kchh3eb9oclgmcbb264s36pb56gp3geb5c8@google.com-2026-10-27T17:30:00.000Z",
-      "title": "Gniazdo Uwielbia!",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-10-27T17:30:00.000Z",
-      "end": "2026-10-27T19:30:00.000Z",
-      "dateLabel": "wtorek, 27 października",
-      "timeLabel": "18:30"
-    },
     {
       "uid": "7hbaqti8if4cvotqubc9uitani@google.com-2026-10-28T18:00:00.000Z",
       "title": "Wstawiennicze",
@@ -105,6 +83,17 @@
       "end": "2026-11-01T16:00:00.000Z",
       "dateLabel": "niedziela, 1 listopada",
       "timeLabel": "15:00"
+    },
+    {
+      "uid": "68s3ad9n6pi64b9hc9imab9kchh3eb9oclgmcbb264s36pb56gp3geb5c8@google.com-2026-11-03T17:30:00.000Z",
+      "title": "Gniazdo \nGość Olesya Olchak \nWalka z ciemnościa, o duchach i demonach ",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-11-03T17:30:00.000Z",
+      "end": "2026-11-03T19:30:00.000Z",
+      "dateLabel": "wtorek, 3 listopada",
+      "timeLabel": "18:30"
     }
   ]
 }
