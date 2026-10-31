@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-10-30T19:49:35.873Z",
+  "generatedAt": "2026-10-31T00:19:46.785Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 7,
-  "windowStart": "2026-10-30T23:00:00.000Z",
-  "windowEnd": "2026-11-06T23:00:00.000Z",
+  "windowStart": "2026-10-31T23:00:00.000Z",
+  "windowEnd": "2026-11-07T23:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "71i32ohh68p68bb16ti62b9k6lij0bb2c4p3ib9l6hhj6dpj64p34ohi70@google.com-2026-10-31T17:30:00.000Z",
-      "title": "Ewangelizacja Litewski ",
-      "location": "plac Litewski",
-      "description": "",
-      "allDay": false,
-      "start": "2026-10-31T17:30:00.000Z",
-      "end": "2026-10-31T19:30:00.000Z",
-      "dateLabel": "sobota, 31 października",
-      "timeLabel": "18:30"
-    },
     {
       "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-11-01T09:00:00.000Z",
       "title": "Nabożeństwo",
