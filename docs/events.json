@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-01T19:20:36.181Z",
+  "generatedAt": "2026-11-01T21:34:22.054Z",
   "timezone": "Europe/Warsaw",
-  "daysAhead": 7,
-  "windowStart": "2026-11-01T23:00:00.000Z",
+  "daysAhead": 8,
+  "windowStart": "2026-10-31T23:00:00.000Z",
   "windowEnd": "2026-11-08T23:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
@@ -19,59 +19,59 @@
       "timeLabel": "18:30"
     },
     {
-      "uid": "7hbaqti8if4cvotqubc9uitani@google.com-2026-11-04T18:00:00.000Z",
+      "uid": "7hbaqti8if4cvotqubc9uitani@google.com-2026-11-04T19:00:00.000Z",
       "title": "Wstawiennicze",
       "location": "",
       "description": "",
       "allDay": false,
-      "start": "2026-11-04T18:00:00.000Z",
-      "end": "2026-11-04T19:00:00.000Z",
+      "start": "2026-11-04T19:00:00.000Z",
+      "end": "2026-11-04T20:00:00.000Z",
       "dateLabel": "środa, 4 listopada",
-      "timeLabel": "19:00"
+      "timeLabel": "20:00"
     },
     {
-      "uid": "c8r32d1gc9ijcbb6cdj3ib9k64s34b9p6kp38bb56tim2e1p74qm8dhm64@google.com-2026-11-05T17:00:00.000Z",
+      "uid": "c8r32d1gc9ijcbb6cdj3ib9k64s34b9p6kp38bb56tim2e1p74qm8dhm64@google.com-2026-11-05T18:00:00.000Z",
       "title": "Fundamenty wzrostu",
       "location": "",
       "description": "",
       "allDay": false,
-      "start": "2026-11-05T17:00:00.000Z",
-      "end": "2026-11-05T19:00:00.000Z",
+      "start": "2026-11-05T18:00:00.000Z",
+      "end": "2026-11-05T20:00:00.000Z",
       "dateLabel": "czwartek, 5 listopada",
-      "timeLabel": "18:00"
+      "timeLabel": "19:00"
     },
     {
-      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-11-06T17:00:00.000Z",
+      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-11-06T18:00:00.000Z",
       "title": "Modlitwa kościoła",
       "location": "",
       "description": "",
       "allDay": false,
-      "start": "2026-11-06T17:00:00.000Z",
-      "end": "2026-11-06T18:00:00.000Z",
+      "start": "2026-11-06T18:00:00.000Z",
+      "end": "2026-11-06T19:00:00.000Z",
       "dateLabel": "piątek, 6 listopada",
-      "timeLabel": "18:00"
+      "timeLabel": "19:00"
     },
     {
-      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-11-08T09:00:00.000Z",
+      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-11-08T10:00:00.000Z",
       "title": "Nabożeństwo",
       "location": "",
       "description": "",
       "allDay": false,
-      "start": "2026-11-08T09:00:00.000Z",
-      "end": "2026-11-08T11:00:00.000Z",
+      "start": "2026-11-08T10:00:00.000Z",
+      "end": "2026-11-08T12:00:00.000Z",
       "dateLabel": "niedziela, 8 listopada",
-      "timeLabel": "10:00"
+      "timeLabel": "11:00"
     },
     {
-      "uid": "69j68c1i6oq66b9l6sp6cb9kcksm2b9p6hj3ab9h64o30ohg75gm2dhl64@google.com-2026-11-08T12:00:00.000Z",
+      "uid": "69j68c1i6oq66b9l6sp6cb9kcksm2b9p6hj3ab9h64o30ohg75gm2dhl64@google.com-2026-11-08T13:00:00.000Z",
       "title": "English Bible Study ",
       "location": "",
       "description": "",
       "allDay": false,
-      "start": "2026-11-08T12:00:00.000Z",
-      "end": "2026-11-08T14:00:00.000Z",
+      "start": "2026-11-08T13:00:00.000Z",
+      "end": "2026-11-08T15:00:00.000Z",
       "dateLabel": "niedziela, 8 listopada",
-      "timeLabel": "13:00"
+      "timeLabel": "14:00"
     }
   ]
 }

@@ -19,6 +19,10 @@ function formatRange(ev) {
   return ev.timeLabel;
 }
 
+function upcomingEvents(events, now = new Date()) {
+  return events.filter((ev) => new Date(ev.start) > now);
+}
+
 function groupByDay(events) {
   const groups = new Map();
   for (const ev of events) {
@@ -62,13 +66,14 @@ function render(payload) {
   const empty = document.getElementById("empty");
   list.innerHTML = "";
 
-  if (!payload.events.length) {
+  const events = upcomingEvents(payload.events);
+  if (!events.length) {
     empty.hidden = false;
     return;
   }
   empty.hidden = true;
 
-  const days = groupByDay(payload.events);
+  const days = groupByDay(events);
   const columnFirst = payload.dayLayout === "columns";
   list.className = columnFirst ? "events events--columns" : "events events--rows";
   list.style.setProperty("--day-rows", String(Math.ceil(days.length / 2)));

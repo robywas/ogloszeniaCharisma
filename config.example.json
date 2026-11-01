@@ -1,7 +1,7 @@
 {
   "icalUrl": "https://calendar.google.com/calendar/ical/TWOJ_ID_KALENDARZA/public/basic.ics",
   "timezone": "Europe/Warsaw",
-  "daysAhead": 7,
+  "daysAhead": 8,
   "title": "Wydarzenia – najbliższy tydzień",
   "logoPath": "assets/logo.png",
   "excludeTitles": [],

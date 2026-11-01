@@ -22,8 +22,7 @@
   --pad: clamp(0.85rem, 2.2vw, 1.4rem);
   --pad-top: clamp(0.3rem, 0.7vw, 0.55rem);
   --header-gap: clamp(0.2rem, 0.45vw, 0.4rem);
-  --qr-size: clamp(5rem, 11vh, 8.5rem);
-  --logo-size: clamp(5rem, 12vh, 9rem);
+  --qr-size: clamp(14rem, 34vh, 28rem);
   --font: "Segoe UI", system-ui, sans-serif;
 }
 
@@ -58,10 +57,6 @@ body {
 
 .board__header {
   flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--gap);
   margin-bottom: var(--header-gap);
 }
 
@@ -76,11 +71,10 @@ body {
 }
 
 .board__qr {
-  flex-shrink: 0;
+  display: block;
   height: var(--qr-size);
-  width: auto;
-  border-radius: 6px;
-  background: var(--bg);
+  width: var(--qr-size);
+  object-fit: contain;
 }
 
 .events {
@@ -193,13 +187,6 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: var(--day-gap);
-}
-
-.board__logo {
-  height: var(--logo-size);
-  width: auto;
-  max-width: min(70vw, 22rem);
-  object-fit: contain;
 }
 
 /* Opcjonalny alias — ta sama paleta co domyślna */

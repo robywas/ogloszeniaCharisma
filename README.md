@@ -1,6 +1,6 @@
 # cal-2-web — Kościół Charisma
 
-Strona z wydarzeniami z kalendarza Google (**7 dni od jutra**), pod duży ekran (WorshipTools Presenter).
+Strona z wydarzeniami z kalendarza Google (**8 dni od dziś**, bez wydarzeń, które już się zaczęły), pod duży ekran (WorshipTools Presenter).
 
 **Adres strony:** https://robywas.github.io/ogloszeniaCharisma/
 
@@ -49,7 +49,7 @@ npm run qr       # generuje docs/assets/qr.png (z logo w środku, jeśli jest lo
 2. Uruchom **`npm run qr`** — tworzy `docs/assets/qr.png` z logo w środku kodu
 3. Wypchnij na GitHub (`docs/assets/`)
 
-QR kieruje na **`icalUrl`** z `config.json` (subskrypcja kalendarza). Logo i QR wyświetlają się na stronie.
+QR kieruje na **`icalUrl`** z `config.json` (subskrypcja kalendarza). Na stronie jest duży kod na środku pod wydarzeniami. Logotyp jest tylko w środku kodu QR.
 
 Podgląd: otwórz `docs/index.html` w przeglądarce (najlepiej przez prosty serwer, np. `npx serve docs`).
 
@@ -69,12 +69,12 @@ Edytuj `docs/style.css` — zmienne `--title-size`, `--event-title-size`, kolory
 |------|------|
 | `icalUrl` | Link iCal z Google Calendar (źródło danych + kod QR) |
 | `timezone` | `Europe/Warsaw` |
-| `daysAhead` | `7` — liczba dni od jutra |
+| `daysAhead` | `8` — liczba dni od dziś (włącznie) |
 | `title` | Nagłówek strony |
 | `logoPath` | Ścieżka do logo w `docs/` (domyślnie `assets/logo.png`) |
 | `excludeTitles` | Wydarzenia do ukrycia, np. `["Nie ma spotkań"]` |
 | `dayLayout` | `rows` — dni obok siebie (wt\|śr); `columns` — najpierw lewa kolumna, potem prawa |
 
-**Okno dat:** od **jutra 00:00** przez **7 kolejnych dni** (strefa `timezone`). Wydarzenia cykliczne (RRULE) są rozwijane automatycznie.
+**Okno dat:** od **dziś 00:00** przez **8 kolejnych dni** (strefa `timezone`). Wydarzenia, które już się zaczęły, są pomijane — przy pobieraniu i ponownie na stronie przy każdym odświeżeniu. Wydarzenia cykliczne (RRULE) są rozwijane automatycznie.
 
 **Uwaga:** Publiczny iCal Google zwykle zawiera tylko najbliższe wystąpienia; jeśli brakuje serii, sprawdź w kalendarzu czy wydarzenie jest cykliczne i publiczne.

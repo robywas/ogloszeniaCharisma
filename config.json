@@ -1,7 +1,7 @@
 {
   "icalUrl": "https://calendar.google.com/calendar/ical/kosciolcharisma%40gmail.com/public/basic.ics",
   "timezone": "Europe/Warsaw",
-  "daysAhead": 7,
+  "daysAhead": 8,
   "title": "Wydarzenia – Kościół Charisma",
   "logoPath": "assets/logo.png",
   "excludeTitles": ["Nie ma spotkań"],

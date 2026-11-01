@@ -75,24 +75,13 @@ function getTodayParts(timeZone, ref = new Date()) {
   };
 }
 
-/** Okno: [jutro 00:00, jutro + daysAhead dni 00:00) w strefie config. */
-function getWindowBounds(timeZone, daysAhead) {
-  const today = getTodayParts(timeZone);
-  const tomorrow = addCalendarDays(today.year, today.month, today.day, 1);
-  const windowEndDay = addCalendarDays(
-    tomorrow.year,
-    tomorrow.month,
-    tomorrow.day,
-    daysAhead
-  );
+/** Okno: [dziś 00:00, dziś + daysAhead dni 00:00) w strefie config. */
+function getWindowBounds(timeZone, daysAhead, ref = new Date()) {
+  const today = getTodayParts(timeZone, ref);
+  const windowEndDay = addCalendarDays(today.year, today.month, today.day, daysAhead);
 
   return {
-    windowStart: midnightInTimeZone(
-      timeZone,
-      tomorrow.year,
-      tomorrow.month,
-      tomorrow.day
-    ),
+    windowStart: midnightInTimeZone(timeZone, today.year, today.month, today.day),
     windowEnd: midnightInTimeZone(
       timeZone,
       windowEndDay.year,
@@ -218,12 +207,13 @@ function collectEvents(vevent, windowStart, windowEnd, timeZone, out) {
 async function main() {
   const config = loadConfig();
   const timeZone = config.timezone || "Europe/Warsaw";
-  const daysAhead = config.daysAhead ?? 7;
+  const daysAhead = config.daysAhead ?? 8;
   const excludeTitles = new Set(
     (config.excludeTitles || []).map((t) => t.toLowerCase())
   );
+  const now = new Date();
 
-  const { windowStart, windowEnd } = getWindowBounds(timeZone, daysAhead);
+  const { windowStart, windowEnd } = getWindowBounds(timeZone, daysAhead, now);
 
   const res = await fetch(config.icalUrl);
   if (!res.ok) {
@@ -241,6 +231,7 @@ async function main() {
   const seen = new Set();
   const events = raw
     .filter((ev) => {
+      if (new Date(ev.start) <= now) return false;
       if (excludeTitles.has(ev.title.toLowerCase())) return false;
       const key = dedupeKey(ev);
       if (seen.has(key)) return false;

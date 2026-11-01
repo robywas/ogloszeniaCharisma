@@ -13,25 +13,19 @@
         document.head.appendChild(b);
       })();
     </script>
-    <link rel="stylesheet" href="style.css?v=20" />
+    <link rel="stylesheet" href="style.css?v=21" />
   </head>
   <body>
     <main class="board" id="board">
       <header class="board__header">
         <h1 class="board__title" id="title">Ładowanie…</h1>
-        <img class="board__qr" src="assets/qr.png?v=3" alt="Kod QR – subskrypcja iCal kalendarza" />
       </header>
       <ul class="events" id="events"></ul>
-      <p class="board__empty" id="empty" hidden>Brak wydarzeń w ciągu najbliższych 7 dni (od jutra).</p>
+      <p class="board__empty" id="empty" hidden>Brak nadchodzących wydarzeń w ciągu najbliższych 8 dni.</p>
       <footer class="board__footer">
-        <img
-          class="board__logo"
-          src="assets/logo.png"
-          alt="Kościół Charisma"
-          onerror="this.hidden = true"
-        />
+        <img class="board__qr" src="assets/qr.png?v=4" alt="Kod QR – subskrypcja iCal kalendarza" />
       </footer>
     </main>
-    <script src="app.js?v=7"></script>
+    <script src="app.js?v=8"></script>
   </body>
 </html>
