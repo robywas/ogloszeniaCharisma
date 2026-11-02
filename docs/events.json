@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-01T21:35:44.864Z",
+  "generatedAt": "2026-11-02T00:10:49.802Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
-  "windowStart": "2026-10-31T23:00:00.000Z",
-  "windowEnd": "2026-11-08T23:00:00.000Z",
+  "windowStart": "2026-11-01T23:00:00.000Z",
+  "windowEnd": "2026-11-09T23:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
@@ -72,6 +72,17 @@
       "end": "2026-11-08T14:00:00.000Z",
       "dateLabel": "niedziela, 8 listopada",
       "timeLabel": "13:00"
+    },
+    {
+      "uid": "75h3gdhgc5ij6b9g6ph3eb9k70pjeb9o6op62bb2c4o34cr66oq3ce1k64@google.com-2026-11-09T17:30:00.000Z",
+      "title": "Studium Ks. Izajasza",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-11-09T17:30:00.000Z",
+      "end": "2026-11-09T18:30:00.000Z",
+      "dateLabel": "poniedziałek, 9 listopada",
+      "timeLabel": "18:30"
     }
   ]
 }
