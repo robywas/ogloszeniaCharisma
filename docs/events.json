@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T13:33:03.156Z",
+  "generatedAt": "2026-11-03T20:44:52.420Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
   "windowStart": "2026-11-02T23:00:00.000Z",
@@ -7,17 +7,6 @@
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "68s3ad9n6pi64b9hc9imab9kchh3eb9oclgmcbb264s36pb56gp3geb5c8@google.com-2026-11-03T17:30:00.000Z",
-      "title": "Gniazdo \nGość Olesya Olczak \nWalka z ciemnościa, o duchach i demonach ",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-11-03T17:30:00.000Z",
-      "end": "2026-11-03T19:30:00.000Z",
-      "dateLabel": "wtorek, 3 listopada",
-      "timeLabel": "18:30"
-    },
     {
       "uid": "7hbaqti8if4cvotqubc9uitani@google.com-2026-11-04T18:00:00.000Z",
       "title": "Wstawiennicze",
