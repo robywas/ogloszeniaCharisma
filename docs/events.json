@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-03T20:44:52.420Z",
+  "generatedAt": "2026-11-04T01:01:06.898Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
-  "windowStart": "2026-11-02T23:00:00.000Z",
-  "windowEnd": "2026-11-10T23:00:00.000Z",
+  "windowStart": "2026-11-03T23:00:00.000Z",
+  "windowEnd": "2026-11-11T23:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
@@ -83,6 +83,28 @@
       "end": "2026-11-10T19:30:00.000Z",
       "dateLabel": "wtorek, 10 listopada",
       "timeLabel": "18:30"
+    },
+    {
+      "uid": "6oq62c1n71ijgbb6cdh3cb9k6sojgb9occq6cb9m6ko68p1mccq3ge9n6o@google.com-2026-11-11T00:00:00.000Z",
+      "title": "Wyjazd Gniazda w Biesczady ",
+      "location": "",
+      "description": "",
+      "allDay": true,
+      "start": "2026-11-11T00:00:00.000Z",
+      "end": "2026-11-12T00:00:00.000Z",
+      "dateLabel": "środa, 11 listopada",
+      "timeLabel": "cały dzień"
+    },
+    {
+      "uid": "7hbaqti8if4cvotqubc9uitani@google.com-2026-11-11T18:00:00.000Z",
+      "title": "Wstawiennicze",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-11-11T18:00:00.000Z",
+      "end": "2026-11-11T19:00:00.000Z",
+      "dateLabel": "środa, 11 listopada",
+      "timeLabel": "19:00"
     }
   ]
 }
