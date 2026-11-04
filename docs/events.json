@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T10:23:24.403Z",
+  "generatedAt": "2026-11-04T19:17:28.478Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
   "windowStart": "2026-11-03T23:00:00.000Z",
@@ -7,17 +7,6 @@
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "7hbaqti8if4cvotqubc9uitani@google.com-2026-11-04T18:00:00.000Z",
-      "title": "Wstawiennicze",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-11-04T18:00:00.000Z",
-      "end": "2026-11-04T19:00:00.000Z",
-      "dateLabel": "środa, 4 listopada",
-      "timeLabel": "19:00"
-    },
     {
       "uid": "c8r32d1gc9ijcbb6cdj3ib9k64s34b9p6kp38bb56tim2e1p74qm8dhm64@google.com-2026-11-05T17:00:00.000Z",
       "title": "Fundamenty wzrostu",
