@@ -268,7 +268,7 @@ body {
   }
 
   .board__footer {
-    margin: 24px 0 32px;
+    display: none;
   }
 }
 
