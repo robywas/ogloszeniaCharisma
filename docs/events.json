@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T07:19:16.737Z",
+  "generatedAt": "2026-11-08T12:41:19.517Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
   "windowStart": "2026-11-07T23:00:00.000Z",
@@ -7,28 +7,6 @@
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-11-08T09:00:00.000Z",
-      "title": "Nabożeństwo",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-11-08T09:00:00.000Z",
-      "end": "2026-11-08T11:00:00.000Z",
-      "dateLabel": "niedziela, 8 listopada",
-      "timeLabel": "10:00"
-    },
-    {
-      "uid": "69j68c1i6oq66b9l6sp6cb9kcksm2b9p6hj3ab9h64o30ohg75gm2dhl64@google.com-2026-11-08T12:00:00.000Z",
-      "title": "English Bible Study ",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-11-08T12:00:00.000Z",
-      "end": "2026-11-08T14:00:00.000Z",
-      "dateLabel": "niedziela, 8 listopada",
-      "timeLabel": "13:00"
-    },
     {
       "uid": "75h3gdhgc5ij6b9g6ph3eb9k70pjeb9o6op62bb2c4o34cr66oq3ce1k64@google.com-2026-11-09T17:30:00.000Z",
       "title": "Studium Ks. Izajasza",
