@@ -11,18 +11,19 @@
   --card-border: var(--day-header-bg);
   --date-color: #f6f3ef;
   --time-color: #1a4a48;
-  --title-size: clamp(2rem, 5vw, 3.5rem);
-  --event-title-size: clamp(1.5rem, 3.8vw, 2.5rem);
-  --meta-size: clamp(0.75rem, 1.4vw, 1rem);
-  --location-size: clamp(1.1rem, 2.6vw, 1.85rem);
-  --time-size: clamp(1.25rem, 3.2vw, 2.1rem);
-  --day-date-size: clamp(1.1rem, 2.6vw, 1.75rem);
-  --gap: clamp(0.65rem, 1.4vw, 1rem);
-  --day-gap: clamp(1.1rem, 2.8vw, 1.85rem);
-  --pad: clamp(0.85rem, 2.2vw, 1.4rem);
-  --pad-top: clamp(0.3rem, 0.7vw, 0.55rem);
-  --header-gap: clamp(0.2rem, 0.45vw, 0.4rem);
-  --qr-size: clamp(9rem, 18vh, 12rem);
+  /* Wartości jak na 1920×1080 — cała plansza jest potem skalowana. */
+  --title-size: 56px;
+  --event-title-size: 40px;
+  --meta-size: 16px;
+  --location-size: 29.6px;
+  --time-size: 33.6px;
+  --day-date-size: 28px;
+  --gap: 16px;
+  --day-gap: 29.6px;
+  --pad: 22.4px;
+  --pad-top: 8.8px;
+  --header-gap: 6.4px;
+  --qr-size: 192px;
   --font: "Segoe UI", system-ui, sans-serif;
 }
 
@@ -37,6 +38,16 @@ body {
   margin: 0;
   height: 100%;
   overflow: hidden;
+  background: var(--bg);
+}
+
+.stage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+  transform-origin: top left;
 }
 
 body {
@@ -46,8 +57,8 @@ body {
 }
 
 .board {
-  height: 100vh;
-  max-height: 100vh;
+  width: 100%;
+  height: 100%;
   padding: var(--pad-top) var(--pad) var(--pad);
   display: flex;
   flex-direction: column;
@@ -205,7 +216,7 @@ body {
   content: "";
   order: 5;
   flex: 0.55 1 0;
-  min-height: clamp(2.75rem, 7vh, 4.5rem);
+  min-height: 72px;
 }
 
 /* Opcjonalny alias — ta sama paleta co domyślna */
@@ -223,11 +234,45 @@ body {
   --time-color: #1a4a48;
 }
 
-@media (max-width: 640px) {
-  .events {
-    grid-template-columns: 1fr;
+@media (orientation: portrait) {
+  html,
+  body {
+    height: auto;
+    overflow: auto;
   }
 
+  .stage {
+    position: relative;
+    width: 100%;
+    height: auto;
+    transform: none;
+  }
+
+  .board {
+    height: auto;
+    overflow: visible;
+  }
+
+  .board::before,
+  .board::after {
+    display: none;
+  }
+
+  .events,
+  .events--columns,
+  .events--rows {
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    grid-template-rows: none;
+    overflow: visible;
+  }
+
+  .board__footer {
+    margin: 24px 0 32px;
+  }
+}
+
+@media (orientation: portrait) and (max-width: 640px) {
   .event {
     grid-template-columns: 1fr;
   }

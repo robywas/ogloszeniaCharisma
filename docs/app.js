@@ -108,6 +108,32 @@ function showError(err) {
   empty.hidden = false;
 }
 
+const STAGE_W = 1920;
+const STAGE_H = 1080;
+
+function fitStage() {
+  const stage = document.getElementById("stage");
+  if (!stage) return;
+
+  if (window.matchMedia("(orientation: portrait)").matches) {
+    stage.style.transform = "none";
+    stage.style.width = "100%";
+    stage.style.height = "auto";
+    return;
+  }
+
+  const scale = Math.min(window.innerWidth / STAGE_W, window.innerHeight / STAGE_H);
+  const x = (window.innerWidth - STAGE_W * scale) / 2;
+  const y = (window.innerHeight - STAGE_H * scale) / 2;
+  stage.style.width = `${STAGE_W}px`;
+  stage.style.height = `${STAGE_H}px`;
+  stage.style.transform = `translate(${x}px, ${y}px) scale(${scale})`;
+}
+
+window.addEventListener("resize", fitStage);
+window.matchMedia("(orientation: portrait)").addEventListener("change", fitStage);
+fitStage();
+
 load().catch(showError);
 
 setInterval(() => {
