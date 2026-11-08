@@ -124,10 +124,9 @@ function fitStage() {
 
   const scale = Math.min(window.innerWidth / STAGE_W, window.innerHeight / STAGE_H);
   const x = (window.innerWidth - STAGE_W * scale) / 2;
-  const y = (window.innerHeight - STAGE_H * scale) / 2;
   stage.style.width = `${STAGE_W}px`;
   stage.style.height = `${STAGE_H}px`;
-  stage.style.transform = `translate(${x}px, ${y}px) scale(${scale})`;
+  stage.style.transform = `translate(${x}px, 0px) scale(${scale})`;
 }
 
 window.addEventListener("resize", fitStage);
