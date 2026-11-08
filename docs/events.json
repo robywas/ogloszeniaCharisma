@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T07:05:12.895Z",
+  "generatedAt": "2026-11-08T07:14:46.548Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
   "windowStart": "2026-11-07T23:00:00.000Z",
@@ -42,8 +42,8 @@
     },
     {
       "uid": "68s3ad9n6pi64b9hc9imab9kchh3eb9oclgmcbb264s36pb56gp3geb5c8@google.com-2026-11-10T17:30:00.000Z",
-      "title": "Gniazdo \nKochaj Swoj Kraj \nMateusz Majdan, Gosia Chęć",
-      "location": "",
+      "title": "Gniazdo: Kochaj Swój Kraj",
+      "location": "Mateusz Majdan, Gosia Chęć",
       "description": "",
       "allDay": false,
       "start": "2026-11-10T17:30:00.000Z",
