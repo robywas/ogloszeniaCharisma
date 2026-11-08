@@ -22,7 +22,7 @@
   --pad: clamp(0.85rem, 2.2vw, 1.4rem);
   --pad-top: clamp(0.3rem, 0.7vw, 0.55rem);
   --header-gap: clamp(0.2rem, 0.45vw, 0.4rem);
-  --qr-size: clamp(14rem, 34vh, 28rem);
+  --qr-size: clamp(9rem, 18vh, 12rem);
   --font: "Segoe UI", system-ui, sans-serif;
 }
 
@@ -56,6 +56,7 @@ body {
 }
 
 .board__header {
+  order: 1;
   flex-shrink: 0;
   margin-bottom: var(--header-gap);
 }
@@ -81,7 +82,8 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
-  flex: 1;
+  order: 2;
+  flex: 0 1 auto;
   min-height: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -174,6 +176,7 @@ body {
 }
 
 .board__empty {
+  order: 2;
   font-size: var(--event-title-size);
   color: var(--muted);
   text-align: center;
@@ -181,12 +184,28 @@ body {
   grid-column: 1 / -1;
 }
 
+/* Większość luzu zostaje między dniami a kodem, reszta schodzi pod kod — na 1080p nie leży na dolnej krawędzi. */
+.board::before {
+  content: "";
+  order: 3;
+  flex: 1.2 1 0;
+  min-height: 0.75rem;
+}
+
 .board__footer {
+  order: 4;
   flex-shrink: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: var(--day-gap);
+  margin-top: 0;
+}
+
+.board::after {
+  content: "";
+  order: 5;
+  flex: 0.55 1 0;
+  min-height: clamp(2.75rem, 7vh, 4.5rem);
 }
 
 /* Opcjonalny alias — ta sama paleta co domyślna */
