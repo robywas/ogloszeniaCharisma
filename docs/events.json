@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-08T19:17:54.867Z",
+  "generatedAt": "2026-11-09T00:28:08.488Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
-  "windowStart": "2026-11-07T23:00:00.000Z",
-  "windowEnd": "2026-11-15T23:00:00.000Z",
+  "windowStart": "2026-11-08T23:00:00.000Z",
+  "windowEnd": "2026-11-16T23:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
@@ -31,7 +31,7 @@
     },
     {
       "uid": "6oq62c1n71ijgbb6cdh3cb9k6sojgb9occq6cb9m6ko68p1mccq3ge9n6o@google.com-2026-11-11T00:00:00.000Z",
-      "title": "Wyjazd Gniazda w Biesczady ",
+      "title": "Wyjazd Gniazda w Bieszczady ",
       "location": "",
       "description": "",
       "allDay": true,
