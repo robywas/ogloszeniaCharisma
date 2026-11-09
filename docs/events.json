@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T10:51:10.889Z",
+  "generatedAt": "2026-11-09T21:53:23.623Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
   "windowStart": "2026-11-08T23:00:00.000Z",
@@ -7,17 +7,6 @@
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "75h3gdhgc5ij6b9g6ph3eb9k70pjeb9o6op62bb2c4o34cr66oq3ce1k64@google.com-2026-11-09T17:30:00.000Z",
-      "title": "Studium Ks. Izajasza",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-11-09T17:30:00.000Z",
-      "end": "2026-11-09T18:30:00.000Z",
-      "dateLabel": "poniedziałek, 9 listopada",
-      "timeLabel": "18:30"
-    },
     {
       "uid": "68s3ad9n6pi64b9hc9imab9kchh3eb9oclgmcbb264s36pb56gp3geb5c8@google.com-2026-11-10T17:30:00.000Z",
       "title": "Gniazdo: Kochaj Swój Kraj",
