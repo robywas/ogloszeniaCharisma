@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T14:14:35.444Z",
+  "generatedAt": "2026-11-10T21:10:16.444Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
   "windowStart": "2026-11-09T23:00:00.000Z",
@@ -7,17 +7,6 @@
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "68s3ad9n6pi64b9hc9imab9kchh3eb9oclgmcbb264s36pb56gp3geb5c8@google.com-2026-11-10T17:30:00.000Z",
-      "title": "Gniazdo: Kochaj Swój Kraj",
-      "location": "Mateusz Majdan, Gosia Chęć",
-      "description": "",
-      "allDay": false,
-      "start": "2026-11-10T17:30:00.000Z",
-      "end": "2026-11-10T19:30:00.000Z",
-      "dateLabel": "wtorek, 10 listopada",
-      "timeLabel": "18:30"
-    },
     {
       "uid": "6oq62c1n71ijgbb6cdh3cb9k6sojgb9occq6cb9m6ko68p1mccq3ge9n6o@google.com-2026-11-11T00:00:00.000Z",
       "title": "Wyjazd Gniazda w Bieszczady ",
