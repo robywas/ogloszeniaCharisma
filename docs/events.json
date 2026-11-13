@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-12T21:42:01.608Z",
+  "generatedAt": "2026-11-13T04:53:56.061Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
-  "windowStart": "2026-11-11T23:00:00.000Z",
-  "windowEnd": "2026-11-19T23:00:00.000Z",
+  "windowStart": "2026-11-12T23:00:00.000Z",
+  "windowEnd": "2026-11-20T23:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
@@ -71,6 +71,17 @@
       "start": "2026-11-19T17:00:00.000Z",
       "end": "2026-11-19T19:00:00.000Z",
       "dateLabel": "czwartek, 19 listopada",
+      "timeLabel": "18:00"
+    },
+    {
+      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-11-20T17:00:00.000Z",
+      "title": "Modlitwa kościoła",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-11-20T17:00:00.000Z",
+      "end": "2026-11-20T18:00:00.000Z",
+      "dateLabel": "piątek, 20 listopada",
       "timeLabel": "18:00"
     }
   ]
