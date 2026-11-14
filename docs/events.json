@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T04:47:05.564Z",
+  "generatedAt": "2026-11-14T12:54:56.578Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
   "windowStart": "2026-11-13T23:00:00.000Z",
@@ -28,6 +28,17 @@
       "end": "2026-11-15T14:00:00.000Z",
       "dateLabel": "niedziela, 15 listopada",
       "timeLabel": "13:00"
+    },
+    {
+      "uid": "6go36cb174s34bb46so32b9kclh3abb2c9gjcb9p6so64oj469j30db374@google.com-2026-11-16T18:00:00.000Z",
+      "title": "Spotkanie liderów",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-11-16T18:00:00.000Z",
+      "end": "2026-11-16T19:00:00.000Z",
+      "dateLabel": "poniedziałek, 16 listopada",
+      "timeLabel": "19:00"
     },
     {
       "uid": "68s3ad9n6pi64b9hc9imab9kchh3eb9oclgmcbb264s36pb56gp3geb5c8@google.com-2026-11-17T17:30:00.000Z",
