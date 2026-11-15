@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T00:41:15.975Z",
+  "generatedAt": "2026-11-15T10:20:24.669Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
   "windowStart": "2026-11-14T23:00:00.000Z",
@@ -7,17 +7,6 @@
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-11-15T09:00:00.000Z",
-      "title": "Nabożeństwo",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-11-15T09:00:00.000Z",
-      "end": "2026-11-15T11:00:00.000Z",
-      "dateLabel": "niedziela, 15 listopada",
-      "timeLabel": "10:00"
-    },
     {
       "uid": "69j68c1i6oq66b9l6sp6cb9kcksm2b9p6hj3ab9h64o30ohg75gm2dhl64@google.com-2026-11-15T12:00:00.000Z",
       "title": "English Bible Study ",
