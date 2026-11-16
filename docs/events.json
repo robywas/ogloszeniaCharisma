@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T21:35:37.779Z",
+  "generatedAt": "2026-11-16T21:59:04.055Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
   "windowStart": "2026-11-15T23:00:00.000Z",
@@ -64,8 +64,8 @@
     },
     {
       "uid": "chgjio9pcgp36bb2cgs3eb9kc4s68bb16sr62bb56go66eb2c4qj4c316k@google.com-2026-11-21T15:00:00.000Z",
-      "title": "Charisma Youth - Spotkanie młodzieżowe",
-      "location": "",
+      "title": "Charisma Youth",
+      "location": "Spotkanie młodzieżowe",
       "description": "",
       "allDay": false,
       "start": "2026-11-21T15:00:00.000Z",
@@ -97,7 +97,7 @@
     },
     {
       "uid": "60q62c9l6os3eb9gcgr30b9k6hj62b9p6ko3cb9g6cq6ac9lclhj4p9m6g@google.com-2026-11-23T17:30:00.000Z",
-      "title": "List do Hebrajczyków",
+      "title": "Studium Listu do Hebrajczyków",
       "location": "",
       "description": "",
       "allDay": false,
