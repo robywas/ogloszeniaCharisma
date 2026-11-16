@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T10:34:50.441Z",
+  "generatedAt": "2026-11-16T21:35:37.779Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
   "windowStart": "2026-11-15T23:00:00.000Z",
@@ -7,17 +7,6 @@
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "6go36cb174s34bb46so32b9kclh3abb2c9gjcb9p6so64oj469j30db374@google.com-2026-11-16T18:00:00.000Z",
-      "title": "Spotkanie liderów",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-11-16T18:00:00.000Z",
-      "end": "2026-11-16T19:00:00.000Z",
-      "dateLabel": "poniedziałek, 16 listopada",
-      "timeLabel": "19:00"
-    },
     {
       "uid": "6sq36d1mcosjebb16cr3ib9k6ss66bb1cgpm2b9lc5h3ge9ickp66pj1co@google.com-2026-11-17T17:00:00.000Z",
       "title": "Studium Ewangelii Łukasza",
