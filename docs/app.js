@@ -89,6 +89,8 @@ function render(payload) {
     `;
     list.appendChild(dayEl);
   }
+
+  fitContent();
 }
 
 async function load() {
@@ -106,6 +108,7 @@ function showError(err) {
   const empty = document.getElementById("empty");
   empty.textContent = err.message;
   empty.hidden = false;
+  fitContent();
 }
 
 const STAGE_W = 1920;
@@ -119,6 +122,7 @@ function fitStage() {
     stage.style.transform = "none";
     stage.style.width = "100%";
     stage.style.height = "auto";
+    fitContent();
     return;
   }
 
@@ -127,6 +131,31 @@ function fitStage() {
   stage.style.width = `${STAGE_W}px`;
   stage.style.height = `${STAGE_H}px`;
   stage.style.transform = `translate(${x}px, 0px) scale(${scale})`;
+  fitContent();
+}
+
+/** Gdy treść jest wyższa niż 1080 px, zmniejsza planszę, zachowując szerokość 1920. */
+function fitContent() {
+  const board = document.getElementById("board");
+  if (!board) return;
+
+  board.style.width = "";
+  board.style.transform = "";
+
+  if (window.matchMedia("(orientation: portrait)").matches) return;
+
+  const needed = board.scrollHeight;
+  if (!needed || needed <= STAGE_H + 1) return;
+
+  let scale = STAGE_H / needed;
+  for (let i = 0; i < 6; i++) {
+    board.style.width = `${STAGE_W / scale}px`;
+    board.style.transformOrigin = "top left";
+    board.style.transform = `scale(${scale})`;
+    const visual = board.scrollHeight * scale;
+    if (visual <= STAGE_H + 1) break;
+    scale *= STAGE_H / visual;
+  }
 }
 
 window.addEventListener("resize", fitStage);

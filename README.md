@@ -49,7 +49,7 @@ npm run qr       # generuje docs/assets/qr.png (z logo w środku, jeśli jest lo
 2. Uruchom **`npm run qr`** — tworzy `docs/assets/qr.png` z logo w środku kodu
 3. Wypchnij na GitHub (`docs/assets/`)
 
-QR kieruje na **`icalUrl`** z `config.json` (subskrypcja kalendarza). Na stronie jest duży kod na środku pod wydarzeniami. Logotyp jest tylko w środku kodu QR.
+QR kieruje na **`icalUrl`** z `config.json` (subskrypcja kalendarza) i jest używany na plakatach. Na stronie z wydarzeniami kodu nie ma.
 
 Podgląd: otwórz `docs/index.html` w przeglądarce (najlepiej przez prosty serwer, np. `npx serve docs`).
 
