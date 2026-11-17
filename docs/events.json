@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-16T21:59:04.055Z",
+  "generatedAt": "2026-11-17T06:21:57.456Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
-  "windowStart": "2026-11-15T23:00:00.000Z",
-  "windowEnd": "2026-11-23T23:00:00.000Z",
+  "windowStart": "2026-11-16T23:00:00.000Z",
+  "windowEnd": "2026-11-24T23:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
@@ -104,6 +104,17 @@
       "start": "2026-11-23T17:30:00.000Z",
       "end": "2026-11-23T18:30:00.000Z",
       "dateLabel": "poniedziałek, 23 listopada",
+      "timeLabel": "18:30"
+    },
+    {
+      "uid": "68s3ad9n6pi64b9hc9imab9kchh3eb9oclgmcbb264s36pb56gp3geb5c8@google.com-2026-11-24T17:30:00.000Z",
+      "title": "GNIAZDO UWIELBIA! ",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-11-24T17:30:00.000Z",
+      "end": "2026-11-24T19:30:00.000Z",
+      "dateLabel": "wtorek, 24 listopada",
       "timeLabel": "18:30"
     }
   ]
