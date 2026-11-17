@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T06:21:57.456Z",
+  "generatedAt": "2026-11-17T18:05:50.945Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
   "windowStart": "2026-11-16T23:00:00.000Z",
@@ -7,28 +7,6 @@
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "6sq36d1mcosjebb16cr3ib9k6ss66bb1cgpm2b9lc5h3ge9ickp66pj1co@google.com-2026-11-17T17:00:00.000Z",
-      "title": "Studium Ewangelii Łukasza",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-11-17T17:00:00.000Z",
-      "end": "2026-11-17T19:00:00.000Z",
-      "dateLabel": "wtorek, 17 listopada",
-      "timeLabel": "18:00"
-    },
-    {
-      "uid": "68s3ad9n6pi64b9hc9imab9kchh3eb9oclgmcbb264s36pb56gp3geb5c8@google.com-2026-11-17T17:30:00.000Z",
-      "title": "Gniazdo",
-      "location": "Male grupki - Kuba Zoldak, Szymon Perenc",
-      "description": "",
-      "allDay": false,
-      "start": "2026-11-17T17:30:00.000Z",
-      "end": "2026-11-17T19:30:00.000Z",
-      "dateLabel": "wtorek, 17 listopada",
-      "timeLabel": "18:30"
-    },
     {
       "uid": "7hbaqti8if4cvotqubc9uitani@google.com-2026-11-18T18:00:00.000Z",
       "title": "Wstawiennicze",
