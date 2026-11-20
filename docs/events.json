@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-19T19:54:34.245Z",
+  "generatedAt": "2026-11-20T01:59:31.771Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
-  "windowStart": "2026-11-18T23:00:00.000Z",
-  "windowEnd": "2026-11-26T23:00:00.000Z",
+  "windowStart": "2026-11-19T23:00:00.000Z",
+  "windowEnd": "2026-11-27T23:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
@@ -83,6 +83,17 @@
       "end": "2026-11-25T19:00:00.000Z",
       "dateLabel": "środa, 25 listopada",
       "timeLabel": "19:00"
+    },
+    {
+      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-11-27T17:30:00.000Z",
+      "title": "Modlitwa i uwielbienie ",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-11-27T17:30:00.000Z",
+      "end": "2026-11-27T18:30:00.000Z",
+      "dateLabel": "piątek, 27 listopada",
+      "timeLabel": "18:30"
     }
   ]
 }
