@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T10:36:36.169Z",
+  "generatedAt": "2026-11-21T18:39:11.149Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
   "windowStart": "2026-11-20T23:00:00.000Z",
@@ -7,17 +7,6 @@
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "chgjio9pcgp36bb2cgs3eb9kc4s68bb16sr62bb56go66eb2c4qj4c316k@google.com-2026-11-21T15:00:00.000Z",
-      "title": "Charisma Youth",
-      "location": "Spotkanie młodzieżowe",
-      "description": "",
-      "allDay": false,
-      "start": "2026-11-21T15:00:00.000Z",
-      "end": "2026-11-21T17:00:00.000Z",
-      "dateLabel": "sobota, 21 listopada",
-      "timeLabel": "16:00"
-    },
     {
       "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-11-22T09:00:00.000Z",
       "title": "Nabożeństwo",
