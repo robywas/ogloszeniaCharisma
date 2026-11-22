@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T00:54:25.730Z",
+  "generatedAt": "2026-11-22T10:40:02.417Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
   "windowStart": "2026-11-21T23:00:00.000Z",
@@ -7,17 +7,6 @@
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-11-22T09:00:00.000Z",
-      "title": "Nabożeństwo",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-11-22T09:00:00.000Z",
-      "end": "2026-11-22T11:00:00.000Z",
-      "dateLabel": "niedziela, 22 listopada",
-      "timeLabel": "10:00"
-    },
     {
       "uid": "69j68c1i6oq66b9l6sp6cb9kcksm2b9p6hj3ab9h64o30ohg75gm2dhl64@google.com-2026-11-22T12:00:00.000Z",
       "title": "English Bible Study ",
@@ -43,7 +32,7 @@
     {
       "uid": "68s3ad9n6pi64b9hc9imab9kchh3eb9oclgmcbb264s36pb56gp3geb5c8@google.com-2026-11-24T17:30:00.000Z",
       "title": "GNIAZDO UWIELBIA! ",
-      "location": "",
+      "location": "male grupki - prowadzi Nadia Tkachuk",
       "description": "",
       "allDay": false,
       "start": "2026-11-24T17:30:00.000Z",
@@ -83,6 +72,17 @@
       "end": "2026-11-27T18:30:00.000Z",
       "dateLabel": "piątek, 27 listopada",
       "timeLabel": "18:30"
+    },
+    {
+      "uid": "6lj36o9i69hjgb9i64p3ab9k71hmcbb2cpgjcb9nc8oj6e9nclijecpp70@google.com-2026-11-28T16:00:00.000Z",
+      "title": "17:00 Warsztaty Gniazdo Dziewczyny ",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-11-28T16:00:00.000Z",
+      "end": "2026-11-28T19:00:00.000Z",
+      "dateLabel": "sobota, 28 listopada",
+      "timeLabel": "17:00"
     },
     {
       "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-11-29T09:00:00.000Z",
