@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T10:40:02.417Z",
+  "generatedAt": "2026-11-22T18:58:59.652Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
   "windowStart": "2026-11-21T23:00:00.000Z",
@@ -7,17 +7,6 @@
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "69j68c1i6oq66b9l6sp6cb9kcksm2b9p6hj3ab9h64o30ohg75gm2dhl64@google.com-2026-11-22T12:00:00.000Z",
-      "title": "English Bible Study ",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-11-22T12:00:00.000Z",
-      "end": "2026-11-22T14:00:00.000Z",
-      "dateLabel": "niedziela, 22 listopada",
-      "timeLabel": "13:00"
-    },
     {
       "uid": "60q62c9l6os3eb9gcgr30b9k6hj62b9p6ko3cb9g6cq6ac9lclhj4p9m6g@google.com-2026-11-23T17:30:00.000Z",
       "title": "Studium Listu do Hebrajczyków",
@@ -28,6 +17,17 @@
       "end": "2026-11-23T18:30:00.000Z",
       "dateLabel": "poniedziałek, 23 listopada",
       "timeLabel": "18:30"
+    },
+    {
+      "uid": "c4om2e1kc8o3abb4c4s32b9k6dgj8b9oc9j3cb9g6op3gohhc9h36cr468@google.com-2026-11-24T17:00:00.000Z",
+      "title": "Studium Ewangelii Łukasza",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-11-24T17:00:00.000Z",
+      "end": "2026-11-24T19:00:00.000Z",
+      "dateLabel": "wtorek, 24 listopada",
+      "timeLabel": "18:00"
     },
     {
       "uid": "68s3ad9n6pi64b9hc9imab9kchh3eb9oclgmcbb264s36pb56gp3geb5c8@google.com-2026-11-24T17:30:00.000Z",
