@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-22T18:58:59.652Z",
+  "generatedAt": "2026-11-23T01:22:18.601Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
-  "windowStart": "2026-11-21T23:00:00.000Z",
-  "windowEnd": "2026-11-29T23:00:00.000Z",
+  "windowStart": "2026-11-22T23:00:00.000Z",
+  "windowEnd": "2026-11-30T23:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
@@ -32,7 +32,7 @@
     {
       "uid": "68s3ad9n6pi64b9hc9imab9kchh3eb9oclgmcbb264s36pb56gp3geb5c8@google.com-2026-11-24T17:30:00.000Z",
       "title": "GNIAZDO UWIELBIA! ",
-      "location": "male grupki - prowadzi Nadia Tkachuk",
+      "location": "",
       "description": "",
       "allDay": false,
       "start": "2026-11-24T17:30:00.000Z",
@@ -105,6 +105,17 @@
       "end": "2026-11-29T14:00:00.000Z",
       "dateLabel": "niedziela, 29 listopada",
       "timeLabel": "13:00"
+    },
+    {
+      "uid": "74rj6e1n75i3gbb2cosm2b9k70o32bb26lhm8bb26phj6or26cpmac9m6g@google.com-2026-11-30T17:30:00.000Z",
+      "title": "Studium Księgi Izajasza",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-11-30T17:30:00.000Z",
+      "end": "2026-11-30T18:30:00.000Z",
+      "dateLabel": "poniedziałek, 30 listopada",
+      "timeLabel": "18:30"
     }
   ]
 }
