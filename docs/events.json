@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T08:12:37.521Z",
+  "generatedAt": "2026-11-24T19:54:19.300Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
   "windowStart": "2026-11-23T23:00:00.000Z",
@@ -7,28 +7,6 @@
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "c4om2e1kc8o3abb4c4s32b9k6dgj8b9oc9j3cb9g6op3gohhc9h36cr468@google.com-2026-11-24T17:00:00.000Z",
-      "title": "Studium Ewangelii Łukasza",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-11-24T17:00:00.000Z",
-      "end": "2026-11-24T19:00:00.000Z",
-      "dateLabel": "wtorek, 24 listopada",
-      "timeLabel": "18:00"
-    },
-    {
-      "uid": "68s3ad9n6pi64b9hc9imab9kchh3eb9oclgmcbb264s36pb56gp3geb5c8@google.com-2026-11-24T17:30:00.000Z",
-      "title": "GNIAZDO UWIELBIA! ",
-      "location": "Mateusz Majdan, Gosia Chęć",
-      "description": "",
-      "allDay": false,
-      "start": "2026-11-24T17:30:00.000Z",
-      "end": "2026-11-24T19:30:00.000Z",
-      "dateLabel": "wtorek, 24 listopada",
-      "timeLabel": "18:30"
-    },
     {
       "uid": "7hbaqti8if4cvotqubc9uitani@google.com-2026-11-25T18:00:00.000Z",
       "title": "Wstawiennicze",
