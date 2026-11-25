@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-24T19:54:19.300Z",
+  "generatedAt": "2026-11-25T03:55:47.554Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
-  "windowStart": "2026-11-23T23:00:00.000Z",
-  "windowEnd": "2026-12-01T23:00:00.000Z",
+  "windowStart": "2026-11-24T23:00:00.000Z",
+  "windowEnd": "2026-12-02T23:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
@@ -83,6 +83,17 @@
       "end": "2026-11-30T18:30:00.000Z",
       "dateLabel": "poniedziałek, 30 listopada",
       "timeLabel": "18:30"
+    },
+    {
+      "uid": "7hbaqti8if4cvotqubc9uitani@google.com-2026-12-02T18:00:00.000Z",
+      "title": "Wstawiennicze",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-12-02T18:00:00.000Z",
+      "end": "2026-12-02T19:00:00.000Z",
+      "dateLabel": "środa, 2 grudnia",
+      "timeLabel": "19:00"
     }
   ]
 }
