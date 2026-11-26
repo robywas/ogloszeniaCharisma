@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-11-25T16:43:56.286Z",
+  "generatedAt": "2026-11-26T01:29:40.715Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
-  "windowStart": "2026-11-24T23:00:00.000Z",
-  "windowEnd": "2026-12-02T23:00:00.000Z",
+  "windowStart": "2026-11-25T23:00:00.000Z",
+  "windowEnd": "2026-12-03T23:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "7hbaqti8if4cvotqubc9uitani@google.com-2026-11-25T18:00:00.000Z",
-      "title": "Wstawiennicze",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-11-25T18:00:00.000Z",
-      "end": "2026-11-25T19:00:00.000Z",
-      "dateLabel": "środa, 25 listopada",
-      "timeLabel": "19:00"
-    },
     {
       "uid": "6crj2p9pc9hm2bb2chgmcb9k6kr32b9p64oj2b9pccs3gc1o6hhjac1mcg@google.com-2026-11-26T17:00:00.000Z",
       "title": "Spotkanie kobiet",
@@ -94,6 +83,17 @@
       "end": "2026-12-02T19:00:00.000Z",
       "dateLabel": "środa, 2 grudnia",
       "timeLabel": "19:00"
+    },
+    {
+      "uid": "c8r32d1gc9ijcbb6cdj3ib9k64s34b9p6kp38bb56tim2e1p74qm8dhm64@google.com-2026-12-03T17:00:00.000Z",
+      "title": "Fundamenty wzrostu",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-12-03T17:00:00.000Z",
+      "end": "2026-12-03T19:00:00.000Z",
+      "dateLabel": "czwartek, 3 grudnia",
+      "timeLabel": "18:00"
     }
   ]
 }
