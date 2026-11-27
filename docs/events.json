@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-26T20:53:39.112Z",
+  "generatedAt": "2026-11-27T03:27:05.156Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
-  "windowStart": "2026-11-25T23:00:00.000Z",
-  "windowEnd": "2026-12-03T23:00:00.000Z",
+  "windowStart": "2026-11-26T23:00:00.000Z",
+  "windowEnd": "2026-12-04T23:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
@@ -83,6 +83,28 @@
       "end": "2026-12-03T19:00:00.000Z",
       "dateLabel": "czwartek, 3 grudnia",
       "timeLabel": "18:00"
+    },
+    {
+      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-12-04T17:00:00.000Z",
+      "title": "Modlitwa kościoła",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-12-04T17:00:00.000Z",
+      "end": "2026-12-04T18:00:00.000Z",
+      "dateLabel": "piątek, 4 grudnia",
+      "timeLabel": "18:00"
+    },
+    {
+      "uid": "6coj4eb4c5i3ibb6clgj0b9kcks32bb2coq36b9n74pj0opn68pj0cj560@google.com-2026-12-04T17:30:00.000Z",
+      "title": "Nocka Gniazdo ",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-12-04T17:30:00.000Z",
+      "end": "2026-12-05T08:30:00.000Z",
+      "dateLabel": "piątek, 4 grudnia",
+      "timeLabel": "18:30"
     }
   ]
 }
