@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T11:18:11.564Z",
+  "generatedAt": "2026-11-28T19:29:45.687Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
   "windowStart": "2026-11-27T23:00:00.000Z",
@@ -7,17 +7,6 @@
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "6lj36o9i69hjgb9i64p3ab9k71hmcbb2cpgjcb9nc8oj6e9nclijecpp70@google.com-2026-11-28T16:00:00.000Z",
-      "title": "17:00 Warsztaty Gniazdo Dziewczyny ",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-11-28T16:00:00.000Z",
-      "end": "2026-11-28T19:00:00.000Z",
-      "dateLabel": "sobota, 28 listopada",
-      "timeLabel": "17:00"
-    },
     {
       "uid": "2213phaibj18aeb13gqjovgnvk@google.com-2026-11-29T09:00:00.000Z",
       "title": "Nabożeństwo",
@@ -50,6 +39,17 @@
       "end": "2026-11-30T18:30:00.000Z",
       "dateLabel": "poniedziałek, 30 listopada",
       "timeLabel": "18:30"
+    },
+    {
+      "uid": "6kp36d9m74o3abb6cks62b9k6tgj6bb26ss34bb170p66e1ocphj6e1ic8@google.com-2026-12-01T17:00:00.000Z",
+      "title": "Studium Ewangelii Łukasza",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-12-01T17:00:00.000Z",
+      "end": "2026-12-01T19:00:00.000Z",
+      "dateLabel": "wtorek, 1 grudnia",
+      "timeLabel": "18:00"
     },
     {
       "uid": "7hbaqti8if4cvotqubc9uitani@google.com-2026-12-02T18:00:00.000Z",
