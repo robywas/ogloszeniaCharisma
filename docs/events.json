@@ -1,23 +1,12 @@
 {
-  "generatedAt": "2026-11-27T16:03:04.469Z",
+  "generatedAt": "2026-11-28T01:01:11.827Z",
   "timezone": "Europe/Warsaw",
   "daysAhead": 8,
-  "windowStart": "2026-11-26T23:00:00.000Z",
-  "windowEnd": "2026-12-04T23:00:00.000Z",
+  "windowStart": "2026-11-27T23:00:00.000Z",
+  "windowEnd": "2026-12-05T23:00:00.000Z",
   "title": "Wydarzenia – Kościół Charisma",
   "dayLayout": "columns",
   "events": [
-    {
-      "uid": "17d89ocp127sf8l593g89ssogt_R20260605T160000@google.com-2026-11-27T17:30:00.000Z",
-      "title": "Modlitwa i uwielbienie ",
-      "location": "",
-      "description": "",
-      "allDay": false,
-      "start": "2026-11-27T17:30:00.000Z",
-      "end": "2026-11-27T18:30:00.000Z",
-      "dateLabel": "piątek, 27 listopada",
-      "timeLabel": "18:30"
-    },
     {
       "uid": "6lj36o9i69hjgb9i64p3ab9k71hmcbb2cpgjcb9nc8oj6e9nclijecpp70@google.com-2026-11-28T16:00:00.000Z",
       "title": "17:00 Warsztaty Gniazdo Dziewczyny ",
@@ -105,6 +94,17 @@
       "end": "2026-12-05T08:30:00.000Z",
       "dateLabel": "piątek, 4 grudnia",
       "timeLabel": "18:30"
+    },
+    {
+      "uid": "6lj3ee1m6kq36b9h61j3gb9k61j32b9oc8sj2b9gcgp3ed9i75ij0e9l6g@google.com-2026-12-05T08:30:00.000Z",
+      "title": "Sobota na wypasie",
+      "location": "",
+      "description": "",
+      "allDay": false,
+      "start": "2026-12-05T08:30:00.000Z",
+      "end": "2026-12-05T13:30:00.000Z",
+      "dateLabel": "sobota, 5 grudnia",
+      "timeLabel": "09:30"
     }
   ]
 }
